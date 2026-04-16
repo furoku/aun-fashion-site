@@ -36,11 +36,11 @@
   "content": {
     "brand": {
       "label": "Japanese editorial note",
-      "tagline": "和紙の余白のように静かで、輪郭だけが長く残る案。",
-      "summary": "AUN を日本語の組版感覚で見せる案です。抑えた tone のまま、縦書きに近い呼吸と余白で印象を残します。",
+      "tagline": "和紙の余白のように静かで、輪郭だけが長く残るライン。",
+      "summary": "日本語の余白のように静かで、輪郭だけが長く残るラインです。近づくほど質感の美しさが深まります。",
       "themeTitle": "Paper Grain / Capsule 01",
       "seasonHeading": "Less contrast, more grain, and a quieter kind of certainty.",
-      "seasonCopy": "この案では、華やかさより紙と布のきめを重視します。売場での存在感も、強い色ではなく静かな密度でつくる前提です。",
+      "seasonCopy": "華やかさよりも、紙と布のきめが残す静かな美しさを重視しています。売場でも、強い色ではなく密度で印象が立ち上がります。",
       "audience": "和の感覚を現代的に扱いたいセレクト、静かな誌面を好む媒体、日本的な余白を拾いたいキュレーター。",
       "priceCue": "派手さではなく質感で納得させる価格帯。静かな工芸性に近い印象です。",
       "partnerItems": [
@@ -78,10 +78,10 @@
       ],
       "representativeLook": {
         "title": "Look 02 / Long coat with paper-grain stillness",
-        "summary": "代表ルックも主張より静止時の気配で見せます。近づいたときにだけ良さが立つ構成です。",
+        "summary": "主張しすぎず、近づいたときに質感の美しさが立ち上がる代表ルックです。",
         "details": [
-          "紙のような余白をまとった見え方を重視します。",
-          "色差より質感差で会話を始める案です。",
+          "紙のような余白をまとう静かな美しさを重視します。",
+          "色差より質感差で、印象が深まっていきます。",
           "静かな売場や展示空間に強く馴染みます。"
         ]
       }
@@ -90,7 +90,7 @@
       {
         "id": "resonant-quiet",
         "title": "Paper Grain / Capsule 01",
-        "summary": "和紙のきめのような静けさで見せる主力カプセルです。",
+        "summary": "和紙のきめのような静けさが長く残る主力カプセルです。",
         "noteTitle": "Collection note / Paper Grain",
         "note": "大きく語らず、触れたときに理解が深まる構成を目指しています。静かな場所ほど価値が立ち上がります。",
         "selectedPieces": [
@@ -127,7 +127,7 @@
       }
     ],
     "about": {
-      "intro": "AUN をもっとも日本語の余白で読ませる案です。説明を削っても残る呼吸を大切にしています。",
+      "intro": "日本語の余白のように静かな呼吸が残るラインです。説明を削っても、質感の美しさがしっかり伝わります。",
       "story": {
         "title": "A studio line arranged with the patience of paper, grain, and pause.",
         "copy": "少量制作の精度を前提に、見せ方だけを静かな和の呼吸へ寄せます。直接的な記号よりも、間合いそのものを価値として扱います。",

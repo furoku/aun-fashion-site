@@ -1365,7 +1365,7 @@ function galleryBlock() {
   return `          <div class="gallery-block">
             <div class="chapter-heading block-shell" data-reveal>
               <p class="section-label">参考ビジュアル</p>
-              <h2 class="chapter-title">会話の前に、ラインの空気をつかむための参考ビジュアルです。</h2>
+              <h2 class="chapter-title">纏う前から、このラインの空気が伝わる参考ビジュアルです。</h2>
             </div>
             <div class="gallery-track" id="home-editorial-strip"></div>
           </div>`;
@@ -1375,7 +1375,7 @@ function reasonsBlock() {
   return `          <div class="reasons-block">
             <div class="chapter-heading block-shell" data-reveal>
               <p class="section-label">選ばれる理由</p>
-              <h2 class="chapter-title">このラインを扱う理由が、ひと目で伝わるように整理しています。</h2>
+              <h2 class="chapter-title">纏った瞬間に、このラインらしさが立ち上がります。</h2>
             </div>
             <div class="reason-list" id="reason-grid"></div>
           </div>`;
@@ -1403,7 +1403,7 @@ function piecesBlock() {
   return `          <div class="pieces-block">
             <div class="chapter-heading block-shell" data-reveal>
               <p class="section-label">注目ピース</p>
-              <h2 class="chapter-title">空気を崩さずに、店頭での見え方まで想像しやすい構成です。</h2>
+              <h2 class="chapter-title">静かに映えて、視線をさらうピースを揃えています。</h2>
             </div>
             <div class="piece-stack" id="selected-piece-list"></div>
           </div>`;
@@ -1414,7 +1414,7 @@ function routesBlock(targetId = "partner-rail", label = "For stockists / press /
     /[A-Za-z]/.test(label) && !/[ぁ-んァ-ヶ一-龠]/.test(label) ? "取扱・掲載・協業" : label;
   const localizedTitle =
     /[A-Za-z]/.test(title) && !/[ぁ-んァ-ヶ一-龠]/.test(title)
-      ? "資料、ラインシート、補足情報はご要望に応じてお送りします。"
+      ? "気になったルックがあれば、取扱・掲載のご相談をお寄せください。"
       : title;
   return `          <div class="routes-block${inverse ? " section-inverse" : ""}">
             <div class="chapter-heading block-shell" data-reveal>
@@ -1428,7 +1428,7 @@ function routesBlock(targetId = "partner-rail", label = "For stockists / press /
 function lookLeadBlock() {
   return `          <div class="block-shell" data-reveal>
             <p class="section-label">ルックブック</p>
-            <h1 class="chapter-title">AUN の代表ルックとコレクションノート。</h1>
+            <h1 class="chapter-title">纏った瞬間に空気が変わる、AUN のルック。</h1>
           </div>`;
 }
 
@@ -1449,7 +1449,7 @@ function lookSwitcherBlock() {
 
 function collectionLeadBlock() {
   return `          <div class="block-shell" data-reveal>
-            <p class="section-label">コレクションノート</p>
+            <p class="section-label">コレクション</p>
             <h2 class="chapter-title" id="collection-title"></h2>
           </div>`;
 }
@@ -1488,7 +1488,7 @@ function lookbookPiecesBlock() {
 function aboutLeadBlock() {
   return `          <div class="block-shell" data-reveal>
             <p class="section-label">ブランドについて</p>
-            <h1 class="chapter-title">静かな輪郭を、伝わる言葉に整える。</h1>
+            <h1 class="chapter-title">静かに見えて、印象は深く残る。</h1>
           </div>`;
 }
 
@@ -1510,7 +1510,7 @@ function principlesBlock() {
   return `          <div class="principles-block">
             <div class="chapter-heading block-shell" data-reveal>
               <p class="section-label">制作方針</p>
-              <h2 class="chapter-title">ライン全体の印象を支える三つの方針です。</h2>
+              <h2 class="chapter-title">AUN の服が、ひと目で空気を変える理由です。</h2>
             </div>
             <div class="principle-list" id="principle-list"></div>
           </div>`;
@@ -1535,7 +1535,7 @@ function studioBlock() {
   return `          <div class="studio-block">
             <div class="chapter-heading block-shell" data-reveal>
               <p class="section-label">制作風景</p>
-              <h2 class="chapter-title">制作の手順やラックでの見え方を伝える参考ビジュアルです。</h2>
+              <h2 class="chapter-title">仕立ての緊張感や素材の余韻まで伝わる参考ビジュアルです。</h2>
             </div>
             <div class="studio-grid" id="about-studio-gallery"></div>
           </div>`;

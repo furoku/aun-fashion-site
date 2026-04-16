@@ -37,10 +37,10 @@
     "brand": {
       "label": "Service guide dossier",
       "tagline": "やさしい案内のように読める、親切設計のモード編集。",
-      "summary": "AUN をもっともガイド的に見せる案です。難しさを減らし、何を見るべきか、どう話せばよいかが自然に分かる構成にしています。",
+      "summary": "迷わず魅力が伝わる、ひらかれた静けさのラインです。初めて触れる相手にも好印象が残ります。",
       "themeTitle": "Gentle Route / Capsule 01",
       "seasonHeading": "Clear steps, soft wording, and a line that never feels closed off.",
-      "seasonCopy": "この案では、理解のしやすさそのものを価値にします。感度は保ちながら、初見の迷いを減らすための案内設計です。",
+      "seasonCopy": "理解のしやすさそのものが魅力になるよう整えています。感度は保ちながら、初見でも自然に惹かれるラインです。",
       "audience": "新しい客層を広げたいセレクト、わかりやすさを重視する売場、親切な tone を求める媒体。",
       "priceCue": "入りやすさのある上質帯。説明しやすく、紹介しやすい価格感です。",
       "partnerItems": [
@@ -65,11 +65,11 @@
       "reasons": [
         {
           "title": "Easy to understand",
-          "text": "何を見るべきかが自然に伝わる、迷いの少ない構成です。"
+          "text": "何を見るべきかが自然に伝わり、魅力がすっと入ります。"
         },
         {
           "title": "Helpful for teams",
-          "text": "接客経験の差があっても、説明の揃えやすい案です。"
+          "text": "接客経験の差があっても、服の魅力を揃えて伝えやすいラインです。"
         },
         {
           "title": "Open, not diluted",
@@ -78,11 +78,11 @@
       ],
       "representativeLook": {
         "title": "Look 02 / Coat with a guided balance",
-        "summary": "代表ルックも、どこを見ればよいかが分かりやすいよう整理しています。紹介しやすさを優先した構成です。",
+        "summary": "見るべきポイントが自然に伝わる代表ルックです。紹介しやすく、入口としても美しく機能します。",
         "details": [
           "接客導線を揃えやすいのが利点です。",
           "媒体でも読み手に負荷をかけにくい印象です。",
-          "ブランドの入口として機能しやすい案です。"
+          "ブランドの入口として、好印象が残るラインです。"
         ]
       }
     },
@@ -104,7 +104,7 @@
           },
           {
             "name": "Taper Wrap Skirt",
-            "descriptor": "着地を軽くして見せる案内役のボトム。"
+            "descriptor": "着地を軽やかに整える、引き立て役のボトム。"
           }
         ]
       },
@@ -127,7 +127,7 @@
       }
     ],
     "about": {
-      "intro": "AUN をもっとも親切な読み口で見せる案です。何を伝えるべきかが自然に分かることを重視しています。",
+      "intro": "初めて触れる相手にも魅力が届きやすい、ひらかれたラインです。何を伝えるかが自然に立ち上がります。",
       "story": {
         "title": "A studio line arranged like a calm handbook, not a closed statement.",
         "copy": "少量制作の精度は保ったまま、見せ方だけをやさしい案内へ変えます。理解のしやすさが、そのまま導入のしやすさにつながると考えています。",
