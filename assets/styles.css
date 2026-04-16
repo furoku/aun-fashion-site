@@ -326,6 +326,27 @@ button {
   letter-spacing: 0.05em;
 }
 
+.visual-caption.has-price {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: calc(100% - 44px);
+  padding: 10px 12px;
+  border-radius: 18px;
+}
+
+.visual-caption-text {
+  line-height: 1.5;
+}
+
+.visual-caption-price {
+  display: grid;
+  gap: 3px;
+  padding-left: 10px;
+  border-left: 1px solid var(--line);
+}
+
 .section {
   padding: 20px 0 56px;
 }
@@ -527,10 +548,47 @@ button {
 .look-tile figure {
   margin: 0;
   aspect-ratio: 0.86;
+  position: relative;
+  overflow: hidden;
+}
+
+.figure-price-badge {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  display: grid;
+  gap: 3px;
+  padding: 10px 12px;
+  background: rgba(255, 252, 247, 0.94);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(28, 25, 22, 0.08);
+  text-align: right;
 }
 
 .look-copy {
   padding: 22px;
+}
+
+.price-note {
+  margin: 0 0 12px;
+  display: grid;
+  gap: 4px;
+}
+
+.price-label {
+.figure-price-label {
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.price-value,
+.figure-price-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
 }
 
 .look-copy h3 {
@@ -708,6 +766,12 @@ button {
 
   .poster-visual {
     min-height: 420px;
+  }
+
+  .figure-price-badge {
+    top: 14px;
+    right: 14px;
+    padding: 9px 10px;
   }
 
   .stat-line {

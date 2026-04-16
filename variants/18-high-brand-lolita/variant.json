@@ -22,7 +22,7 @@
       "alt": "High Brand Lolita の代表ルックの参考ビジュアル",
       "caption": "代表ルック補助 / メゾンロリータ"
     },
-    "ルック資料Spotlight": {
+    "lookbookSpotlight": {
       "src": "./assets/generated/variants/18-high-brand-lolita-square.png",
       "alt": "High Brand Lolita のルックブック用の参考ビジュアル",
       "caption": "ルック補助 / メゾンロリータ"
@@ -135,7 +135,8 @@
             "title": "磁器色ブラウスに構築的なベルスカートを合わせる構成",
             "text": "一見すると静かなセットだが、下半身にだけ構築的な広がりを持つ入口ルック。",
             "image": "./assets/generated/variants/18-high-brand-lolita-square.png",
-            "alt": "High Brand Lolita の彫刻的なベルスカートルック"
+            "alt": "High Brand Lolita の彫刻的なベルスカートルック",
+            "price": 920000
           },
           {
             "id": "look-02",
@@ -143,7 +144,8 @@
             "title": "パニエコートの内側に体積構造を潜ませる構成",
             "text": "ロリータの体積をコート内部に潜ませた代表ルックです。",
             "image": "./assets/generated/variants/18-high-brand-lolita-portrait.png",
-            "alt": "High Brand Lolita のパニエコートルック"
+            "alt": "High Brand Lolita のパニエコートルック",
+            "price": 1500000
           },
           {
             "id": "look-03",
@@ -151,21 +153,25 @@
             "title": "ラッカーボウドレスで肩線を正確に見せる構成",
             "text": "ボウを装飾ではなく、肩線を支える構造として扱うルックです。",
             "image": "./assets/generated/variants/18-high-brand-lolita-landscape.png",
-            "alt": "High Brand Lolita のラッカーボウドレスルック"
+            "alt": "High Brand Lolita のラッカーボウドレスルック",
+            "price": 1180000
           }
         ],
         "selectedPieces": [
           {
             "name": "パニエコート",
-            "descriptor": "内蔵された体積でロリータ性をつくる主力アウター。"
+            "descriptor": "内蔵された体積でロリータ性をつくる主力アウター。",
+            "price": 1350000
           },
           {
             "name": "ベルスカート",
-            "descriptor": "静かな表面のまま広がりを保つ構築的スカート。"
+            "descriptor": "静かな表面のまま広がりを保つ構築的スカート。",
+            "price": 580000
           },
           {
             "name": "ラッカーボウドレス",
-            "descriptor": "装飾性と精度を両立するドレスピース。"
+            "descriptor": "装飾性と精度を両立するドレスピース。",
+            "price": 1100000
           }
         ]
       },
@@ -183,7 +189,8 @@
             "title": "パールボディスを縦長シルエットでまとめる構成",
             "text": "誌面では最も静かに見えるが、近寄ると構造が見えるルックです。",
             "image": "./assets/generated/variants/18-high-brand-lolita-hero.png",
-            "alt": "High Brand Lolita のパールボディスドレスルック"
+            "alt": "High Brand Lolita のパールボディスドレスルック",
+            "price": 880000
           },
           {
             "id": "look-05",
@@ -191,17 +198,20 @@
             "title": "アーカイブケープでクチュールのボネ論理を引く構成",
             "text": "ボネの文法をケープと襟の構造へ移した補助ルックです。",
             "image": "./assets/generated/variants/18-high-brand-lolita-square.png",
-            "alt": "High Brand Lolita のアーカイブケープルック"
+            "alt": "High Brand Lolita のアーカイブケープルック",
+            "price": 620000
           }
         ],
         "selectedPieces": [
           {
             "name": "パールボディス",
-            "descriptor": "近距離でだけディテールが立ち上がる上位ピース。"
+            "descriptor": "近距離でだけディテールが立ち上がる上位ピース。",
+            "price": 460000
           },
           {
             "name": "アーカイブケープ",
-            "descriptor": "ロリータの頭部装飾を服の構造へ移した補助アウター。"
+            "descriptor": "ロリータの頭部装飾を服の構造へ移した補助アウター。",
+            "price": 420000
           }
         ]
       }

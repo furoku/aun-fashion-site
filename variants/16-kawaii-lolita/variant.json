@@ -22,7 +22,7 @@
       "alt": "Kawaii Lolita の代表ルックの参考ビジュアル",
       "caption": "代表ルック補助 / かわいいロリータ"
     },
-    "ルック資料Spotlight": {
+    "lookbookSpotlight": {
       "src": "./assets/generated/variants/16-kawaii-lolita-square.png",
       "alt": "Kawaii Lolita のルックブック用の参考ビジュアル",
       "caption": "ルック補助 / かわいいロリータ"
@@ -135,7 +135,8 @@
             "title": "パウダーボウブラウスと柔らかなパニエスカート",
             "text": "入口になる軽量ルック。甘さはあるが、輪郭は薄く保ちます。",
             "image": "./assets/generated/variants/16-kawaii-lolita-square.png",
-            "alt": "Kawaii Lolita のボウブラウスとパニエスカートを見せるルック"
+            "alt": "Kawaii Lolita のボウブラウスとパニエスカートを見せるルック",
+            "price": 360000
           },
           {
             "id": "look-02",
@@ -143,7 +144,8 @@
             "title": "リボンコートにティアードの体積を潜ませる構成",
             "text": "外側は静かに、内側でだけドレスの体積を見せる代表ルックです。",
             "image": "./assets/generated/variants/16-kawaii-lolita-portrait.png",
-            "alt": "Kawaii Lolita のティアードドレスとコートのルック"
+            "alt": "Kawaii Lolita のティアードドレスとコートのルック",
+            "price": 980000
           },
           {
             "id": "look-03",
@@ -151,21 +153,25 @@
             "title": "パールエプロンドレスにシアー袖を重ねる構成",
             "text": "透過素材を重ね、甘さを空気の厚みとして処理したルックです。",
             "image": "./assets/generated/variants/16-kawaii-lolita-landscape.png",
-            "alt": "Kawaii Lolita のエプロンドレスとシアースリーブのルック"
+            "alt": "Kawaii Lolita のエプロンドレスとシアースリーブのルック",
+            "price": 620000
           }
         ],
         "selectedPieces": [
           {
             "name": "リボンコート",
-            "descriptor": "ボウを記号ではなく、縦方向の視線誘導に変えるロングコート。"
+            "descriptor": "ボウを記号ではなく、縦方向の視線誘導に変えるロングコート。",
+            "price": 780000
           },
           {
             "name": "ヴェールドレス",
-            "descriptor": "軽い透過層で体積をつくる主役ドレス。"
+            "descriptor": "軽い透過層で体積をつくる主役ドレス。",
+            "price": 640000
           },
           {
             "name": "パールエプロン",
-            "descriptor": "装飾性を抑えつつ、前面に甘さの核を置く補助ピース。"
+            "descriptor": "装飾性を抑えつつ、前面に甘さの核を置く補助ピース。",
+            "price": 180000
           }
         ]
       },
@@ -183,7 +189,8 @@
             "title": "ミルク色のコサージュジャケットと縦長ドレス",
             "text": "可憐さを縦のシルエットへ押し込んだ静かなルック。",
             "image": "./assets/generated/variants/16-kawaii-lolita-hero.png",
-            "alt": "Kawaii Lolita のコサージュジャケットとコラムドレスのルック"
+            "alt": "Kawaii Lolita のコサージュジャケットとコラムドレスのルック",
+            "price": 740000
           },
           {
             "id": "look-05",
@@ -191,17 +198,20 @@
             "title": "透けるボネケープをリボンスリップに重ねる構成",
             "text": "頭部の装飾を抑え、ケープの影でロリータ性を残します。",
             "image": "./assets/generated/variants/16-kawaii-lolita-square.png",
-            "alt": "Kawaii Lolita のボネケープとリボンスリップのルック"
+            "alt": "Kawaii Lolita のボネケープとリボンスリップのルック",
+            "price": 430000
           }
         ],
         "selectedPieces": [
           {
             "name": "コサージュジャケット",
-            "descriptor": "表面の甘さを抑えた、展示向けの短丈ジャケット。"
+            "descriptor": "表面の甘さを抑えた、展示向けの短丈ジャケット。",
+            "price": 420000
           },
           {
             "name": "ボネケープ",
-            "descriptor": "頭部の記号をケープ化して扱う、撮影向けの補助ピース。"
+            "descriptor": "頭部の記号をケープ化して扱う、撮影向けの補助ピース。",
+            "price": 210000
           }
         ]
       }

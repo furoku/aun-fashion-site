@@ -96,15 +96,18 @@
         "selectedPieces": [
           {
             "name": "Bias Coat",
-            "descriptor": "アトリエ感を残しつつ売場でも成立する主力コート。"
+            "descriptor": "アトリエ感を残しつつ売場でも成立する主力コート。",
+            "price": 680000
           },
           {
             "name": "Veil Shirt",
-            "descriptor": "素材差をやさしく受け止める中核シャツ。"
+            "descriptor": "素材差をやさしく受け止める中核シャツ。",
+            "price": 180000
           },
           {
             "name": "Taper Wrap Skirt",
-            "descriptor": "レイヤーに柔らかい揺れを足す可変ボトム。"
+            "descriptor": "レイヤーに柔らかい揺れを足す可変ボトム。",
+            "price": 260000
           }
         ]
       },
@@ -117,11 +120,13 @@
         "selectedPieces": [
           {
             "name": "Grey-Blue Coat",
-            "descriptor": "工房の空気を軽く見せるための明るい導入コート。"
+            "descriptor": "工房の空気を軽く見せるための明るい導入コート。",
+            "price": 620000
           },
           {
             "name": "Dry Vest",
-            "descriptor": "主役の横で柔らかい差をつくる中継ピース。"
+            "descriptor": "主役の横で柔らかい差をつくる中継ピース。",
+            "price": 100000
           }
         ]
       }

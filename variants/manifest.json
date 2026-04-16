@@ -1,7 +1,7 @@
 [
   {
     "id": "01-obsidian-runway",
-    "name": "黒曜ランウェイ",
+    "name": "Obsidian Runway",
     "structures": {
       "home": "stage",
       "lookbook": "poster",
@@ -10,7 +10,7 @@
   },
   {
     "id": "02-parchment-salon",
-    "name": "余白のサロン",
+    "name": "Parchment Salon",
     "structures": {
       "home": "desk",
       "lookbook": "chapter",
@@ -19,7 +19,7 @@
   },
   {
     "id": "03-gallery-minimal",
-    "name": "白壁ギャラリー",
+    "name": "Gallery Minimal",
     "structures": {
       "home": "gallery",
       "lookbook": "salon",
@@ -28,7 +28,7 @@
   },
   {
     "id": "04-editorial-grid",
-    "name": "編集グリッド",
+    "name": "Editorial Grid",
     "structures": {
       "home": "tabloid",
       "lookbook": "spread",
@@ -37,7 +37,7 @@
   },
   {
     "id": "05-midnight-system",
-    "name": "真夜中のシステム",
+    "name": "Midnight System",
     "structures": {
       "home": "command",
       "lookbook": "console",
@@ -46,7 +46,7 @@
   },
   {
     "id": "06-atelier-cream",
-    "name": "アトリエクリーム",
+    "name": "Atelier Cream",
     "structures": {
       "home": "atelier",
       "lookbook": "atelier",
@@ -55,7 +55,7 @@
   },
   {
     "id": "07-monochrome-pill",
-    "name": "モノクロカプセル",
+    "name": "Monochrome Pill",
     "structures": {
       "home": "axis",
       "lookbook": "capsule",
@@ -64,7 +64,7 @@
   },
   {
     "id": "08-acid-signal",
-    "name": "アシッドシグナル",
+    "name": "Acid Signal",
     "structures": {
       "home": "signal",
       "lookbook": "stagger",
@@ -73,7 +73,7 @@
   },
   {
     "id": "09-engineered-blue",
-    "name": "設計図の青",
+    "name": "Engineered Blue",
     "structures": {
       "home": "blueprint",
       "lookbook": "manual",
@@ -82,7 +82,7 @@
   },
   {
     "id": "10-soft-hospitality",
-    "name": "柔らかなホスピタリティ",
+    "name": "Soft Hospitality",
     "structures": {
       "home": "brochure",
       "lookbook": "notebook",
@@ -91,7 +91,7 @@
   },
   {
     "id": "11-washi-minimal",
-    "name": "和紙のミニマル",
+    "name": "Washi Minimal",
     "structures": {
       "home": "washi",
       "lookbook": "quiet",
@@ -100,7 +100,7 @@
   },
   {
     "id": "12-tokyo-culture",
-    "name": "東京カルチャー",
+    "name": "Tokyo Culture",
     "structures": {
       "home": "culture",
       "lookbook": "flyer",
@@ -109,7 +109,7 @@
   },
   {
     "id": "13-indigo-corporate",
-    "name": "藍のコーポレート",
+    "name": "Indigo Corporate",
     "structures": {
       "home": "dossier",
       "lookbook": "appendix",
@@ -118,7 +118,7 @@
   },
   {
     "id": "14-soft-service",
-    "name": "やさしいサービス",
+    "name": "Soft Service",
     "structures": {
       "home": "service",
       "lookbook": "guided",
@@ -127,7 +127,7 @@
   },
   {
     "id": "15-market-layer",
-    "name": "マーケットレイヤー",
+    "name": "Market Layer",
     "structures": {
       "home": "market",
       "lookbook": "compare",

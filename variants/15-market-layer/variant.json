@@ -96,15 +96,18 @@
         "selectedPieces": [
           {
             "name": "Bias Coat",
-            "descriptor": "回遊の起点をつくる主力コート。"
+            "descriptor": "回遊の起点をつくる主力コート。",
+            "price": 680000
           },
           {
             "name": "Veil Shirt",
-            "descriptor": "セット提案と単品提案の両方を支える核シャツ。"
+            "descriptor": "セット提案と単品提案の両方を支える核シャツ。",
+            "price": 180000
           },
           {
             "name": "Taper Wrap Skirt",
-            "descriptor": "バリエーション提案に厚みを足す可変ボトム。"
+            "descriptor": "バリエーション提案に厚みを足す可変ボトム。",
+            "price": 260000
           }
         ]
       },
@@ -117,11 +120,13 @@
         "selectedPieces": [
           {
             "name": "Grey-Blue Coat",
-            "descriptor": "最初の提案を開きやすい軽やかなコート。"
+            "descriptor": "最初の提案を開きやすい軽やかなコート。",
+            "price": 620000
           },
           {
             "name": "Dry Vest",
-            "descriptor": "セット提案の幅を増やすための軽いレイヤー。"
+            "descriptor": "セット提案の幅を増やすための軽いレイヤー。",
+            "price": 100000
           }
         ]
       }

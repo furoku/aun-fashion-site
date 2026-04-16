@@ -32,6 +32,9 @@ const variants = [
   "13-indigo-corporate",
   "14-soft-service",
   "15-market-layer",
+  "16-kawaii-lolita",
+  "17-gothic-lolita",
+  "18-high-brand-lolita",
 ];
 
 fs.mkdirSync(outDir, { recursive: true });

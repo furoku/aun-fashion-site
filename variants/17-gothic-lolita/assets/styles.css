@@ -3,9 +3,9 @@
 
 :root {
   color-scheme: dark;
-  --display-font: "Cinzel", serif;
+  --display-font: "Cinzel", "Noto Serif JP", serif;
   --body-font: "Noto Serif JP", serif;
-  --label-font: "Azeret Mono", monospace;
+  --label-font: "Azeret Mono", "Noto Serif JP", serif;
   --bg: oklch(0.11 0.02 20);
   --bg-alt: oklch(0.08 0.018 18);
   --surface: oklch(0.16 0.02 18 / 0.9);
@@ -32,9 +32,48 @@ body {
 body::before { opacity: 0.28; }
 body::after { opacity: 0.05; }
 
+.home-gothic-altar .display-title {
+  font-size: clamp(4rem, 5.5vw, 5.8rem);
+  line-height: 1.02;
+  max-width: 6.4ch;
+}
+
+.home-gothic-altar .display-title span {
+  display: block;
+}
+
+.home-gothic-altar .display-title span:first-child {
+  margin-bottom: 0.08em;
+}
+
+.home-gothic-altar .chapter-title,
+.home-gothic-altar .feature-title,
+.look-gothic-reliquary .chapter-title,
+.look-gothic-reliquary .feature-title,
+.about-gothic-chapel .chapter-title {
+  font-size: clamp(1.9rem, 3vw, 3rem);
+  line-height: 1.08;
+}
+
+.home-gothic-altar .variant-switcher,
+.look-gothic-reliquary .variant-switcher,
+.about-gothic-chapel .variant-switcher {
+  top: 6rem;
+  right: 1rem;
+  width: min(13rem, calc(100vw - 2rem));
+}
+
+.home-gothic-altar .variant-switcher-panel,
+.look-gothic-reliquary .variant-switcher-panel,
+.about-gothic-chapel .variant-switcher-panel {
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
 .home-gothic-altar .home-top-grid {
-  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.05fr) minmax(0, 0.7fr);
+  grid-template-columns: minmax(0, 0.58fr) minmax(0, 1.08fr) minmax(0, 0.88fr);
   gap: 1.4rem;
+  align-items: start;
 }
 
 .home-gothic-altar .hero-copy,
@@ -60,9 +99,25 @@ body::after { opacity: 0.05; }
 .home-gothic-altar .hero-visual,
 .about-gothic-chapel .story-visual,
 .look-gothic-reliquary .spotlight-block {
-  min-height: 44rem;
+  min-height: 38rem;
   border-radius: 2rem;
   overflow: hidden;
+}
+
+.home-gothic-altar .hero-visual,
+.home-gothic-altar .feature-visual,
+.about-gothic-chapel .story-visual {
+  position: relative;
+}
+
+.home-gothic-altar .hero-visual > img,
+.home-gothic-altar .feature-visual > img,
+.about-gothic-chapel .story-visual > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .home-gothic-altar .home-mid-grid,
@@ -71,6 +126,15 @@ body::after { opacity: 0.05; }
 .about-gothic-chapel .about-tail-grid {
   grid-template-columns: minmax(0, 0.86fr) minmax(0, 1.14fr);
   gap: 1.5rem;
+}
+
+.home-gothic-altar .hero-copy {
+  min-height: 38rem;
+  padding: 1.9rem;
+}
+
+.home-gothic-altar .hero-stats {
+  padding: 1.6rem;
 }
 
 .home-gothic-altar .home-tail-grid {
@@ -101,6 +165,11 @@ body::after { opacity: 0.05; }
 
 .look-gothic-reliquary .look-top-grid {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.look-gothic-reliquary .look-mid-grid,
+.look-gothic-reliquary .look-tail-grid {
+  align-items: start;
 }
 
 .look-gothic-reliquary .look-grid,

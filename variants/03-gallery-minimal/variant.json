@@ -96,15 +96,18 @@
         "selectedPieces": [
           {
             "name": "Bias Coat",
-            "descriptor": "一体で成立する静かな重心の主役アウター。"
+            "descriptor": "一体で成立する静かな重心の主役アウター。",
+            "price": 680000
           },
           {
             "name": "Veil Shirt",
-            "descriptor": "空気を濁さずにレイヤーをつくる薄い核。"
+            "descriptor": "空気を濁さずにレイヤーをつくる薄い核。",
+            "price": 180000
           },
           {
             "name": "Taper Wrap Skirt",
-            "descriptor": "性別や役割を限定しない、余白のあるボトム。"
+            "descriptor": "性別や役割を限定しない、余白のあるボトム。",
+            "price": 260000
           }
         ]
       },
@@ -117,11 +120,13 @@
         "selectedPieces": [
           {
             "name": "Grey-Blue Coat",
-            "descriptor": "石のような静けさを持つ、導入向けの色差コート。"
+            "descriptor": "石のような静けさを持つ、導入向けの色差コート。",
+            "price": 620000
           },
           {
             "name": "Dry Vest",
-            "descriptor": "主役を邪魔せず、印象に奥行きを足す軽やかな層。"
+            "descriptor": "主役を邪魔せず、印象に奥行きを足す軽やかな層。",
+            "price": 100000
           }
         ]
       }

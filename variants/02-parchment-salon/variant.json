@@ -96,15 +96,18 @@
         "selectedPieces": [
           {
             "name": "Bias Coat",
-            "descriptor": "導入什器でも文脈をつくりやすい静かな主役。"
+            "descriptor": "導入什器でも文脈をつくりやすい静かな主役。",
+            "price": 680000
           },
           {
             "name": "Veil Shirt",
-            "descriptor": "コートの強さを受け止める透明度の高い中核。"
+            "descriptor": "コートの強さを受け止める透明度の高い中核。",
+            "price": 180000
           },
           {
             "name": "Taper Wrap Skirt",
-            "descriptor": "重さを増やさず編集の幅だけを足せる可変ボトム。"
+            "descriptor": "重さを増やさず編集の幅だけを足せる可変ボトム。",
+            "price": 260000
           }
         ]
       },
@@ -117,11 +120,13 @@
         "selectedPieces": [
           {
             "name": "Grey-Blue Coat",
-            "descriptor": "黒主体の編成に余白を足すための色差コート。"
+            "descriptor": "黒主体の編成に余白を足すための色差コート。",
+            "price": 620000
           },
           {
             "name": "Dry Vest",
-            "descriptor": "文章量の多い編集でもうるさくならない軽いレイヤー。"
+            "descriptor": "文章量の多い編集でもうるさくならない軽いレイヤー。",
+            "price": 100000
           }
         ]
       }

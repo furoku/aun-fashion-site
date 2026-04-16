@@ -70,7 +70,7 @@ body::after {
 }
 
 .reason-list {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .reason-block:nth-child(2),
@@ -89,3 +89,4 @@ body::after {
 .look-tile:nth-child(even) {
   transform: translateY(1.8rem);
 }
+

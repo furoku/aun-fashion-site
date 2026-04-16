@@ -96,15 +96,18 @@
         "selectedPieces": [
           {
             "name": "Bias Coat",
-            "descriptor": "ラックの先頭に置いて温度を決める一本。"
+            "descriptor": "ラックの先頭に置いて温度を決める一本。",
+            "price": 680000
           },
           {
             "name": "Veil Shirt",
-            "descriptor": "黒の中に薄い差をつくる補助ピース。"
+            "descriptor": "黒の中に薄い差をつくる補助ピース。",
+            "price": 180000
           },
           {
             "name": "Taper Wrap Skirt",
-            "descriptor": "身体から少し離れて見えることで緊張感を残す可変ボトム。"
+            "descriptor": "身体から少し離れて見えることで緊張感を残す可変ボトム。",
+            "price": 260000
           }
         ]
       },
@@ -117,11 +120,13 @@
         "selectedPieces": [
           {
             "name": "Grey-Blue Coat",
-            "descriptor": "主力カプセルに抜けをつくる冷たい色差のコート。"
+            "descriptor": "主力カプセルに抜けをつくる冷たい色差のコート。",
+            "price": 620000
           },
           {
             "name": "Dry Vest",
-            "descriptor": "全体の硬さを崩さずレイヤーを増やせる中継ピース。"
+            "descriptor": "全体の硬さを崩さずレイヤーを増やせる中継ピース。",
+            "price": 100000
           }
         ]
       }

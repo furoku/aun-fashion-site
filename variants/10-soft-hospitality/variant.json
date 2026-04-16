@@ -96,15 +96,18 @@
         "selectedPieces": [
           {
             "name": "Bias Coat",
-            "descriptor": "入口に置きやすい、やさしい主力コート。"
+            "descriptor": "入口に置きやすい、やさしい主力コート。",
+            "price": 680000
           },
           {
             "name": "Veil Shirt",
-            "descriptor": "全体を親しみやすく整える核シャツ。"
+            "descriptor": "全体を親しみやすく整える核シャツ。",
+            "price": 180000
           },
           {
             "name": "Taper Wrap Skirt",
-            "descriptor": "動きに軽さを足す、扱いやすいボトム。"
+            "descriptor": "動きに軽さを足す、扱いやすいボトム。",
+            "price": 260000
           }
         ]
       },
@@ -117,11 +120,13 @@
         "selectedPieces": [
           {
             "name": "Grey-Blue Coat",
-            "descriptor": "導入の一体として置きやすい暖色寄りのコート。"
+            "descriptor": "導入の一体として置きやすい暖色寄りのコート。",
+            "price": 620000
           },
           {
             "name": "Dry Vest",
-            "descriptor": "硬さをほぐしてレイヤーを増やせる補助ピース。"
+            "descriptor": "硬さをほぐしてレイヤーを増やせる補助ピース。",
+            "price": 100000
           }
         ]
       }

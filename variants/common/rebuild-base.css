@@ -245,6 +245,64 @@ ul {
   text-transform: uppercase;
 }
 
+/* Lolita variants use Japanese labels heavily, so Latin-first tracking needs softer handling. */
+body:is(
+    .home-kawaii-cabinet,
+    .look-kawaii-float,
+    .about-kawaii-archive,
+    .home-gothic-altar,
+    .look-gothic-reliquary,
+    .about-gothic-chapel,
+    .home-maison-ledger,
+    .look-maison-registry,
+    .about-maison-archive
+  )
+  :is(
+    .brandmark-meta,
+    .section-label,
+    .eyebrow,
+    .muted-note,
+    .meta-pairs span,
+    .stat-item dt,
+    .collection-pill,
+    .cta-link,
+    .footer-meta small,
+    .visual-caption,
+    .price-label,
+    .figure-price-label,
+    .variant-switcher-kicker,
+    .variant-switcher-showcase
+  ) {
+  font-family: var(--body-font);
+  letter-spacing: 0.05em;
+  text-transform: none;
+}
+
+body:is(
+    .home-kawaii-cabinet,
+    .look-kawaii-float,
+    .about-kawaii-archive,
+    .home-gothic-altar,
+    .look-gothic-reliquary,
+    .about-gothic-chapel,
+    .home-maison-ledger,
+    .look-maison-registry,
+    .about-maison-archive
+  )
+  :is(
+    .display-title,
+    .chapter-title,
+    .feature-title,
+    .look-copy h3,
+    .reason-block h3,
+    .selected-piece h3,
+    .principle-block h3,
+    .rail-title
+  ) {
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -613,6 +671,27 @@ ul {
     opacity 420ms ease;
 }
 
+.visual-caption.has-price {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  max-width: calc(100% - 2rem);
+  padding: 0.7rem 0.85rem;
+  border-radius: 1rem;
+}
+
+.visual-caption-text {
+  line-height: 1.5;
+}
+
+.visual-caption-price {
+  display: grid;
+  gap: 0.18rem;
+  padding-left: 0.7rem;
+  border-left: 1px solid var(--line);
+}
+
 .visual-surface img,
 .feature-visual img,
 .story-visual img,
@@ -792,6 +871,38 @@ ul {
 .look-tile figure {
   margin: 0;
   aspect-ratio: 0.78;
+  position: relative;
+  overflow: hidden;
+}
+
+.figure-price-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: grid;
+  gap: 0.18rem;
+  padding: 0.7rem 0.85rem;
+  background: color-mix(in oklch, var(--surface-strong) 92%, transparent);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  text-align: right;
+}
+
+.price-label,
+.figure-price-label {
+  font-family: var(--label-font);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.price-value,
+.figure-price-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
 }
 
 .look-copy {

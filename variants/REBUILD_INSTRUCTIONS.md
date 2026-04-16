@@ -167,10 +167,10 @@
 ## 15. Market Layer
 
 - Refs: jp/mercari / jp/rakuten
-- Personality: Busy, practical, commercial
+- Personality: 情報量多め / 実務的 / 判断しやすい
 - Mood: Market / Warm white / Red
 - Accent: Layered practicality
-- Summary: マーケットプレイスの積層感を、商談資料として上品に再編集した高密度サイト。
+- Summary: マーケットプレイスの積層感を、要点が伝わりやすい形に整えた高密度サイト。
 - Home layout: A dense market board: copy and stats break into more practical panels with tighter gaps and sharper corners.
 - Lookbook layout: Lookbook is treated like a comparison board with more compact cards and visible grouping.
 - About layout: About feels like a seller memo with layered notes, denser routes, and compact spacing.

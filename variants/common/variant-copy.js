@@ -17,14 +17,14 @@ const partnerItems = (stockists, press, collaboration) => [
 ];
 
 const pieces = (coat, shirt, skirt) => [
-  { name: "Bias Coat", descriptor: coat },
-  { name: "Veil Shirt", descriptor: shirt },
-  { name: "Taper Wrap Skirt", descriptor: skirt },
+  { name: "Bias Coat", descriptor: coat, price: 680000 },
+  { name: "Veil Shirt", descriptor: shirt, price: 180000 },
+  { name: "Taper Wrap Skirt", descriptor: skirt, price: 260000 },
 ];
 
 const counterlightPieces = (coat, vest) => [
-  { name: "Grey-Blue Coat", descriptor: coat },
-  { name: "Dry Vest", descriptor: vest },
+  { name: "Grey-Blue Coat", descriptor: coat, price: 620000 },
+  { name: "Dry Vest", descriptor: vest, price: 100000 },
 ];
 
 export const VARIANT_COPY = {

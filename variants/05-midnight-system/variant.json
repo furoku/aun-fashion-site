@@ -96,15 +96,18 @@
         "selectedPieces": [
           {
             "name": "Bias Coat",
-            "descriptor": "全体の制御感を決める精度の高い主力コート。"
+            "descriptor": "全体の制御感を決める精度の高い主力コート。",
+            "price": 680000
           },
           {
             "name": "Veil Shirt",
-            "descriptor": "主役の輪郭を支える薄い中核シャツ。"
+            "descriptor": "主役の輪郭を支える薄い中核シャツ。",
+            "price": 180000
           },
           {
             "name": "Taper Wrap Skirt",
-            "descriptor": "可変性を持ちながら説明しやすいボトム。"
+            "descriptor": "可変性を持ちながら説明しやすいボトム。",
+            "price": 260000
           }
         ]
       },
@@ -117,11 +120,13 @@
         "selectedPieces": [
           {
             "name": "Grey-Blue Coat",
-            "descriptor": "黒主体の制御感を壊さない冷色コート。"
+            "descriptor": "黒主体の制御感を壊さない冷色コート。",
+            "price": 620000
           },
           {
             "name": "Dry Vest",
-            "descriptor": "組み合わせの自由度だけを足す中間レイヤー。"
+            "descriptor": "組み合わせの自由度だけを足す中間レイヤー。",
+            "price": 100000
           }
         ]
       }

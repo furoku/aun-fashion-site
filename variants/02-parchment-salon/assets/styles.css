@@ -50,22 +50,6 @@ body::after {
   padding-left: 3rem;
 }
 
-.hero-visual,
-.feature-visual,
-.story-visual {
-  overflow: hidden;
-}
-
-.hero-visual img,
-.feature-visual img,
-.story-visual img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .season-composition,
 .collection-composition,
 .story-composition {
@@ -94,3 +78,4 @@ body::after {
 .route-list {
   grid-template-columns: 1fr;
 }
+

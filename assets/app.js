@@ -24,6 +24,85 @@ function setImage(id, { src, alt }) {
   }
 }
 
+function setCaptionWithPrice(id, caption, price, label = "参考価格") {
+  const node = document.getElementById(id);
+  if (!node) {
+    return;
+  }
+
+  if (typeof price !== "number" || Number.isNaN(price)) {
+    node.textContent = caption;
+    node.classList.remove("has-price");
+    return;
+  }
+
+  node.classList.add("has-price");
+  node.innerHTML = `
+    <span class="visual-caption-text">${caption}</span>
+    <span class="visual-caption-price">
+      <span class="figure-price-label">${label}</span>
+      <strong class="figure-price-value">${formatPrice(price)}</strong>
+    </span>
+  `;
+}
+
+function formatPrice(value) {
+  if (typeof value !== "number" || Number.isNaN(value)) {
+    return "";
+  }
+
+  return new Intl.NumberFormat("ja-JP", {
+    style: "currency",
+    currency: "JPY",
+    maximumFractionDigits: 0,
+  }).format(value);
+}
+
+function collectPrices(content) {
+  const values = [];
+
+  content.collections.forEach((collection) => {
+    (collection.looks || []).forEach((item) => {
+      if (typeof item.price === "number") {
+        values.push(item.price);
+      }
+    });
+
+    (collection.selectedPieces || []).forEach((item) => {
+      if (typeof item.price === "number") {
+        values.push(item.price);
+      }
+    });
+  });
+
+  return values;
+}
+
+function summarizePriceRange(content) {
+  const values = collectPrices(content);
+  if (!values.length) {
+    return content.brand.priceCue;
+  }
+
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+
+  if (min === max) {
+    return `参考価格 ${formatPrice(min)}`;
+  }
+
+  return `参考価格 ${formatPrice(min)} - ${formatPrice(max)}`;
+}
+
+function representativeLookPrice(content) {
+  if (typeof content.home?.representativeLook?.price === "number") {
+    return content.home.representativeLook.price;
+  }
+
+  const primaryLooks = content.collections?.[0]?.looks || [];
+  return primaryLooks[1]?.price ?? primaryLooks[0]?.price ?? null;
+}
+
 function buildGallery(targetId, items, variant = "editorial") {
   const rail = document.getElementById(targetId);
   if (!rail) {
@@ -89,7 +168,7 @@ function buildHome() {
   setText("season-heading", AUN_CONTENT.brand.seasonHeading);
   setText("season-copy", AUN_CONTENT.brand.seasonCopy);
   setText("audience-copy", AUN_CONTENT.brand.audience);
-  setText("price-copy", AUN_CONTENT.brand.priceCue);
+  setText("price-copy", summarizePriceRange(AUN_CONTENT));
   setText("studio-copy", AUN_CONTENT.brand.studio);
   buildGallery("home-editorial-strip", AUN_CONTENT.home.gallery, "editorial");
 
@@ -122,7 +201,12 @@ function buildHome() {
   }
 
   setImage("feature-image", AUN_CONTENT.home.representativeLook.image);
-  setText("feature-caption", AUN_CONTENT.home.representativeLook.image.caption);
+  setCaptionWithPrice(
+    "feature-caption",
+    AUN_CONTENT.home.representativeLook.image.caption,
+    representativeLookPrice(AUN_CONTENT),
+    "参考ルック価格",
+  );
   setText("feature-title", AUN_CONTENT.home.representativeLook.title);
   setText("feature-summary", AUN_CONTENT.home.representativeLook.summary);
 
@@ -140,6 +224,7 @@ function buildHome() {
         (item) => `
           <article class="selected-piece" data-reveal>
             <h3>${item.name}</h3>
+            ${item.price ? `<p class="price-note"><span class="price-label">参考価格</span><strong class="price-value">${formatPrice(item.price)}</strong></p>` : ""}
             <p>${item.descriptor}</p>
           </article>
         `,
@@ -155,10 +240,12 @@ function buildLookCard(item) {
     <article class="look-tile" data-reveal>
       <figure>
         <img src="${item.image}" alt="${item.alt}" />
+        ${item.price ? `<div class="figure-price-badge"><span class="figure-price-label">参考スタイリング価格</span><strong class="figure-price-value">${formatPrice(item.price)}</strong></div>` : ""}
       </figure>
       <div class="look-copy">
         <p class="section-label">${item.name}</p>
         <h3>${item.title}</h3>
+        ${item.price ? `<p class="price-note"><span class="price-label">参考スタイリング価格</span><strong class="price-value">${formatPrice(item.price)}</strong></p>` : ""}
         <p>${item.text}</p>
       </div>
     </article>
@@ -186,6 +273,7 @@ function renderCollection(collectionId) {
         (item) => `
           <article class="selected-piece" data-reveal>
             <h3>${item.name}</h3>
+            ${item.price ? `<p class="price-note"><span class="price-label">参考価格</span><strong class="price-value">${formatPrice(item.price)}</strong></p>` : ""}
             <p>${item.descriptor}</p>
           </article>
         `,

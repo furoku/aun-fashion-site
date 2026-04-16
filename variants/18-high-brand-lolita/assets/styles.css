@@ -3,9 +3,9 @@
 
 :root {
   color-scheme: light;
-  --display-font: "Prata", serif;
+  --display-font: "Prata", "Hiragino Mincho ProN", serif;
   --body-font: "Archivo", sans-serif;
-  --label-font: "Red Hat Mono", monospace;
+  --label-font: "Red Hat Mono", "Hiragino Kaku Gothic ProN", sans-serif;
   --bg: oklch(0.985 0.004 95);
   --bg-alt: oklch(0.955 0.006 95);
   --surface: oklch(0.992 0.003 95 / 0.92);
@@ -26,9 +26,48 @@
 body::before,
 body::after { opacity: 0.04; }
 
+.home-maison-ledger .display-title {
+  font-size: clamp(3.8rem, 5.2vw, 5.4rem);
+  line-height: 1.02;
+  max-width: 6.1ch;
+}
+
+.home-maison-ledger .display-title span {
+  display: block;
+}
+
+.home-maison-ledger .display-title span:first-child {
+  margin-bottom: 0.08em;
+}
+
+.home-maison-ledger .chapter-title,
+.home-maison-ledger .feature-title,
+.look-maison-registry .chapter-title,
+.look-maison-registry .feature-title,
+.about-maison-archive .chapter-title {
+  font-size: clamp(1.9rem, 2.9vw, 3rem);
+  line-height: 1.08;
+}
+
+.home-maison-ledger .variant-switcher,
+.look-maison-registry .variant-switcher,
+.about-maison-archive .variant-switcher {
+  top: 6rem;
+  right: 1rem;
+  width: min(13rem, calc(100vw - 2rem));
+}
+
+.home-maison-ledger .variant-switcher-panel,
+.look-maison-registry .variant-switcher-panel,
+.about-maison-archive .variant-switcher-panel {
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
 .home-maison-ledger .home-top-grid {
-  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
-  gap: 2.6rem;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 1.9rem;
+  align-items: start;
 }
 
 .home-maison-ledger .home-mid-grid,
@@ -80,16 +119,34 @@ body::after { opacity: 0.04; }
 .home-maison-ledger .hero-visual,
 .about-maison-archive .story-visual,
 .look-maison-registry .spotlight-block {
-  min-height: 42rem;
+  min-height: 34rem;
   border-radius: 0.9rem;
 }
 
 .home-maison-ledger .hero-copy {
-  padding: 1.8rem;
+  padding: 2rem 1.8rem;
+  min-height: 32rem;
 }
 
 .home-maison-ledger .hero-stats {
   border-top: 1px solid var(--line-strong);
+  padding: 1.4rem 1.5rem;
+}
+
+.home-maison-ledger .hero-visual,
+.home-maison-ledger .feature-visual,
+.about-maison-archive .story-visual {
+  position: relative;
+}
+
+.home-maison-ledger .hero-visual > img,
+.home-maison-ledger .feature-visual > img,
+.about-maison-archive .story-visual > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .home-maison-ledger .feature-cluster {
@@ -99,7 +156,7 @@ body::after { opacity: 0.04; }
 }
 
 .home-maison-ledger .feature-visual {
-  min-height: 44rem;
+  min-height: 34rem;
   border-radius: 0.9rem;
 }
 

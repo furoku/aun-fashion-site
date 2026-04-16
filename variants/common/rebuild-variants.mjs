@@ -1245,6 +1245,24 @@ const structures = {
   "15-market-layer": { home: "market", lookbook: "compare", about: "seller" },
 };
 
+const customManifestVariants = [
+  {
+    id: "16-kawaii-lolita",
+    name: "かわいいロリータ",
+    structures: { home: "cabinet", lookbook: "float", about: "archive" },
+  },
+  {
+    id: "17-gothic-lolita",
+    name: "ゴシックロリータ",
+    structures: { home: "altar", lookbook: "reliquary", about: "chapel" },
+  },
+  {
+    id: "18-high-brand-lolita",
+    name: "メゾンロリータ",
+    structures: { home: "ledger", lookbook: "registry", about: "archive-maison" },
+  },
+];
+
 function pageHead(title) {
   return `    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -1923,11 +1941,14 @@ ${variant.css}
 }
 
 function manifest() {
-  return variants.map(({ id, name }) => ({
-    id,
-    name,
-    structures: structures[id],
-  }));
+  return [
+    ...variants.map(({ id, name }) => ({
+      id,
+      name,
+      structures: structures[id],
+    })),
+    ...customManifestVariants,
+  ];
 }
 
 function variantAssets(variant) {

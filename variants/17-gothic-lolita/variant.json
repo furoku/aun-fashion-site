@@ -22,7 +22,7 @@
       "alt": "Gothic Lolita の代表ルックの参考ビジュアル",
       "caption": "代表ルック補助 / ゴシックロリータ"
     },
-    "ルック資料Spotlight": {
+    "lookbookSpotlight": {
       "src": "./assets/generated/variants/17-gothic-lolita-square.png",
       "alt": "Gothic Lolita のルックブック用の参考ビジュアル",
       "caption": "ルック補助 / ゴシックロリータ"
@@ -135,7 +135,8 @@
             "title": "レースカラーのドレスに細身ジャケットを重ねる構成",
             "text": "最も儀式性が高い入口ルック。首元の硬さで視線を固定します。",
             "image": "./assets/generated/variants/17-gothic-lolita-square.png",
-            "alt": "Gothic Lolita のレースカラーとボディスジャケットのルック"
+            "alt": "Gothic Lolita のレースカラーとボディスジャケットのルック",
+            "price": 620000
           },
           {
             "id": "look-02",
@@ -143,7 +144,8 @@
             "title": "ベルベットコートで礼拝堂の縦線を引く構成",
             "text": "暗さの質感を代表させる主軸ルックです。",
             "image": "./assets/generated/variants/17-gothic-lolita-portrait.png",
-            "alt": "Gothic Lolita のベルベットコートルック"
+            "alt": "Gothic Lolita のベルベットコートルック",
+            "price": 1250000
           },
           {
             "id": "look-03",
@@ -151,21 +153,25 @@
             "title": "コルセットスカートに聖堂袖を合わせる構成",
             "text": "袖の量感を抑え、縦の軸を強く見せるルックです。",
             "image": "./assets/generated/variants/17-gothic-lolita-landscape.png",
-            "alt": "Gothic Lolita のコルセットスカートと袖のルック"
+            "alt": "Gothic Lolita のコルセットスカートと袖のルック",
+            "price": 860000
           }
         ],
         "selectedPieces": [
           {
             "name": "ベルベット祭壇コート",
-            "descriptor": "暗い起毛感を中心に据える主力コート。"
+            "descriptor": "暗い起毛感を中心に据える主力コート。",
+            "price": 1050000
           },
           {
             "name": "チャペルドレス",
-            "descriptor": "裾丈で儀式性をつくる長尺ドレス。"
+            "descriptor": "裾丈で儀式性をつくる長尺ドレス。",
+            "price": 820000
           },
           {
             "name": "硬質レースカラー",
-            "descriptor": "顔まわりを冷たく引き締める補助装飾。"
+            "descriptor": "顔まわりを冷たく引き締める補助装飾。",
+            "price": 100000
           }
         ]
       },
@@ -183,7 +189,8 @@
             "title": "ボーンコルセットドレスにキャンドルスリーブを重ねる構成",
             "text": "暗さの中でだけ骨色が浮く、掲載向けのルックです。",
             "image": "./assets/generated/variants/17-gothic-lolita-hero.png",
-            "alt": "Gothic Lolita のボーンカラーコルセットドレスのルック"
+            "alt": "Gothic Lolita のボーンカラーコルセットドレスのルック",
+            "price": 780000
           },
           {
             "id": "look-05",
@@ -191,17 +198,20 @@
             "title": "金糸ケープで黒いパニエの体積を包む構成",
             "text": "金糸の細さだけで重心を変える補助ルックです。",
             "image": "./assets/generated/variants/17-gothic-lolita-square.png",
-            "alt": "Gothic Lolita の金糸ケープと黒パニエのルック"
+            "alt": "Gothic Lolita の金糸ケープと黒パニエのルック",
+            "price": 520000
           }
         ],
         "selectedPieces": [
           {
             "name": "ボーンコルセットドレス",
-            "descriptor": "暗部の中でだけ明るさを持つ補助主役。"
+            "descriptor": "暗部の中でだけ明るさを持つ補助主役。",
+            "price": 760000
           },
           {
             "name": "金糸ケープ",
-            "descriptor": "暗さを壊さずに金を差し込む撮影向けピース。"
+            "descriptor": "暗さを壊さずに金を差し込む撮影向けピース。",
+            "price": 320000
           }
         ]
       }

@@ -3,9 +3,9 @@
 
 :root {
   color-scheme: light;
-  --display-font: "Bodoni Moda", serif;
+  --display-font: "Bodoni Moda", "Hiragino Mincho ProN", serif;
   --body-font: "Manrope", sans-serif;
-  --label-font: "Syne Mono", monospace;
+  --label-font: "Syne Mono", "Hiragino Kaku Gothic ProN", sans-serif;
   --bg: oklch(0.985 0.02 4);
   --bg-alt: oklch(0.965 0.024 340);
   --surface: oklch(0.995 0.012 5 / 0.88);
@@ -33,6 +33,44 @@ body::after {
   opacity: 0.08;
 }
 
+.home-kawaii-cabinet .display-title {
+  font-size: clamp(4rem, 6vw, 5.8rem);
+  line-height: 1.02;
+  max-width: 5.4ch;
+}
+
+.home-kawaii-cabinet .display-title span {
+  display: block;
+}
+
+.home-kawaii-cabinet .display-title span:first-child {
+  margin-bottom: 0.08em;
+}
+
+.home-kawaii-cabinet .chapter-title,
+.home-kawaii-cabinet .feature-title,
+.look-kawaii-float .chapter-title,
+.look-kawaii-float .feature-title,
+.about-kawaii-archive .chapter-title {
+  font-size: clamp(1.85rem, 3.2vw, 3rem);
+  line-height: 1.08;
+}
+
+.home-kawaii-cabinet .variant-switcher,
+.look-kawaii-float .variant-switcher,
+.about-kawaii-archive .variant-switcher {
+  top: 6rem;
+  right: 1rem;
+  width: min(13rem, calc(100vw - 2rem));
+}
+
+.home-kawaii-cabinet .variant-switcher-panel,
+.look-kawaii-float .variant-switcher-panel,
+.about-kawaii-archive .variant-switcher-panel {
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(20px);
+}
+
 .home-kawaii-cabinet .home-top-grid {
   grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
   gap: 2rem;
@@ -40,19 +78,19 @@ body::after {
 }
 
 .home-kawaii-cabinet .home-top-grid > .hero-copy {
-  min-height: 36rem;
+  min-height: 32rem;
   border-radius: 3rem 3rem 9rem 3rem;
   background: linear-gradient(180deg, color-mix(in oklch, var(--surface-strong) 85%, white), color-mix(in oklch, var(--surface) 86%, var(--accent-soft)));
 }
 
 .home-kawaii-cabinet .hero-visual {
-  min-height: 35rem;
+  min-height: 33rem;
   border-radius: 9rem 3rem 3rem 3rem;
 }
 
 .home-kawaii-cabinet .hero-stats {
-  width: min(28rem, 84%);
-  margin: -3.5rem 0 0 auto;
+  width: min(25rem, 76%);
+  margin: -2.2rem 0 0 auto;
   position: relative;
   z-index: 3;
 }
@@ -95,14 +133,30 @@ body::after {
   align-items: end;
 }
 
+.home-kawaii-cabinet .hero-visual,
+.home-kawaii-cabinet .feature-visual,
+.about-kawaii-archive .story-visual {
+  position: relative;
+}
+
+.home-kawaii-cabinet .hero-visual > img,
+.home-kawaii-cabinet .feature-visual > img,
+.about-kawaii-archive .story-visual > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .home-kawaii-cabinet .feature-visual {
-  min-height: 38rem;
+  min-height: 34rem;
   border-radius: 8rem 2.6rem 2.6rem 2.6rem;
 }
 
 .home-kawaii-cabinet .feature-copy {
   position: relative;
-  margin: 3rem 0 0 -4.5rem;
+  margin: 2.2rem 0 0 -3.2rem;
   z-index: 2;
   border-radius: 2.8rem;
 }
@@ -156,7 +210,7 @@ body::after {
 }
 
 .look-kawaii-float .look-top-grid {
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
 }
 
 .look-kawaii-float .look-mid-grid {
@@ -189,7 +243,7 @@ body::after {
 }
 
 .look-kawaii-float .look-tail-grid {
-  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+  grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.06fr);
 }
 
 .about-kawaii-archive .about-top-grid {
