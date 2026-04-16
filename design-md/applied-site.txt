@@ -1,0 +1,4 @@
+Applied profile: droga5
+Synced design assets for project profile at 2026-04-12T05:47:41Z
+Target DESIGN.md: /Users/hiroki.kai/Documents/cursor-projects/laboratory/papa/fashion-site/DESIGN.md
+Applied template path: /Users/hiroki.kai/plugins/awesome-design-md-jp/assets/design-md/droga5/DESIGN.md

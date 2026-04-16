@@ -1,0 +1,120 @@
+{
+  "generator": "t2i-kamui-fal-gemini-3-pro-image-preview",
+  "generated_at": "2026-04-13",
+  "assets": [
+    {
+      "file": "hero-concept.png",
+      "request_id": "019d8114-fd99-7ee3-a774-9d4005b4add0",
+      "source_url": "https://v3b.fal.media/files/b/0a95f0f8/oRiFLCoXaxt6X_pnCtc89_OEpIGRXG.png",
+      "prompt_summary": "portrait hero with negative space and long black bias coat"
+    },
+    {
+      "file": "look-01.png",
+      "request_id": "019d8115-e2b0-7e31-a54b-be7907b0067a",
+      "source_url": "https://v3b.fal.media/files/b/0a95f0fe/8NwnNJUs9zsIoggS4auOY_RubDoZHP.png",
+      "prompt_summary": "softened black shirt and narrow volume trouser"
+    },
+    {
+      "file": "look-02.png",
+      "request_id": "019d8116-26e7-7282-8e73-b879f7286f3e",
+      "source_url": "https://v3b.fal.media/files/b/0a95f100/EHbrJW4ET3B7zUReMDYnM_JNTe6lGq.png",
+      "prompt_summary": "long bias coat over softened tailoring"
+    },
+    {
+      "file": "look-03.png",
+      "request_id": "019d8116-6957-7823-b102-14b2bd5fab54",
+      "source_url": "https://v3b.fal.media/files/b/0a95f102/2RhJ1b8of_kdSJ7nB78Ih_9SXR7iAa.png",
+      "prompt_summary": "layered knit with tapered wrap skirt"
+    },
+    {
+      "file": "look-04.png",
+      "request_id": "019d8116-b883-79f3-8196-d1649992ca6e",
+      "source_url": "https://v3b.fal.media/files/b/0a95f104/6u6XHaSefMni1zG3Ttj0C_KJt0FBSA.png",
+      "prompt_summary": "muted grey-blue long coat with compressed knit"
+    },
+    {
+      "file": "look-05.png",
+      "request_id": "019d8116-f41f-74a2-86e3-d926975be275",
+      "source_url": "https://v3b.fal.media/files/b/0a95f105/6ab0DJZ9Ee5GKBcriHOBQ_9cdkOXfK.png",
+      "prompt_summary": "dry textured vest and folded dark trousers"
+    },
+    {
+      "file": "detail-01.png",
+      "request_id": "019d8117-3474-7a00-a47b-bb31f028d2e4",
+      "source_url": "https://v3b.fal.media/files/b/0a95f107/wHKf_MGHtFi7ht5mg2xde_tqk2ODR1.png",
+      "prompt_summary": "studio still life with folded garments and material swatches"
+    },
+    {
+      "file": "home-strip-01.png",
+      "request_id": "019d816e-0dff-7f61-8a13-2f006c76dd80",
+      "source_url": "https://v3b.fal.media/files/b/0a95f340/iOgXzeIe4zXZf1KKE9usP_2YGdlSwc.png",
+      "prompt_summary": "editorial full-length coat look with generous negative space"
+    },
+    {
+      "file": "home-strip-02.png",
+      "request_id": "019d816e-3446-7623-8ef3-a96deec62bf5",
+      "source_url": "https://v3b.fal.media/files/b/0a95f341/uLareTFvSW5qnuXdQn2Al_NcxejbDR.png",
+      "prompt_summary": "close-up textile and sheen study in charcoal and slate"
+    },
+    {
+      "file": "home-strip-03.png",
+      "request_id": "019d816e-6051-7343-8fd6-451b09f28055",
+      "source_url": "https://v3b.fal.media/files/b/0a95f342/8SFYH4U_zGr_TfNLvWoWp_1KB6rMw7.png",
+      "prompt_summary": "side-profile grey-blue coat portrait for counterlight tone"
+    },
+    {
+      "file": "studio-01.png",
+      "request_id": "019d816e-915f-7331-9a77-06cb0cf9d5f0",
+      "source_url": "https://v3b.fal.media/files/b/0a95f344/WhRTyTqivz6035-OnYA1f_xbWsazsc.png",
+      "prompt_summary": "atelier garment rail with muted coats and soft daylight"
+    },
+    {
+      "file": "studio-02.png",
+      "request_id": "019d816e-c333-7e31-bc27-0b88cc4bde2c",
+      "source_url": "https://v3b.fal.media/files/b/0a95f345/CkPuYmIR0XzTyFfWlH1DW_Xahzxu6n.png",
+      "prompt_summary": "hands arranging dark fabric and pattern pieces on cutting table"
+    },
+    {
+      "file": "variants/02-parchment-salon-hero.png",
+      "request_id": "019d85c8-8506-79d0-a683-d193b3743187",
+      "source_url": "https://v3b.fal.media/files/b/0a960fc8/h8hkfyNZPEAEVl4bdm6Lj_X7RkXP0W.png",
+      "prompt_summary": "quiet salon variant rebuilt as single-model dark editorial near books and soft window light"
+    },
+    {
+      "file": "variants/06-atelier-cream-hero.png",
+      "request_id": "019d85c8-b256-77e1-8481-f471148bad68",
+      "source_url": "https://v3b.fal.media/files/b/0a960fc9/ttjkbBeEJGp9kOQ8AwrZ2_KovTToej.png",
+      "prompt_summary": "atelier cream variant rebuilt as one model in layered ivory garments inside a quiet studio"
+    },
+    {
+      "file": "variants/10-soft-hospitality-hero.png",
+      "request_id": "019d85c8-d158-7733-a6a1-8ba79b1b6f59",
+      "source_url": "https://v3b.fal.media/files/b/0a960fca/OiDA_BGKgFHmW6_mcDYtS_2sxevHTi.png",
+      "prompt_summary": "soft hospitality variant rebuilt as calm hotel-lounge fashion editorial rather than lifestyle portrait"
+    },
+    {
+      "file": "variants/12-tokyo-culture-hero.png",
+      "request_id": "019d85c8-efbe-76f0-b99c-640c661f0b2e",
+      "source_url": "https://v3b.fal.media/files/b/0a960fcb/b-7OSd6JXsLE2iHPUGftV_oTqizQ98.png",
+      "prompt_summary": "tokyo culture variant rebuilt as controlled urban editorial, not cosplay, with layered black and blue garments"
+    },
+    {
+      "file": "variants/13-indigo-corporate-hero.png",
+      "request_id": "019d85c9-3e42-7fc3-a50c-11ad4b528029",
+      "source_url": "https://v3b.fal.media/files/b/0a960fcd/TkShw1H6qBhi3VTYl3kdO_0ebOLxUr.png",
+      "prompt_summary": "indigo corporate variant rebuilt as restrained tailored indigo fashion editorial in a modern office"
+    },
+    {
+      "file": "variants/14-soft-service-hero.png",
+      "request_id": "019d85c9-2101-7f72-bb16-dc45030ae799",
+      "source_url": "https://v3b.fal.media/files/b/0a960fcc/q1dDSLVMetiDbwcqebWJn_3u593Vr1.png",
+      "prompt_summary": "soft service variant rebuilt as pale minimal single-model editorial without service-uniform cues"
+    },
+    {
+      "file": "variants/15-market-layer-hero.png",
+      "request_id": "019d85c9-58f2-7ae0-8d06-9d7cf4bea40e",
+      "source_url": "https://v3b.fal.media/files/b/0a960fcd/xI2_BTL3DP_bWDkLYwJax_VNQl0cVl.png",
+      "prompt_summary": "market layer variant rebuilt as quiet curated showroom editorial with one model and commercial clarity"
+    }
+  ]
+}

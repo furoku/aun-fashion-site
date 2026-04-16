@@ -1,0 +1,180 @@
+{
+  "id": "06-atelier-cream",
+  "slug": "06-atelier-cream",
+  "name": "アトリエクリーム",
+  "references": [
+    "global/clay",
+    "jp/studio"
+  ],
+  "structures": {
+    "home": "atelier",
+    "lookbook": "atelier",
+    "about": "pinned"
+  },
+  "assets": {
+    "heroVisual": {
+      "src": "./assets/generated/variants/06-atelier-cream-hero.png",
+      "alt": "Atelier Cream のために設計したヒーロー用コンセプトビジュアル",
+      "caption": "メインビジュアル / アトリエクリーム"
+    },
+    "featureImage": {
+      "src": "./assets/generated/variants/top-home-portrait/06-atelier-cream.png",
+      "alt": "Atelier Cream のトップページ導入用に追加した縦長素材",
+      "caption": "代表ルック補助 / アトリエクリーム"
+    },
+    "ルック資料Spotlight": {
+      "src": "./assets/generated/variants/portrait/06-atelier-cream.png",
+      "alt": "Atelier Cream のルックブックを補強する縦長のエディトリアル素材",
+      "caption": "ルック補助 / アトリエクリーム"
+    },
+    "aboutStoryImage": {
+      "src": "./assets/generated/variants/portrait/06-atelier-cream.png",
+      "alt": "Atelier Cream の制作背景を補強する縦長のエディトリアル素材",
+      "caption": "制作背景補助 / アトリエクリーム"
+    },
+    "homeGallery": [
+      {
+        "src": "./assets/generated/variants/square/06-atelier-cream.png",
+        "alt": "Atelier Cream のトップページ用に配置した正方形素材",
+        "caption": "補助カット 01 / アトリエクリーム",
+        "tone": "square"
+      },
+      {
+        "src": "./assets/generated/variants/top-home-landscape/06-atelier-cream.png",
+        "alt": "Atelier Cream のトップページ中央に配置する横長素材",
+        "caption": "補助カット 02 / アトリエクリーム",
+        "tone": "wide"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/06-atelier-cream.png",
+        "alt": "Atelier Cream のトップページ右側に配置する縦長素材",
+        "caption": "補助カット 03 / アトリエクリーム",
+        "tone": "tall"
+      }
+    ],
+    "aboutGallery": [
+      {
+        "src": "./assets/generated/variants/06-atelier-cream-hero.png",
+        "alt": "Atelier Cream の空気感を横方向に補うビジュアル",
+        "caption": "制作風景 01 / アトリエクリーム"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/06-atelier-cream.png",
+        "alt": "Atelier Cream の制作温度を補う縦長素材",
+        "caption": "制作風景 02 / アトリエクリーム"
+      }
+    ]
+  },
+  "content": {
+    "brand": {
+      "label": "アトリエ掲示板型資料",
+      "tagline": "制作途中の空気まで魅力に変える、やわらかなアトリエ編集。",
+      "summary": "AUN を完成品だけでなく制作過程ごと魅力として見せる案です。工房の気配、紙片、布片の温度がそのまま営業資料に入ります。",
+      "themeTitle": "やわらかな組み立て / 第1章",
+      "seasonHeading": "切れ端、ピン跡、手触りの余韻を残したまま読ませる構成。",
+      "seasonCopy": "完成した均一さより、制作の気配が少し残ることを価値として扱います。人の手が介在している印象を、売り言葉として使うための構成です。",
+      "audience": "クラフト感を好むセレクト、制作背景まで売場で伝えたいバイヤー、手仕事の気配を拾いたい媒体。",
+      "priceCue": "クラフト寄りのコンテンポラリー。量産感のなさが価値になる価格帯です。",
+      "partnerItems": [
+        {
+          "title": "取扱のご相談",
+          "text": "素材メモや制作コメントを添えたラインシートを共有できます。",
+          "href": "mailto:partners@aun-studio.example?subject=AUN%20Stockist%20Inquiry"
+        },
+        {
+          "title": "掲載・取材",
+          "text": "制作背景が伝わる短いノートを 掲載用にまとめて案内します。",
+          "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
+        },
+        {
+          "title": "協業のご相談",
+          "text": "展示やワークショップ寄りの協業と相性がよい導線です。",
+          "href": "mailto:hello@aun-studio.example?subject=AUN%20Collaboration"
+        }
+      ]
+    },
+    "home": {
+      "reasons": [
+        {
+          "title": "制作痕そのものが価値になる",
+          "text": "完成品だけでなく、作られ方そのものが説得力になります。"
+        },
+        {
+          "title": "懐古に寄らずあたたかい",
+          "text": "やわらかいが古びない温度で、今の売場にも馴染みます。"
+        },
+        {
+          "title": "手触りから判断できる",
+          "text": "触りたくなる印象を、資料段階から残しておけます。"
+        }
+      ],
+      "representativeLook": {
+        "title": "代表ルック / 手仕事の余韻を残す主力コート",
+        "summary": "輪郭は整えつつ、どこか手で仕上げた気配が残る代表ルックです。厳しすぎない静かなモード感を求める相手に向いています。",
+        "details": [
+          "素材の柔らかい差がそのまま会話の入口になります。",
+          "工房の温度が売場に持ち込める構成です。",
+          "誌面より接客で効く良さを先に渡せます。"
+        ]
+      }
+    },
+    "collections": [
+      {
+        "id": "resonant-quiet",
+        "title": "やわらかな組み立て / 第1章",
+        "summary": "手触りと輪郭の両立を目指した、穏やかな主力カプセルです。",
+        "noteTitle": "補足ノート / やわらかな組み立て",
+        "note": "整い過ぎた均一さではなく、少しだけ手仕事の余白が残る見え方を価値にしています。",
+        "selectedPieces": [
+          {
+            "name": "主力バイアスコート",
+            "descriptor": "アトリエ感を残しつつ売場でも成立する主力コート。"
+          },
+          {
+            "name": "ヴェールシャツ",
+            "descriptor": "素材差をやさしく受け止める中核シャツ。"
+          },
+          {
+            "name": "テーパードラップスカート",
+            "descriptor": "レイヤーに柔らかい揺れを足す可変ボトム。"
+          }
+        ],
+        "label": "やわらかな組み立て"
+      },
+      {
+        "id": "counterlight",
+        "title": "アトリエの補助線 / 補助編集",
+        "summary": "制作途中の紙片のような軽さを足す補助ラインです。",
+        "noteTitle": "補足ノート / アトリエの補助線",
+        "note": "重い色だけで構成せず、明るい余白を少し混ぜるためのエディットです。",
+        "selectedPieces": [
+          {
+            "name": "灰青コート",
+            "descriptor": "工房の空気を軽く見せるための明るい導入コート。"
+          },
+          {
+            "name": "ドライベスト",
+            "descriptor": "主役の横で柔らかい差をつくる中継ピース。"
+          }
+        ],
+        "label": "アトリエの補助線"
+      }
+    ],
+    "about": {
+      "intro": "AUN の裏側にある手の感触を、説明ではなく雰囲気として残すための案です。",
+      "story": {
+        "title": "ピン跡や切れ端まで含めて価値化するライン。",
+        "copy": "少量制作の利点は、均一さよりも手触りの差を残せることにあります。この案では、その制作途中の気配を営業資料の中にも残します。",
+        "points": [
+          "ラインシートにも素材メモや短い注釈を添える想定です。",
+          "掲載向けには制作過程の写真と短文を組み合わせます。",
+          "仮ビジュアルでもアトリエの空気感を優先します。"
+        ]
+      }
+    }
+  },
+  "summary": "色温度のやさしいクリーム地に、アトリエの切れ端のような軽さを残すサイト。",
+  "mood": "クリーム / テープ跡 / 柔灰",
+  "accent": "手仕事の痕跡",
+  "personality": "Warm, handcrafted, breezy"
+}

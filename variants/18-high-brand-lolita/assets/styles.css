@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&family=Archivo:wght@400;500;600;700&family=Red+Hat+Mono:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Prata", serif;
+  --body-font: "Archivo", sans-serif;
+  --label-font: "Red Hat Mono", monospace;
+  --bg: oklch(0.985 0.004 95);
+  --bg-alt: oklch(0.955 0.006 95);
+  --surface: oklch(0.992 0.003 95 / 0.92);
+  --surface-strong: oklch(0.998 0.002 95 / 0.98);
+  --surface-muted: oklch(0.94 0.008 95 / 0.78);
+  --line: oklch(0.54 0.008 95 / 0.18);
+  --line-strong: oklch(0.36 0.012 95 / 0.34);
+  --ink: oklch(0.2 0.008 95);
+  --muted: oklch(0.44 0.008 95);
+  --accent: oklch(0.74 0.014 95);
+  --accent-2: oklch(0.52 0.02 260);
+  --accent-soft: oklch(0.96 0.006 95);
+  --inverse-bg: oklch(0.14 0.008 95);
+  --inverse-ink: oklch(0.97 0.002 95);
+  --shadow: 0 18px 48px oklch(0.2 0 0 / 0.06);
+}
+
+body::before,
+body::after { opacity: 0.04; }
+
+.home-maison-ledger .home-top-grid {
+  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  gap: 2.6rem;
+}
+
+.home-maison-ledger .home-mid-grid,
+.look-maison-registry .look-top-grid,
+.look-maison-registry .look-mid-grid,
+.look-maison-registry .look-tail-grid,
+.about-maison-archive .about-top-grid,
+.about-maison-archive .about-mid-grid,
+.about-maison-archive .about-tail-grid {
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  gap: 2rem;
+}
+
+.home-maison-ledger .home-tail-grid {
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  grid-template-areas:
+    "feature gallery"
+    "feature pieces"
+    "feature routes";
+  gap: 1.8rem 2rem;
+}
+
+.home-maison-ledger .hero-copy,
+.home-maison-ledger .hero-stats,
+.home-maison-ledger .season-copy,
+.home-maison-ledger .season-meta,
+.home-maison-ledger .reasons-block,
+.home-maison-ledger .pieces-block,
+.home-maison-ledger .routes-block,
+.home-maison-ledger .gallery-block,
+.home-maison-ledger .feature-cluster,
+.look-maison-registry .look-top-grid > *,
+.look-maison-registry .look-mid-grid > *,
+.look-maison-registry .look-tail-grid > *,
+.about-maison-archive .about-top-grid > *,
+.about-maison-archive .about-mid-grid > *,
+.about-maison-archive .about-tail-grid > * {
+  border: 1px solid var(--line);
+  background: color-mix(in oklch, var(--surface-strong) 92%, transparent);
+  box-shadow: none;
+}
+
+.home-maison-ledger .hero-copy,
+.look-maison-registry .card-surface,
+.about-maison-archive .card-surface {
+  border-radius: 0.8rem;
+}
+
+.home-maison-ledger .hero-visual,
+.about-maison-archive .story-visual,
+.look-maison-registry .spotlight-block {
+  min-height: 42rem;
+  border-radius: 0.9rem;
+}
+
+.home-maison-ledger .hero-copy {
+  padding: 1.8rem;
+}
+
+.home-maison-ledger .hero-stats {
+  border-top: 1px solid var(--line-strong);
+}
+
+.home-maison-ledger .feature-cluster {
+  grid-area: feature;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.home-maison-ledger .feature-visual {
+  min-height: 44rem;
+  border-radius: 0.9rem;
+}
+
+.home-maison-ledger .gallery-block {
+  grid-area: gallery;
+}
+
+.home-maison-ledger .pieces-block {
+  grid-area: pieces;
+}
+
+.home-maison-ledger .routes-block {
+  grid-area: routes;
+  background: var(--inverse-bg);
+  color: var(--inverse-ink);
+  border-color: color-mix(in oklch, var(--inverse-ink) 14%, transparent);
+}
+
+.home-maison-ledger .routes-block .section-label,
+.home-maison-ledger .routes-block .chapter-heading p,
+.home-maison-ledger .routes-block .rail-text {
+  color: color-mix(in oklch, var(--inverse-ink) 72%, transparent);
+}
+
+.home-maison-ledger .routes-block .rail-item {
+  background: color-mix(in oklch, var(--inverse-ink) 7%, transparent);
+  border-color: color-mix(in oklch, var(--inverse-ink) 16%, transparent);
+}
+
+.home-maison-ledger .routes-block .rail-title,
+.home-maison-ledger .routes-block .rail-item {
+  color: var(--inverse-ink);
+}
+
+.home-maison-ledger .gallery-track,
+.home-maison-ledger .reason-list,
+.home-maison-ledger .piece-stack,
+.home-maison-ledger .route-list {
+  grid-template-columns: 1fr;
+}
+
+.home-maison-ledger .gallery-track > * {
+  border-radius: 0.75rem;
+}
+
+.look-maison-registry .look-grid,
+.look-maison-registry .piece-stack,
+.about-maison-archive .principle-list,
+.about-maison-archive .studio-grid,
+.about-maison-archive .route-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.section-ledger {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.look-maison-registry .look-grid,
+.look-maison-registry .piece-stack {
+  grid-template-columns: 1fr;
+}
+
+.look-maison-registry .collection-switcher-shell,
+.look-maison-registry .note-copy,
+.look-maison-registry .looks-block,
+.look-maison-registry .pieces-block {
+  border-radius: 0.85rem;
+}
+
+.look-maison-registry .spotlight-block {
+  min-height: 34rem;
+}
+
+.about-maison-archive .studio-grid,
+.about-maison-archive .route-list {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 900px) {
+  .home-maison-ledger .home-top-grid,
+  .home-maison-ledger .home-mid-grid,
+  .home-maison-ledger .home-tail-grid,
+  .look-maison-registry .look-top-grid,
+  .look-maison-registry .look-mid-grid,
+  .look-maison-registry .look-tail-grid,
+  .about-maison-archive .about-top-grid,
+  .about-maison-archive .about-mid-grid,
+  .about-maison-archive .about-tail-grid,
+  .home-maison-ledger .gallery-track,
+  .home-maison-ledger .reason-list,
+  .home-maison-ledger .piece-stack,
+  .home-maison-ledger .route-list,
+  .look-maison-registry .look-grid,
+  .look-maison-registry .piece-stack,
+  .about-maison-archive .principle-list,
+  .about-maison-archive .studio-grid,
+  .about-maison-archive .route-list {
+    grid-template-columns: 1fr;
+  }
+
+  .home-maison-ledger .home-tail-grid {
+    grid-template-areas: none;
+  }
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=M+PLUS+1+Code:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Zen Old Mincho", serif;
+  --body-font: "Zen Kaku Gothic New", sans-serif;
+  --label-font: "M PLUS 1 Code", monospace;
+
+  --bg: oklch(0.965 0.012 86);
+  --bg-alt: oklch(0.93 0.018 82);
+  --surface: oklch(0.985 0.008 92 / 0.88);
+  --surface-strong: oklch(0.99 0.008 92 / 0.96);
+  --surface-muted: oklch(0.95 0.016 84 / 0.86);
+  --line: oklch(0.58 0.012 78 / 0.18);
+  --line-strong: oklch(0.42 0.08 250 / 0.24);
+  --ink: oklch(0.23 0.02 260);
+  --muted: oklch(0.44 0.012 260);
+  --accent: oklch(0.44 0.08 250);
+  --accent-2: oklch(0.82 0.02 88);
+  --accent-soft: oklch(0.96 0.016 250);
+  --inverse-bg: oklch(0.24 0.02 250);
+  --inverse-ink: oklch(0.97 0.006 88);
+  --shadow: 0 18px 40px oklch(0.3 0.02 260 / 0.08);
+  --radius-md: 1.2rem;
+  --radius-lg: 2rem;
+  --radius-xl: 2.4rem;
+
+}
+
+
+body::after {
+  opacity: 0.08;
+}
+
+.hero-composition {
+  grid-template-columns: 0.72fr 1.28fr;
+  grid-template-areas:
+    "copy visual"
+    "stats visual";
+  gap: 2.5rem;
+}
+
+.gallery-composition,
+.reasons-composition,
+.pieces-composition,
+.principle-composition,
+.studio-composition,
+.routes-composition {
+  grid-template-columns: 0.3fr 1.7fr;
+}
+
+.chapter-heading {
+  max-width: none;
+}
+
+.gallery-composition .chapter-heading .section-label,
+.reasons-composition .chapter-heading .section-label,
+.pieces-composition .chapter-heading .section-label,
+.principle-composition .chapter-heading .section-label,
+.studio-composition .chapter-heading .section-label,
+.routes-composition .chapter-heading .section-label {
+  writing-mode: vertical-rl;
+  margin-left: auto;
+}
+
+.look-grid {
+  grid-template-columns: 1fr;
+}
+
+.look-tile:nth-child(even) {
+  margin-left: 9%;
+}
+
+.piece-stack,
+.route-list {
+  grid-template-columns: 1fr 1fr;
+}
+

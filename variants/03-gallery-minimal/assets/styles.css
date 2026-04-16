@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600;700&family=Martian+Mono:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Sora", sans-serif;
+  --body-font: "Public Sans", sans-serif;
+  --label-font: "Martian Mono", monospace;
+
+  --bg: oklch(0.985 0.004 95);
+  --bg-alt: oklch(0.96 0.008 90);
+  --surface: oklch(0.995 0.002 95 / 0.9);
+  --surface-strong: oklch(0.998 0.002 95 / 0.98);
+  --surface-muted: oklch(0.96 0.008 92 / 0.72);
+  --line: oklch(0.72 0.008 90 / 0.18);
+  --line-strong: oklch(0.54 0.015 240 / 0.25);
+  --ink: oklch(0.24 0.01 250);
+  --muted: oklch(0.48 0.01 248);
+  --accent: oklch(0.56 0.03 240);
+  --accent-2: oklch(0.82 0.01 240);
+  --accent-soft: oklch(0.95 0.01 245);
+  --inverse-bg: oklch(0.14 0.012 245);
+  --inverse-ink: oklch(0.96 0.008 94);
+  --shadow: 0 16px 32px oklch(0.7 0.01 240 / 0.06);
+
+}
+
+
+body::before,
+body::after {
+  opacity: 0;
+}
+
+.card-surface,
+.reason-block,
+.selected-piece,
+.principle-block,
+.rail-item,
+.look-copy,
+.collection-switcher-shell {
+  box-shadow: none;
+}
+
+.hero-composition {
+  grid-template-columns: 0.6fr 1.4fr;
+  grid-template-areas:
+    "copy visual"
+    "stats visual";
+  gap: 2.2rem;
+}
+
+.hero-copy {
+  background: transparent;
+  border: 0;
+  padding-inline: 0;
+}
+
+.hero-stats {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  border-left: 0;
+}
+
+.season-composition {
+  grid-template-columns: 0.9fr 0.9fr 0.7fr;
+  align-items: end;
+}
+
+.gallery-track {
+  grid-template-columns: 0.7fr 1.35fr 0.7fr;
+  gap: 2rem;
+}
+
+.editorial-card-wide {
+  transform: none;
+}
+
+.gallery-track .editorial-card:first-child,
+.gallery-track .editorial-card:last-child {
+  margin-top: 3rem;
+}
+
+.reasons-composition,
+.pieces-composition,
+.routes-composition {
+  grid-template-columns: 0.55fr 1.45fr;
+}
+
+.piece-stack,
+.route-list {
+  grid-template-columns: 1fr 1fr;
+}
+

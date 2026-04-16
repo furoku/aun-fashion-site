@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Barlow Condensed", sans-serif;
+  --body-font: "Work Sans", sans-serif;
+  --label-font: "JetBrains Mono", monospace;
+
+  --bg: oklch(0.965 0.004 95);
+  --bg-alt: oklch(0.93 0.008 95);
+  --surface: oklch(0.99 0.002 95 / 0.88);
+  --surface-strong: oklch(0.995 0.002 95 / 0.96);
+  --surface-muted: oklch(0.95 0.004 95 / 0.88);
+  --line: oklch(0.4 0.01 95 / 0.18);
+  --line-strong: oklch(0.22 0.02 95 / 0.32);
+  --ink: oklch(0.16 0.01 95);
+  --muted: oklch(0.42 0.008 95);
+  --accent: oklch(0.56 0.18 250);
+  --accent-2: oklch(0.68 0.05 250);
+  --accent-soft: oklch(0.95 0.012 250);
+  --inverse-bg: oklch(0.12 0.01 95);
+  --inverse-ink: oklch(0.96 0.002 95);
+  --shadow: 0 18px 34px oklch(0.2 0 0 / 0.05);
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+
+}
+
+
+body::after {
+  opacity: 0.22;
+}
+
+.hero-composition {
+  grid-template-columns: 1fr 1fr 0.66fr;
+  grid-template-areas: "copy visual stats";
+  gap: 0;
+}
+
+.hero-copy,
+.hero-visual,
+.hero-stats,
+.season-copy,
+.season-meta,
+.reason-block,
+.selected-piece,
+.principle-block,
+.rail-item,
+.look-tile,
+.collection-switcher-shell,
+.note-copy,
+.story-copy {
+  border-right: 1px solid var(--line-strong);
+}
+
+.hero-stats,
+.season-meta,
+.reason-block:last-child,
+.selected-piece:last-child,
+.principle-block:last-child {
+  border-right: 0;
+}
+
+.season-composition,
+.collection-composition,
+.lookbook-note-composition,
+.story-composition {
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.gallery-track,
+.reason-list,
+.piece-stack,
+.principle-list,
+.route-list,
+.look-grid {
+  gap: 0;
+}
+
+.look-tile:nth-child(even) {
+  margin-top: 4rem;
+}
+

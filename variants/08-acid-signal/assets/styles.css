@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Inter:wght@400;500;600;700&family=Share+Tech+Mono&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: dark;
+  --display-font: "Bricolage Grotesque", sans-serif;
+  --body-font: "Inter", sans-serif;
+  --label-font: "Share Tech Mono", monospace;
+
+  --bg: oklch(0.08 0.005 120);
+  --bg-alt: oklch(0.04 0.005 120);
+  --surface: oklch(0.14 0.005 120 / 0.88);
+  --surface-strong: oklch(0.18 0.008 120 / 0.96);
+  --surface-muted: oklch(0.2 0.03 120 / 0.78);
+  --line: oklch(0.88 0.04 110 / 0.16);
+  --line-strong: oklch(0.92 0.19 110 / 0.38);
+  --ink: oklch(0.96 0.01 100);
+  --muted: oklch(0.76 0.016 102);
+  --accent: oklch(0.9 0.24 112);
+  --accent-2: oklch(0.75 0.06 95);
+  --accent-soft: oklch(0.22 0.08 112);
+  --inverse-bg: oklch(0.92 0.2 112);
+  --inverse-ink: oklch(0.1 0.01 120);
+  --shadow: 0 26px 70px oklch(0.02 0 0 / 0.5);
+
+}
+
+
+body::after {
+  opacity: 0.22;
+}
+
+.hero-composition {
+  grid-template-columns: 1.16fr 0.84fr;
+  grid-template-areas:
+    "copy visual"
+    "copy stats";
+}
+
+.hero-copy {
+  min-height: 38rem;
+}
+
+.hero-stats {
+  margin-left: 18%;
+}
+
+.gallery-track .editorial-card:nth-child(2) {
+  transform: translateY(-1.6rem);
+}
+
+.gallery-track .editorial-card:nth-child(3) {
+  transform: translateY(1.8rem);
+}
+
+.reason-list {
+  grid-template-columns: 1.18fr 0.82fr;
+}
+
+.look-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.look-tile:nth-child(odd) {
+  transform: translateY(-1rem);
+}

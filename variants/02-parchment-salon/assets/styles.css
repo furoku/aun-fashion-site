@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Hanken+Grotesk:wght@400;500;600;700&family=Azeret+Mono:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Libre Caslon Display", serif;
+  --body-font: "Hanken Grotesk", sans-serif;
+  --label-font: "Azeret Mono", monospace;
+
+  --bg: oklch(0.97 0.012 80);
+  --bg-alt: oklch(0.93 0.02 76);
+  --surface: oklch(0.985 0.01 90 / 0.86);
+  --surface-strong: oklch(0.99 0.008 92 / 0.96);
+  --surface-muted: oklch(0.94 0.02 78 / 0.86);
+  --line: oklch(0.64 0.02 72 / 0.22);
+  --line-strong: oklch(0.54 0.08 48 / 0.34);
+  --ink: oklch(0.28 0.03 62);
+  --muted: oklch(0.5 0.02 66);
+  --accent: oklch(0.63 0.1 45);
+  --accent-2: oklch(0.72 0.04 76);
+  --accent-soft: oklch(0.95 0.02 52);
+  --inverse-bg: oklch(0.26 0.025 60);
+  --inverse-ink: oklch(0.95 0.012 82);
+  --shadow: 0 18px 46px oklch(0.42 0.02 62 / 0.1);
+
+}
+
+
+body::after {
+  opacity: 0;
+}
+
+.hero-composition {
+  grid-template-columns: 0.42fr 0.9fr 0.68fr;
+  grid-template-areas: "stats copy visual";
+}
+
+.hero-copy::before {
+  content: "";
+  position: absolute;
+  left: 1.4rem;
+  top: 1.6rem;
+  bottom: 1.6rem;
+  width: 1px;
+  background: color-mix(in oklch, var(--accent) 70%, transparent);
+}
+
+.hero-copy {
+  position: relative;
+  padding-left: 3rem;
+}
+
+.hero-visual,
+.feature-visual,
+.story-visual {
+  overflow: hidden;
+}
+
+.hero-visual img,
+.feature-visual img,
+.story-visual img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.season-composition,
+.collection-composition,
+.story-composition {
+  grid-template-columns: 0.7fr 1fr 0.9fr;
+}
+
+.gallery-composition,
+.reasons-composition,
+.pieces-composition,
+.principle-composition,
+.studio-composition,
+.routes-composition {
+  grid-template-columns: 0.42fr 1.58fr;
+}
+
+.gallery-track,
+.look-grid {
+  grid-template-columns: 1fr;
+}
+
+.look-tile:nth-child(even) {
+  margin-left: 8%;
+}
+
+.piece-stack,
+.route-list {
+  grid-template-columns: 1fr;
+}

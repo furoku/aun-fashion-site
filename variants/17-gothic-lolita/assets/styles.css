@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Serif+JP:wght@400;500;700&family=Azeret+Mono:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: dark;
+  --display-font: "Cinzel", serif;
+  --body-font: "Noto Serif JP", serif;
+  --label-font: "Azeret Mono", monospace;
+  --bg: oklch(0.11 0.02 20);
+  --bg-alt: oklch(0.08 0.018 18);
+  --surface: oklch(0.16 0.02 18 / 0.9);
+  --surface-strong: oklch(0.2 0.03 15 / 0.96);
+  --surface-muted: oklch(0.26 0.06 15 / 0.8);
+  --line: oklch(0.72 0.06 30 / 0.2);
+  --line-strong: oklch(0.84 0.1 40 / 0.36);
+  --ink: oklch(0.94 0.02 70);
+  --muted: oklch(0.74 0.02 65);
+  --accent: oklch(0.6 0.14 20);
+  --accent-2: oklch(0.72 0.09 70);
+  --accent-soft: oklch(0.22 0.08 18);
+  --inverse-bg: oklch(0.95 0.02 70);
+  --inverse-ink: oklch(0.14 0.02 18);
+  --shadow: 0 26px 70px oklch(0.01 0 0 / 0.55);
+}
+
+body {
+  background:
+    radial-gradient(circle at top center, color-mix(in oklch, var(--accent-soft) 85%, transparent), transparent 34%),
+    linear-gradient(180deg, var(--bg-alt), var(--bg));
+}
+
+body::before { opacity: 0.28; }
+body::after { opacity: 0.05; }
+
+.home-gothic-altar .home-top-grid {
+  grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.05fr) minmax(0, 0.7fr);
+  gap: 1.4rem;
+}
+
+.home-gothic-altar .hero-copy,
+.home-gothic-altar .hero-stats,
+.home-gothic-altar .season-copy,
+.home-gothic-altar .season-meta,
+.home-gothic-altar .reasons-block,
+.home-gothic-altar .pieces-block,
+.home-gothic-altar .routes-block,
+.home-gothic-altar .gallery-block,
+.home-gothic-altar .feature-cluster,
+.look-gothic-reliquary .look-top-grid > *,
+.look-gothic-reliquary .look-mid-grid > *,
+.look-gothic-reliquary .look-tail-grid > *,
+.about-gothic-chapel .about-top-grid > *,
+.about-gothic-chapel .about-mid-grid > *,
+.about-gothic-chapel .about-tail-grid > * {
+  background: linear-gradient(180deg, color-mix(in oklch, var(--surface) 94%, transparent), color-mix(in oklch, var(--surface-strong) 88%, transparent));
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.home-gothic-altar .hero-visual,
+.about-gothic-chapel .story-visual,
+.look-gothic-reliquary .spotlight-block {
+  min-height: 44rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.home-gothic-altar .home-mid-grid,
+.look-gothic-reliquary .look-mid-grid,
+.about-gothic-chapel .about-mid-grid,
+.about-gothic-chapel .about-tail-grid {
+  grid-template-columns: minmax(0, 0.86fr) minmax(0, 1.14fr);
+  gap: 1.5rem;
+}
+
+.home-gothic-altar .home-tail-grid {
+  grid-template-columns: minmax(0, 0.86fr) minmax(0, 1.14fr);
+  grid-template-areas:
+    "gallery feature"
+    "routes feature"
+    "routes pieces";
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.home-gothic-altar .home-tail-grid > .gallery-block {
+  grid-area: gallery;
+}
+
+.home-gothic-altar .home-tail-grid > .feature-cluster {
+  grid-area: feature;
+}
+
+.home-gothic-altar .home-tail-grid > .pieces-block {
+  grid-area: pieces;
+}
+
+.home-gothic-altar .home-tail-grid > .routes-block {
+  grid-area: routes;
+}
+
+.look-gothic-reliquary .look-top-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.look-gothic-reliquary .look-grid,
+.home-gothic-altar .reason-list,
+.home-gothic-altar .piece-stack,
+.home-gothic-altar .route-list,
+.about-gothic-chapel .principle-list,
+.about-gothic-chapel .route-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.look-gothic-reliquary .look-tile,
+.about-gothic-chapel .principle-block,
+.home-gothic-altar .reason-block,
+.home-gothic-altar .selected-piece,
+.home-gothic-altar .rail-item {
+  border-radius: 1rem;
+}
+
+@media (max-width: 900px) {
+  .home-gothic-altar .home-top-grid,
+  .home-gothic-altar .home-mid-grid,
+  .home-gothic-altar .home-tail-grid,
+  .look-gothic-reliquary .look-top-grid,
+  .look-gothic-reliquary .look-mid-grid,
+  .about-gothic-chapel .about-top-grid,
+  .about-gothic-chapel .about-mid-grid,
+  .about-gothic-chapel .about-tail-grid,
+  .look-gothic-reliquary .look-grid,
+  .home-gothic-altar .reason-list,
+  .home-gothic-altar .piece-stack,
+  .home-gothic-altar .route-list,
+  .about-gothic-chapel .principle-list,
+  .about-gothic-chapel .route-list {
+    grid-template-columns: 1fr;
+  }
+
+  .home-gothic-altar .home-tail-grid {
+    grid-template-areas: none;
+  }
+}

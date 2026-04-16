@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;800&family=Figtree:wght@400;500;600;700&family=Martian+Mono:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Red Hat Display", sans-serif;
+  --body-font: "Figtree", sans-serif;
+  --label-font: "Martian Mono", monospace;
+
+  --bg: oklch(0.96 0.004 95);
+  --bg-alt: oklch(0.93 0.006 95);
+  --surface: oklch(0.99 0.002 95 / 0.9);
+  --surface-strong: oklch(0.995 0.002 95 / 0.98);
+  --surface-muted: oklch(0.95 0.004 95 / 0.88);
+  --line: oklch(0.44 0.004 95 / 0.12);
+  --line-strong: oklch(0.26 0.004 95 / 0.18);
+  --ink: oklch(0.18 0.004 95);
+  --muted: oklch(0.46 0.004 95);
+  --accent: oklch(0.22 0.004 95);
+  --accent-2: oklch(0.86 0.004 95);
+  --accent-soft: oklch(0.94 0.004 95);
+  --inverse-bg: oklch(0.16 0.004 95);
+  --inverse-ink: oklch(0.96 0.002 95);
+  --shadow: 0 18px 42px oklch(0.2 0 0 / 0.06);
+  --radius-md: 2.2rem;
+  --radius-lg: 3rem;
+  --radius-xl: 4rem;
+
+}
+
+
+.site-nav {
+  padding: 0.35rem;
+  border-radius: 999px;
+  background: color-mix(in oklch, var(--surface) 82%, transparent);
+  border: 1px solid var(--line);
+}
+
+.hero-composition {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "copy"
+    "visual"
+    "stats";
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.season-composition,
+.lookbook-top-composition,
+.about-intro-composition {
+  grid-template-columns: 1fr;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.gallery-composition,
+.reasons-composition,
+.pieces-composition,
+.principle-composition,
+.studio-composition,
+.routes-composition,
+.feature-composition,
+.story-composition,
+.lookbook-note-composition {
+  grid-template-columns: 1fr;
+}
+
+.look-tile {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+}
+
+.piece-stack,
+.route-list {
+  grid-template-columns: 1fr 1fr;
+}
+

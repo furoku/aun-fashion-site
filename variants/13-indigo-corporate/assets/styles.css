@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&family=M+PLUS+1+Code:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Shippori Mincho", serif;
+  --body-font: "Noto Sans JP", sans-serif;
+  --label-font: "M PLUS 1 Code", monospace;
+
+  --bg: oklch(0.955 0.01 245);
+  --bg-alt: oklch(0.92 0.014 242);
+  --surface: oklch(0.99 0.004 230 / 0.88);
+  --surface-strong: oklch(0.995 0.003 230 / 0.96);
+  --surface-muted: oklch(0.93 0.014 242 / 0.86);
+  --line: oklch(0.42 0.02 245 / 0.16);
+  --line-strong: oklch(0.38 0.1 252 / 0.2);
+  --ink: oklch(0.22 0.018 245);
+  --muted: oklch(0.46 0.01 242);
+  --accent: oklch(0.44 0.11 252);
+  --accent-2: oklch(0.78 0.02 238);
+  --accent-soft: oklch(0.95 0.018 242);
+  --inverse-bg: oklch(0.18 0.018 245);
+  --inverse-ink: oklch(0.96 0.004 230);
+  --shadow: 0 18px 42px oklch(0.18 0.02 243 / 0.08);
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+
+}
+
+
+.hero-composition {
+  grid-template-columns: 0.72fr 1fr 0.72fr;
+  grid-template-areas: "stats copy visual";
+}
+
+.hero-copy {
+  position: relative;
+  padding-top: 4.3rem;
+}
+
+.hero-copy::before {
+  content: "partner edition";
+  position: absolute;
+  left: 1.6rem;
+  top: 1.4rem;
+  font-family: var(--label-font);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.season-composition,
+.collection-composition,
+.lookbook-note-composition,
+.about-intro-composition,
+.story-composition {
+  grid-template-columns: 0.78fr 1.12fr 0.7fr;
+}
+
+.reasons-composition,
+.principle-composition {
+  grid-template-columns: 0.42fr 1.58fr;
+}
+
+.piece-stack,
+.route-list {
+  grid-template-columns: 1fr 1fr;
+}
+

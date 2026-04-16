@@ -1,0 +1,164 @@
+[
+  {
+    "id": "01-obsidian-runway",
+    "name": "黒曜ランウェイ",
+    "structures": {
+      "home": "stage",
+      "lookbook": "poster",
+      "about": "dossier"
+    }
+  },
+  {
+    "id": "02-parchment-salon",
+    "name": "余白のサロン",
+    "structures": {
+      "home": "desk",
+      "lookbook": "chapter",
+      "about": "essay"
+    }
+  },
+  {
+    "id": "03-gallery-minimal",
+    "name": "白壁ギャラリー",
+    "structures": {
+      "home": "gallery",
+      "lookbook": "salon",
+      "about": "wall"
+    }
+  },
+  {
+    "id": "04-editorial-grid",
+    "name": "編集グリッド",
+    "structures": {
+      "home": "tabloid",
+      "lookbook": "spread",
+      "about": "index"
+    }
+  },
+  {
+    "id": "05-midnight-system",
+    "name": "真夜中のシステム",
+    "structures": {
+      "home": "command",
+      "lookbook": "console",
+      "about": "memo"
+    }
+  },
+  {
+    "id": "06-atelier-cream",
+    "name": "アトリエクリーム",
+    "structures": {
+      "home": "atelier",
+      "lookbook": "atelier",
+      "about": "pinned"
+    }
+  },
+  {
+    "id": "07-monochrome-pill",
+    "name": "モノクロカプセル",
+    "structures": {
+      "home": "axis",
+      "lookbook": "capsule",
+      "about": "modules"
+    }
+  },
+  {
+    "id": "08-acid-signal",
+    "name": "アシッドシグナル",
+    "structures": {
+      "home": "signal",
+      "lookbook": "stagger",
+      "about": "manifesto"
+    }
+  },
+  {
+    "id": "09-engineered-blue",
+    "name": "設計図の青",
+    "structures": {
+      "home": "blueprint",
+      "lookbook": "manual",
+      "about": "spec"
+    }
+  },
+  {
+    "id": "10-soft-hospitality",
+    "name": "柔らかなホスピタリティ",
+    "structures": {
+      "home": "brochure",
+      "lookbook": "notebook",
+      "about": "storybook"
+    }
+  },
+  {
+    "id": "11-washi-minimal",
+    "name": "和紙のミニマル",
+    "structures": {
+      "home": "washi",
+      "lookbook": "quiet",
+      "about": "rail"
+    }
+  },
+  {
+    "id": "12-tokyo-culture",
+    "name": "東京カルチャー",
+    "structures": {
+      "home": "culture",
+      "lookbook": "flyer",
+      "about": "zine"
+    }
+  },
+  {
+    "id": "13-indigo-corporate",
+    "name": "藍のコーポレート",
+    "structures": {
+      "home": "dossier",
+      "lookbook": "appendix",
+      "about": "executive"
+    }
+  },
+  {
+    "id": "14-soft-service",
+    "name": "やさしいサービス",
+    "structures": {
+      "home": "service",
+      "lookbook": "guided",
+      "about": "handbook"
+    }
+  },
+  {
+    "id": "15-market-layer",
+    "name": "マーケットレイヤー",
+    "structures": {
+      "home": "market",
+      "lookbook": "compare",
+      "about": "seller"
+    }
+  },
+  {
+    "id": "16-kawaii-lolita",
+    "name": "かわいいロリータ",
+    "structures": {
+      "home": "cabinet",
+      "lookbook": "float",
+      "about": "archive"
+    }
+  },
+  {
+    "id": "17-gothic-lolita",
+    "name": "ゴシックロリータ",
+    "structures": {
+      "home": "altar",
+      "lookbook": "reliquary",
+      "about": "chapel"
+    }
+  },
+  {
+    "id": "18-high-brand-lolita",
+    "name": "メゾンロリータ",
+    "structures": {
+      "home": "ledger",
+      "lookbook": "registry",
+      "about": "archive-maison"
+    }
+  }
+]

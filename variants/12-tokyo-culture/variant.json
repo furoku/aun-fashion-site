@@ -1,0 +1,180 @@
+{
+  "id": "12-tokyo-culture",
+  "slug": "12-tokyo-culture",
+  "name": "東京カルチャー",
+  "references": [
+    "jp/wired",
+    "jp/pixiv"
+  ],
+  "structures": {
+    "home": "culture",
+    "lookbook": "flyer",
+    "about": "zine"
+  },
+  "assets": {
+    "heroVisual": {
+      "src": "./assets/generated/variants/12-tokyo-culture-hero.png",
+      "alt": "Tokyo Culture のために設計したヒーロー用コンセプトビジュアル",
+      "caption": "メインビジュアル / 東京カルチャー"
+    },
+    "featureImage": {
+      "src": "./assets/generated/variants/top-home-portrait/12-tokyo-culture.png",
+      "alt": "Tokyo Culture のトップページ導入用に追加した縦長素材",
+      "caption": "代表ルック補助 / 東京カルチャー"
+    },
+    "ルック資料Spotlight": {
+      "src": "./assets/generated/variants/square/12-tokyo-culture.png",
+      "alt": "Tokyo Culture のルックブックを補強する正方形のエディトリアル素材",
+      "caption": "ルック補助 / 東京カルチャー"
+    },
+    "aboutStoryImage": {
+      "src": "./assets/generated/variants/portrait/12-tokyo-culture.png",
+      "alt": "Tokyo Culture の制作背景を補強する縦長のエディトリアル素材",
+      "caption": "制作背景補助 / 東京カルチャー"
+    },
+    "homeGallery": [
+      {
+        "src": "./assets/generated/variants/square/12-tokyo-culture.png",
+        "alt": "Tokyo Culture のトップページ用に配置した正方形素材",
+        "caption": "補助カット 01 / 東京カルチャー",
+        "tone": "square"
+      },
+      {
+        "src": "./assets/generated/variants/top-home-landscape/12-tokyo-culture.png",
+        "alt": "Tokyo Culture のトップページ中央に配置する横長素材",
+        "caption": "補助カット 02 / 東京カルチャー",
+        "tone": "wide"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/12-tokyo-culture.png",
+        "alt": "Tokyo Culture のトップページ右側に配置する縦長素材",
+        "caption": "補助カット 03 / 東京カルチャー",
+        "tone": "tall"
+      }
+    ],
+    "aboutGallery": [
+      {
+        "src": "./assets/generated/variants/12-tokyo-culture-hero.png",
+        "alt": "Tokyo Culture の空気感を横方向に補うビジュアル",
+        "caption": "制作風景 01 / 東京カルチャー"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/12-tokyo-culture.png",
+        "alt": "Tokyo Culture の制作温度を補う縦長素材",
+        "caption": "制作風景 02 / 東京カルチャー"
+      }
+    ]
+  },
+  "content": {
+    "brand": {
+      "label": "カルチャー誌向け資料",
+      "tagline": "東京の貼り紙と誌面感を混ぜた、若い速度のある編集案。",
+      "summary": "AUN をカルチャー誌やフライヤーの文脈で見せる案です。静かなブランド像は保ちながら、街の速度だけを少し上げています。",
+      "themeTitle": "夜のフライヤー / 第1章",
+      "seasonHeading": "都市の速度感を保ちつつ、誌面として読める密度に整えた構成。",
+      "seasonCopy": "この案では、若い視線速度に合わせて構成します。貼り紙の勢いを借りつつ、服そのものはうるさくしないのが前提です。",
+      "audience": "カルチャー誌、若いセレクト、イベントや展示と地続きの売場、都市的な編集を好むスタイリスト。",
+      "priceCue": "感度の高い都市型コンテンポラリー。若い熱量でも無理なく入れる価格帯を想定。",
+      "partnerItems": [
+        {
+          "title": "取扱のご相談",
+          "text": "カルチャー寄りの見出し感で整えたラインシートを共有します。",
+          "href": "mailto:partners@aun-studio.example?subject=AUN%20Stockist%20Inquiry"
+        },
+        {
+          "title": "掲載・取材",
+          "text": "誌面、Web 特集、SNS でも使いやすい掲載用短文を案内します。",
+          "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
+        },
+        {
+          "title": "協業のご相談",
+          "text": "イベント、展示、カルチャー企画との協業に向いた導線です。",
+          "href": "mailto:hello@aun-studio.example?subject=AUN%20Collaboration"
+        }
+      ]
+    },
+    "home": {
+      "reasons": [
+        {
+          "title": "都市性はあるが怒鳴らない",
+          "text": "東京的な速度は出しつつ、服の輪郭は冷静に保ちます。"
+        },
+        {
+          "title": "カルチャー媒体と相性が良い",
+          "text": "誌面、フライヤー、SNS へ横断しやすい構成です。"
+        },
+        {
+          "title": "若さを保ちつつ編集されている",
+          "text": "若さを出しても散らからないよう、読み順を硬く整えています。"
+        }
+      ],
+      "representativeLook": {
+        "title": "代表ルック / フライヤーの速度を持つ主力コート",
+        "summary": "代表ルックも街の速度に合わせて少し強めに見せます。イベントや若い誌面で先に目に入ることを重視しています。",
+        "details": [
+          "都市的な背景でも埋もれにくい輪郭です。",
+          "告知ビジュアルや誌面扉に転用しやすい構成です。",
+          "うるさくしすぎず、編集感だけを残します。"
+        ]
+      }
+    },
+    "collections": [
+      {
+        "id": "resonant-quiet",
+        "title": "夜のフライヤー / 第1章",
+        "summary": "静けさを保ちながら、都市の速度に合わせて研ぎ澄ませた主力ラインです。",
+        "noteTitle": "補足ノート / 夜のフライヤー",
+        "note": "若いカルチャー文脈でも見劣りしない視認性を持ちながら、服自体は冷静に保つことを狙っています。",
+        "selectedPieces": [
+          {
+            "name": "主力バイアスコート",
+            "descriptor": "カルチャー誌の扉に置いても立つ主力コート。"
+          },
+          {
+            "name": "ヴェールシャツ",
+            "descriptor": "主役の速度を整える薄い中核シャツ。"
+          },
+          {
+            "name": "テーパードラップスカート",
+            "descriptor": "動きのある撮影にも向く可変ボトム。"
+          }
+        ],
+        "label": "夜のフライヤー"
+      },
+      {
+        "id": "counterlight",
+        "title": "都市の差分 / 補助編集",
+        "summary": "ネオンの反射のような抜けを少し加える補助ラインです。",
+        "noteTitle": "補足ノート / 都市の差分",
+        "note": "黒主体の編成に都市的な軽さを足し、カルチャー誌面での呼吸を整えます。",
+        "selectedPieces": [
+          {
+            "name": "灰青コート",
+            "descriptor": "夜景の反射のような抜けをつくる導入コート。"
+          },
+          {
+            "name": "ドライベスト",
+            "descriptor": "動きと温度差を足すための補助レイヤー。"
+          }
+        ],
+        "label": "都市の差分"
+      }
+    ],
+    "about": {
+      "intro": "AUN を街に近づけた案です。静けさは残しながら、東京の視線速度に合わせて少しだけ切れ味を上げています。",
+      "story": {
+        "title": "フライヤーとカルチャー誌の速度に合わせて整えたライン。",
+        "copy": "少量制作の姿勢はそのままに、伝え方だけを都市の速さへ寄せています。カルチャー文脈で見つけてもらいやすくするための案です。",
+        "points": [
+          "営業資料も見出しの抜けを重視して編集します。",
+          "掲載用には引用しやすい短文とキャプションを用意します。",
+          "仮ビジュアルでも都市光の反射感を優先して検証します。"
+        ]
+      }
+    }
+  },
+  "summary": "東京のカルチャー誌とギャラリーのフライヤーを混ぜた、誌面圧の強いサイト。",
+  "mood": "夜の青 / 蛍光紙 / 都市灰",
+  "accent": "都市の速度",
+  "personality": "Youthful, graphic, culture-forward"
+}

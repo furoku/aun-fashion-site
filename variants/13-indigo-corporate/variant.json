@@ -1,0 +1,180 @@
+{
+  "id": "13-indigo-corporate",
+  "slug": "13-indigo-corporate",
+  "name": "藍のコーポレート",
+  "references": [
+    "jp/sansan",
+    "jp/toyota"
+  ],
+  "structures": {
+    "home": "dossier",
+    "lookbook": "appendix",
+    "about": "executive"
+  },
+  "assets": {
+    "heroVisual": {
+      "src": "./assets/generated/variants/13-indigo-corporate-hero.png",
+      "alt": "Indigo Corporate のために設計したヒーロー用コンセプトビジュアル",
+      "caption": "メインビジュアル / 藍のコーポレート"
+    },
+    "featureImage": {
+      "src": "./assets/generated/variants/top-home-portrait/13-indigo-corporate.png",
+      "alt": "Indigo Corporate のトップページ導入用に追加した縦長素材",
+      "caption": "代表ルック補助 / 藍のコーポレート"
+    },
+    "ルック資料Spotlight": {
+      "src": "./assets/generated/variants/portrait/13-indigo-corporate.png",
+      "alt": "Indigo Corporate のルックブックを補強する縦長のエディトリアル素材",
+      "caption": "ルック補助 / 藍のコーポレート"
+    },
+    "aboutStoryImage": {
+      "src": "./assets/generated/variants/portrait/13-indigo-corporate.png",
+      "alt": "Indigo Corporate の制作背景を補強する縦長のエディトリアル素材",
+      "caption": "制作背景補助 / 藍のコーポレート"
+    },
+    "homeGallery": [
+      {
+        "src": "./assets/generated/variants/square/13-indigo-corporate.png",
+        "alt": "Indigo Corporate のトップページ用に配置した正方形素材",
+        "caption": "補助カット 01 / 藍のコーポレート",
+        "tone": "square"
+      },
+      {
+        "src": "./assets/generated/variants/top-home-landscape/13-indigo-corporate.png",
+        "alt": "Indigo Corporate のトップページ中央に配置する横長素材",
+        "caption": "補助カット 02 / 藍のコーポレート",
+        "tone": "wide"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/13-indigo-corporate.png",
+        "alt": "Indigo Corporate のトップページ右側に配置する縦長素材",
+        "caption": "補助カット 03 / 藍のコーポレート",
+        "tone": "tall"
+      }
+    ],
+    "aboutGallery": [
+      {
+        "src": "./assets/generated/variants/13-indigo-corporate-hero.png",
+        "alt": "Indigo Corporate の空気感を横方向に補うビジュアル",
+        "caption": "制作風景 01 / 藍のコーポレート"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/13-indigo-corporate.png",
+        "alt": "Indigo Corporate の制作温度を補う縦長素材",
+        "caption": "制作風景 02 / 藍のコーポレート"
+      }
+    ]
+  },
+  "content": {
+    "brand": {
+      "label": "役員向け稟議資料",
+      "tagline": "藍色の静けさで信頼を積む、和製コーポレート寄りの編集案。",
+      "summary": "AUN を最も端正に見せる案です。高感度さは残しつつ、説明責任や信頼感を前面に出したい相手に向いています。",
+      "themeTitle": "藍の稟議 / 第1章",
+      "seasonHeading": "稟議資料のように整然としながら、布の品位を残す構成。",
+      "seasonCopy": "この案では、ブランドの空気を崩さずに信頼感を増やします。感性だけでなく、導入のしやすさや説明の整い方まで含めて設計しています。",
+      "audience": "百貨店系の視点を持つ買付、丁寧な説明を求める取扱先、端正な温度を好む媒体。",
+      "priceCue": "信頼感のある上質帯。過度に尖らず、安定して導入判断できる価格感です。",
+      "partnerItems": [
+        {
+          "title": "取扱のご相談",
+          "text": "説明責任を果たしやすい、整然としたラインシートを共有します。",
+          "href": "mailto:partners@aun-studio.example?subject=AUN%20Stockist%20Inquiry"
+        },
+        {
+          "title": "掲載・取材",
+          "text": "掲載向けには端正な温度のブランドノートを案内します。",
+          "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
+        },
+        {
+          "title": "協業のご相談",
+          "text": "百貨店催事や上質な共同企画に向いた導線です。",
+          "href": "mailto:hello@aun-studio.example?subject=AUN%20Collaboration"
+        }
+      ]
+    },
+    "home": {
+      "reasons": [
+        {
+          "title": "信頼感が先に立つ",
+          "text": "見え方だけでなく、説明の整い方がそのまま信頼になります。"
+        },
+        {
+          "title": "端正だが硬すぎない",
+          "text": "堅さはありますが、服としての余韻は失いません。"
+        },
+        {
+          "title": "承認の場にそのまま出せる",
+          "text": "導入判断に必要な要素が、過不足なく整っています。"
+        }
+      ],
+      "representativeLook": {
+        "title": "代表ルック / 稟議の場でも通る端正なコート",
+        "summary": "代表ルックも強さより安定感で見せます。端正な売場や、説明責任の重い場で扱いやすい構成です。",
+        "details": [
+          "色気より信頼感を先に渡す案です。",
+          "什器や資料の温度を崩しにくいのが利点です。",
+          "会話の中で細部を丁寧に積み上げられます。"
+        ]
+      }
+    },
+    "collections": [
+      {
+        "id": "resonant-quiet",
+        "title": "藍の稟議 / 第1章",
+        "summary": "静けさを端正な信頼感へ寄せた基幹カプセルです。",
+        "noteTitle": "補足ノート / 藍の稟議",
+        "note": "導入のしやすさと説明の丁寧さを重視したラインで、感度と安定感を両立させることを狙っています。",
+        "selectedPieces": [
+          {
+            "name": "主力バイアスコート",
+            "descriptor": "信頼感のある第一印象をつくる主力コート。"
+          },
+          {
+            "name": "ヴェールシャツ",
+            "descriptor": "全体を整然とまとめる中核シャツ。"
+          },
+          {
+            "name": "テーパードラップスカート",
+            "descriptor": "柔らかさを残しつつ端正に見せるボトム。"
+          }
+        ],
+        "label": "藍の稟議"
+      },
+      {
+        "id": "counterlight",
+        "title": "藍の補助線 / 補助編集",
+        "summary": "藍の濃淡だけで緩急をつくる穏やかな補助ラインです。",
+        "noteTitle": "補足ノート / 藍の補助線",
+        "note": "大きく温度を変えず、導入のしやすさだけを少し高めるための色差エディットです。",
+        "selectedPieces": [
+          {
+            "name": "灰青コート",
+            "descriptor": "重すぎない端正さをつくる導入コート。"
+          },
+          {
+            "name": "ドライベスト",
+            "descriptor": "全体の温度を乱さない補助レイヤー。"
+          }
+        ],
+        "label": "藍の補助線"
+      }
+    ],
+    "about": {
+      "intro": "AUN を最も信頼感の高い読み口へ寄せた案です。感度の高さより、導入のしやすさと説明の整い方を優先しています。",
+      "story": {
+        "title": "端正な稟議文書のように落ち着いて読めるライン。",
+        "copy": "少量制作の機動力を持ちながら、見せ方は端正に整えます。感覚的な良さを、説明責任のある文脈へ載せ替えるための案です。",
+        "points": [
+          "ラインシートは安定感のある順で編集します。",
+          "掲載用にも端正な言い回しの短文を用意します。",
+          "仮ビジュアルでも、落ち着いた信頼感を先に確認します。"
+        ]
+      }
+    }
+  },
+  "summary": "藍色の静かな精度で組む、日本的な上質コーポレート資料サイト。",
+  "mood": "藍 / 象牙色 / 墨",
+  "accent": "稟議の品位",
+  "personality": "Confident, exact, composed"
+}

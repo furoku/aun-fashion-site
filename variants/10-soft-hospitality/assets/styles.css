@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=Chivo+Mono:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Afacad Flux", sans-serif;
+  --body-font: "Hanken Grotesk", sans-serif;
+  --label-font: "Chivo Mono", monospace;
+
+  --bg: oklch(0.985 0.01 72);
+  --bg-alt: oklch(0.95 0.018 52);
+  --surface: oklch(0.995 0.006 74 / 0.9);
+  --surface-strong: oklch(0.998 0.004 74 / 0.98);
+  --surface-muted: oklch(0.95 0.02 44 / 0.82);
+  --line: oklch(0.76 0.018 48 / 0.2);
+  --line-strong: oklch(0.72 0.12 30 / 0.24);
+  --ink: oklch(0.3 0.03 34);
+  --muted: oklch(0.52 0.02 38);
+  --accent: oklch(0.7 0.18 28);
+  --accent-2: oklch(0.88 0.03 60);
+  --accent-soft: oklch(0.96 0.03 34);
+  --inverse-bg: oklch(0.3 0.04 32);
+  --inverse-ink: oklch(0.98 0.006 72);
+  --shadow: 0 24px 60px oklch(0.5 0.03 34 / 0.09);
+
+}
+
+
+.hero-composition {
+  grid-template-columns: 0.84fr 1.16fr;
+  grid-template-areas:
+    "copy visual"
+    "stats visual";
+  gap: 2rem;
+}
+
+.hero-copy {
+  border-radius: 3.6rem;
+}
+
+.hero-visual {
+  border-radius: 5rem 2rem 2rem 5rem;
+}
+
+.season-composition,
+.about-intro-composition {
+  grid-template-columns: 1.12fr 0.88fr 0.82fr;
+}
+
+.gallery-track {
+  grid-template-columns: 1.16fr 0.84fr 1fr;
+}
+
+.piece-stack,
+.route-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}

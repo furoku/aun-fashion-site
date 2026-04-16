@@ -1,0 +1,62 @@
+{
+  "01-obsidian-runway": {
+    "hero": "fashion editorial hero image for an independent avant-garde label, commanding nocturnal runway mood, black void studio, sharp tailoring silhouette, blood-red accent, hard cinematic shadows, luxury fashion photography, no text",
+    "detail": "fashion editorial detail image, lacquered black textile and severe coat structure, backstage corridor atmosphere, black bone red palette, dramatic contrast, luxury material study, no text"
+  },
+  "02-parchment-salon": {
+    "hero": "fashion editorial portrait for a literary independent label, parchment paper tones, terracotta accent, seated model with cultivated posture, warm daylight, quiet salon atmosphere, premium magazine photography, no text",
+    "detail": "fashion still life with folded garment, swatches, notes, warm paper desk, terracotta and ink palette, refined editorial material study, no text"
+  },
+  "03-gallery-minimal": {
+    "hero": "minimal fashion gallery hero image, white wall, single silhouetted figure, museum lighting, architectural calm, pale stone and graphite palette, ultra clean editorial photography, no text",
+    "detail": "fashion material study on pale stone, seam edge and cloth fold, white gallery atmosphere, restrained luxury, no text"
+  },
+  "04-editorial-grid": {
+    "hero": "editorial magazine cover style fashion portrait, monochrome with electric blue accent, hard crop, visible print tension, intellectual publication mood, no text",
+    "detail": "contact sheet inspired fashion detail image, halftone print proof texture, monochrome editorial material, no text"
+  },
+  "05-midnight-system": {
+    "hero": "technical luxury fashion hero, cool cobalt lighting, dark command deck atmosphere, precise silhouette, midnight steel palette, high-end studio photography, no text",
+    "detail": "reflective hardware and garment fastening macro, cold blue studio light, technical fashion detail, no text"
+  },
+  "06-atelier-cream": {
+    "hero": "soft atelier fashion portrait, cream and clay palette, mint accent, daylight studio, handcrafted moodboard feeling, airy editorial photography, no text",
+    "detail": "atelier worktable with swatches, scissors, pinned notes, cream and mint palette, handcrafted fashion process still life, no text"
+  },
+  "07-monochrome-pill": {
+    "hero": "soft monochrome fashion hero image, fog white charcoal palette, rounded diffuse lighting, calm centered model, minimal product-like elegance, no text",
+    "detail": "soft neoprene and padded fabric macro, foggy monochrome palette, calm tactile study, no text"
+  },
+  "08-acid-signal": {
+    "hero": "aggressive fashion poster hero, black and acid yellow palette, urgent graphic lighting, torn poster wall energy, loud youth fashion image, no text",
+    "detail": "fluorescent synthetic textile macro, acid highlight, torn poster texture, club light fashion detail, no text"
+  },
+  "09-engineered-blue": {
+    "hero": "industrial fashion hero image, blueprint blue cast, measured studio lighting, technical silhouette, silver ink palette, engineered precision, no text",
+    "detail": "technical garment stitch map macro, measuring table atmosphere, cool blueprint blue tone, no text"
+  },
+  "10-soft-hospitality": {
+    "hero": "warm hospitality fashion hero, cream rose cocoa palette, welcoming human portrait, brochure-like natural light, polished lifestyle editorial, no text",
+    "detail": "soft lounge textile and garment detail, warm hospitality atmosphere, cocoa rose palette, no text"
+  },
+  "11-washi-minimal": {
+    "hero": "quiet Japanese minimal fashion hero, washi paper texture background, indigo and soft ink palette, restrained full-length portrait, contemplative light, no text",
+    "detail": "indigo seam and folded hem macro on washi-like surface, quiet Japanese material study, no text"
+  },
+  "12-tokyo-culture": {
+    "hero": "Tokyo culture editorial fashion hero, vivid urban poster layers, electric blue and pink accents, youth fashion portrait, zine and flyer energy, no text",
+    "detail": "glossy print mesh and club-light texture detail, taped poster fragments, Tokyo culture mood, no text"
+  },
+  "13-indigo-corporate": {
+    "hero": "refined Japanese corporate fashion portrait, indigo palette, composed confident posture, premium dossier mood, quiet professionalism, no text",
+    "detail": "document desk with swatches and bound fashion materials, indigo executive tone, precise still life, no text"
+  },
+  "14-soft-service": {
+    "hero": "friendly clean fashion hero, leaf ivory palette, approachable service-like portrait, gentle studio light, calm and clear mood, no text",
+    "detail": "soft product-service style fashion detail with fabric and gentle props, leaf and ivory palette, no text"
+  },
+  "15-market-layer": {
+    "hero": "dense market-inspired fashion hero, layered merchandising scene, warm white and red palette, practical commercial energy, contemporary retail editorial, no text",
+    "detail": "fashion label hanger and pricing tag macro, layered commercial still life, warm white red palette, no text"
+  }
+}

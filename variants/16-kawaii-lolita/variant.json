@@ -1,0 +1,240 @@
+{
+  "id": "16-kawaii-lolita",
+  "slug": "16-kawaii-lolita",
+  "name": "かわいいロリータ",
+  "references": [
+    "global/chloe",
+    "jp/anan"
+  ],
+  "structures": {
+    "home": "cabinet",
+    "lookbook": "float",
+    "about": "archive"
+  },
+  "assets": {
+    "heroVisual": {
+      "src": "./assets/generated/variants/16-kawaii-lolita-hero.png",
+      "alt": "Kawaii Lolita のヒーロービジュアル",
+      "caption": "メインビジュアル / かわいいロリータ"
+    },
+    "featureImage": {
+      "src": "./assets/generated/variants/16-kawaii-lolita-portrait.png",
+      "alt": "Kawaii Lolita の代表ルック補助ビジュアル",
+      "caption": "代表ルック補助 / かわいいロリータ"
+    },
+    "ルック資料Spotlight": {
+      "src": "./assets/generated/variants/16-kawaii-lolita-square.png",
+      "alt": "Kawaii Lolita のルックブック補助ビジュアル",
+      "caption": "ルック補助 / かわいいロリータ"
+    },
+    "aboutStoryImage": {
+      "src": "./assets/generated/variants/16-kawaii-lolita-portrait.png",
+      "alt": "Kawaii Lolita の制作背景ビジュアル",
+      "caption": "制作背景補助 / かわいいロリータ"
+    },
+    "homeGallery": [
+      {
+        "src": "./assets/generated/variants/16-kawaii-lolita-square.png",
+        "alt": "Kawaii Lolita の正方形補助カット",
+        "caption": "補助カット 01 / かわいいロリータ",
+        "tone": "square"
+      },
+      {
+        "src": "./assets/generated/variants/16-kawaii-lolita-landscape.png",
+        "alt": "Kawaii Lolita の横長補助カット",
+        "caption": "補助カット 02 / かわいいロリータ",
+        "tone": "wide"
+      },
+      {
+        "src": "./assets/generated/variants/16-kawaii-lolita-portrait.png",
+        "alt": "Kawaii Lolita の縦長補助カット",
+        "caption": "補助カット 03 / かわいいロリータ",
+        "tone": "tall"
+      }
+    ],
+    "aboutGallery": [
+      {
+        "src": "./assets/generated/variants/16-kawaii-lolita-landscape.png",
+        "alt": "Kawaii Lolita の制作風景補助ビジュアル 01",
+        "caption": "制作風景 01 / かわいいロリータ"
+      },
+      {
+        "src": "./assets/generated/variants/16-kawaii-lolita-square.png",
+        "alt": "Kawaii Lolita の制作風景補助ビジュアル 02",
+        "caption": "制作風景 02 / かわいいロリータ"
+      }
+    ]
+  },
+  "content": {
+    "brand": {
+      "label": "展示向けロリータライン / かわいい",
+      "tagline": "透ける層と細いリボンで、可憐さを展示空間へ引き上げるライン。",
+      "summary": "AUN のかわいいロリータラインは、甘さを幼さではなく光の密度として扱う編集ラインです。オーガンジー、ボウ、ティアードの論理を、誌面と展示で成立する静かな緊張感へ変換します。",
+      "themeTitle": "シュガーヴェール / 第1章",
+      "seasonHeading": "透ける層、軽いボウ、身体から少し浮いた輪郭。",
+      "seasonCopy": "このラインでは、ロリータの記号を過剰に見せるのではなく、光が布の上に滞留する感覚を軸に再編集します。かわいさは色ではなく、軽さと重なりでつくります。",
+      "audience": "誌面の余白を活かしたいエディター、ガラスケース的な展示を好むキュレーター、写真で空気を残したいスタイリスト。",
+      "priceCue": "コレクターズ寄りの少量制作。ピースごとの素材差で価格を説明する想定です。",
+      "studio": "東京アトリエで企画し、京都の装飾縫製パートナーと連携して仕上げます。",
+      "footerNote": "掲載ビジュアルは、ロリータラインの空気感と層の見え方を確認するための仮素材です。",
+      "partnerItems": [
+        {
+          "title": "展示のご相談",
+          "text": "ガラスケース、照明、空間色に合わせた展示メモを共有します。",
+          "href": "mailto:hello@aun-studio.example?subject=AUN%20Kawaii%20Exhibition"
+        },
+        {
+          "title": "掲載・取材",
+          "text": "甘さを過剰に消費しない誌面向けに、短い編集ノートを案内します。",
+          "href": "mailto:press@aun-studio.example?subject=AUN%20Kawaii%20Press"
+        },
+        {
+          "title": "スタイリング",
+          "text": "エディトリアル撮影向けの貸出条件とルック構成を共有します。",
+          "href": "mailto:partners@aun-studio.example?subject=AUN%20Kawaii%20Styling"
+        }
+      ]
+    },
+    "home": {
+      "reasons": [
+        {
+          "title": "甘さを空気として扱う",
+          "text": "色より先に、薄い層と光の滞留で可憐さを立ち上げます。"
+        },
+        {
+          "title": "展示向けの体積に整理する",
+          "text": "パニエやボウを、展示空間で静かに見える体積へ整理します。"
+        },
+        {
+          "title": "衣装ではなく編集として立てる",
+          "text": "モチーフの多さではなく、写真に残る輪郭で判断させる構成です。"
+        }
+      ],
+      "representativeLook": {
+        "title": "代表ルック / リボンコートに甘さの体積を潜ませる構成",
+        "summary": "光沢を抑えたロングコートの下に、ティアードドレスの体積を潜ませる代表ルックです。可憐さを前面化せず、歩いたときだけ甘さが立ち上がる構造にしています。",
+        "details": [
+          "展示では背面光でオーガンジーの層を見せる想定です。",
+          "ボウは装飾ではなく重心調整として扱います。",
+          "誌面では顔よりも胸元から裾への落差が主役になります。"
+        ]
+      }
+    },
+    "collections": [
+      {
+        "id": "resonant-quiet",
+        "label": "シュガーヴェール",
+        "title": "シュガーヴェール / 展示編集",
+        "summary": "軽い色と透過素材で、ガラスケースのような甘さを構成する中核カプセル。",
+        "noteTitle": "補足ノート / シュガーヴェール",
+        "note": "砂糖菓子のような色でも、展示では冷たい光の中で成立させるのが前提です。フリルは主張ではなく、光を受ける縁として働かせます。",
+        "looks": [
+          {
+            "id": "look-01",
+            "name": "ルック 01",
+            "title": "パウダーボウブラウスと柔らかなパニエスカート",
+            "text": "入口になる軽量ルック。甘さはあるが、輪郭は薄く保ちます。",
+            "image": "./assets/generated/variants/16-kawaii-lolita-square.png",
+            "alt": "Kawaii Lolita のボウブラウスとパニエスカートを見せるルック"
+          },
+          {
+            "id": "look-02",
+            "name": "ルック 02",
+            "title": "リボンコートにティアードの体積を潜ませる構成",
+            "text": "外側は静かに、内側でだけドレスの体積を見せる代表ルックです。",
+            "image": "./assets/generated/variants/16-kawaii-lolita-portrait.png",
+            "alt": "Kawaii Lolita のティアードドレスとコートのルック"
+          },
+          {
+            "id": "look-03",
+            "name": "ルック 03",
+            "title": "パールエプロンドレスにシアー袖を重ねる構成",
+            "text": "透過素材を重ね、甘さを空気の厚みとして処理したルックです。",
+            "image": "./assets/generated/variants/16-kawaii-lolita-landscape.png",
+            "alt": "Kawaii Lolita のエプロンドレスとシアースリーブのルック"
+          }
+        ],
+        "selectedPieces": [
+          {
+            "name": "リボンコート",
+            "descriptor": "ボウを記号ではなく、縦方向の視線誘導に変えるロングコート。"
+          },
+          {
+            "name": "ヴェールドレス",
+            "descriptor": "軽い透過層で体積をつくる主役ドレス。"
+          },
+          {
+            "name": "パールエプロン",
+            "descriptor": "装飾性を抑えつつ、前面に甘さの核を置く補助ピース。"
+          }
+        ]
+      },
+      {
+        "id": "counterlight",
+        "label": "ミルクアーカイブ",
+        "title": "ミルクアーカイブ / 補助編集",
+        "summary": "白に近い色域で甘さをさらに静物化した補助ライン。",
+        "noteTitle": "補足ノート / ミルクアーカイブ",
+        "note": "誌面で色を増やさずに甘さを残したいときの補助シリーズです。展示空間では、素材の影だけで十分に成立します。",
+        "looks": [
+          {
+            "id": "look-04",
+            "name": "ルック 04",
+            "title": "ミルク色のコサージュジャケットと縦長ドレス",
+            "text": "可憐さを縦のシルエットへ押し込んだ静かなルック。",
+            "image": "./assets/generated/variants/16-kawaii-lolita-hero.png",
+            "alt": "Kawaii Lolita のコサージュジャケットとコラムドレスのルック"
+          },
+          {
+            "id": "look-05",
+            "name": "ルック 05",
+            "title": "透けるボネケープをリボンスリップに重ねる構成",
+            "text": "頭部の装飾を抑え、ケープの影でロリータ性を残します。",
+            "image": "./assets/generated/variants/16-kawaii-lolita-square.png",
+            "alt": "Kawaii Lolita のボネケープとリボンスリップのルック"
+          }
+        ],
+        "selectedPieces": [
+          {
+            "name": "コサージュジャケット",
+            "descriptor": "表面の甘さを抑えた、展示向けの短丈ジャケット。"
+          },
+          {
+            "name": "ボネケープ",
+            "descriptor": "頭部の記号をケープ化して扱う、撮影向けの補助ピース。"
+          }
+        ]
+      }
+    ],
+    "about": {
+      "intro": "AUN のかわいいロリータラインは、可愛さを年齢や消費記号としてではなく、光の軽さとして設計するラインです。",
+      "principles": [
+        {
+          "title": "光で装飾する",
+          "text": "装飾は増やすのではなく、透ける層と反射で見せます。"
+        },
+        {
+          "title": "身体を少し遠ざける",
+          "text": "身体へ密着させず、少し浮いた輪郭で可憐さをつくります。"
+        },
+        {
+          "title": "甘さを静けさへ編集する",
+          "text": "誌面でも展示でも、甘さが静止画の中で過飽和しないよう調整します。"
+        }
+      ],
+      "story": {
+        "title": "淡い体積と抑制した装飾を展示へ持ち上げるライン。",
+        "copy": "ボウ、ティアード、パニエ、ボネといった語彙を使いながら、それらをコスチュームの強さではなく編集の静けさへ変換することが、このラインの中心です。",
+        "points": [
+          "展示では白い什器と寒色寄りの照明を想定します。",
+          "誌面では寄りよりも引きで体積を見せる前提です。",
+          "コピーは甘くしすぎず、輪郭の薄さを軸に共有します。"
+        ]
+      }
+    }
+  },
+  "summary": "ガラスケースとリボンの論理で、可憐さを展示空間へ持ち上げるロリータライン。",
+  "mood": "淡桃 / ミルク / 銀",
+  "accent": "ガラスケースの可憐さ",
+  "personality": "Luminous, fragile, editorial"
+}

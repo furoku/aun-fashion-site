@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Manrope:wght@400;500;700;800&family=Azeret+Mono:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: dark;
+  --display-font: "Antonio", sans-serif;
+  --body-font: "Manrope", sans-serif;
+  --label-font: "Azeret Mono", monospace;
+
+  --bg: oklch(0.12 0.015 22);
+  --bg-alt: oklch(0.08 0.01 18);
+  --surface: oklch(0.18 0.016 22 / 0.84);
+  --surface-strong: oklch(0.21 0.018 22 / 0.94);
+  --surface-muted: oklch(0.24 0.03 24 / 0.82);
+  --line: oklch(0.62 0.02 78 / 0.18);
+  --line-strong: oklch(0.62 0.18 24 / 0.32);
+  --ink: oklch(0.94 0.01 82);
+  --muted: oklch(0.74 0.012 74);
+  --accent: oklch(0.58 0.22 24);
+  --accent-2: oklch(0.84 0.02 78);
+  --accent-soft: oklch(0.23 0.08 24);
+  --inverse-bg: oklch(0.93 0.014 82);
+  --inverse-ink: oklch(0.18 0.02 22);
+  --shadow: 0 28px 80px oklch(0.02 0 0 / 0.42);
+
+}
+
+
+body {
+  background:
+    radial-gradient(circle at 12% 12%, oklch(0.35 0.12 24 / 0.18), transparent 18%),
+    linear-gradient(180deg, oklch(0.14 0.02 24), oklch(0.07 0.01 18));
+}
+
+body::after {
+  opacity: 0.08;
+}
+
+.hero-composition {
+  grid-template-columns: 0.92fr 1.08fr;
+  grid-template-areas:
+    "copy visual"
+    "stats visual";
+  gap: 1rem;
+}
+
+.hero-copy {
+  min-height: 34rem;
+  border-radius: 4rem 1rem 1rem 4rem;
+}
+
+.hero-visual {
+  border-radius: 1rem 4.5rem 1rem 1rem;
+}
+
+.hero-stats {
+  border-radius: 1rem;
+}
+
+.season-composition {
+  grid-template-columns: 1.05fr 0.8fr 0.8fr;
+}
+
+.gallery-track {
+  grid-template-columns: 0.8fr 1.25fr 0.8fr;
+}
+
+.editorial-card-wide {
+  transform: translateY(2.6rem);
+}
+
+.reason-list {
+  grid-template-columns: 1fr 1fr;
+}
+
+.reason-block:nth-child(2),
+.piece-stack .selected-piece:nth-child(2) {
+  transform: translateY(1.5rem);
+}
+
+.feature-composition {
+  grid-template-columns: 0.76fr 1.24fr;
+}
+
+.look-grid {
+  grid-template-columns: 1.05fr 0.95fr;
+}
+
+.look-tile:nth-child(even) {
+  transform: translateY(1.8rem);
+}

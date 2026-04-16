@@ -1,0 +1,240 @@
+{
+  "id": "18-high-brand-lolita",
+  "slug": "18-high-brand-lolita",
+  "name": "メゾンロリータ",
+  "references": [
+    "global/prada",
+    "global/the-row"
+  ],
+  "structures": {
+    "home": "ledger",
+    "lookbook": "registry",
+    "about": "archive-maison"
+  },
+  "assets": {
+    "heroVisual": {
+      "src": "./assets/generated/variants/18-high-brand-lolita-hero.png",
+      "alt": "High Brand Lolita のヒーロービジュアル",
+      "caption": "メインビジュアル / メゾンロリータ"
+    },
+    "featureImage": {
+      "src": "./assets/generated/variants/18-high-brand-lolita-portrait.png",
+      "alt": "High Brand Lolita の代表ルック補助ビジュアル",
+      "caption": "代表ルック補助 / メゾンロリータ"
+    },
+    "ルック資料Spotlight": {
+      "src": "./assets/generated/variants/18-high-brand-lolita-square.png",
+      "alt": "High Brand Lolita のルックブック補助ビジュアル",
+      "caption": "ルック補助 / メゾンロリータ"
+    },
+    "aboutStoryImage": {
+      "src": "./assets/generated/variants/18-high-brand-lolita-portrait.png",
+      "alt": "High Brand Lolita の制作背景ビジュアル",
+      "caption": "制作背景補助 / メゾンロリータ"
+    },
+    "homeGallery": [
+      {
+        "src": "./assets/generated/variants/18-high-brand-lolita-square.png",
+        "alt": "High Brand Lolita の正方形補助カット",
+        "caption": "補助カット 01 / メゾンロリータ",
+        "tone": "square"
+      },
+      {
+        "src": "./assets/generated/variants/18-high-brand-lolita-landscape.png",
+        "alt": "High Brand Lolita の横長補助カット",
+        "caption": "補助カット 02 / メゾンロリータ",
+        "tone": "wide"
+      },
+      {
+        "src": "./assets/generated/variants/18-high-brand-lolita-portrait.png",
+        "alt": "High Brand Lolita の縦長補助カット",
+        "caption": "補助カット 03 / メゾンロリータ",
+        "tone": "tall"
+      }
+    ],
+    "aboutGallery": [
+      {
+        "src": "./assets/generated/variants/18-high-brand-lolita-landscape.png",
+        "alt": "High Brand Lolita の制作風景補助ビジュアル 01",
+        "caption": "制作風景 01 / メゾンロリータ"
+      },
+      {
+        "src": "./assets/generated/variants/18-high-brand-lolita-square.png",
+        "alt": "High Brand Lolita の制作風景補助ビジュアル 02",
+        "caption": "制作風景 02 / メゾンロリータ"
+      }
+    ]
+  },
+  "content": {
+    "brand": {
+      "label": "展示向けロリータライン / メゾン",
+      "tagline": "パニエ、ボウ、レースを、クチュールサロンの緊張感で再解釈するライン。",
+      "summary": "AUN のメゾンロリータラインは、ロリータの語彙を甘さではなく仕立てと素材の精度として扱うラインです。クチュールハウスのアーカイブのように、静かな緊張感で見せます。",
+      "themeTitle": "メゾン・アーカイブ / 第1章",
+      "seasonHeading": "構造化されたボリューム、抑制された装飾、仕立てで語るロリータ。",
+      "seasonCopy": "このラインでは、フリルやボウを表層的な記号として使わず、裁断、芯地、折り返し、裾の構造へ置き換えます。ロリータをメゾン文脈へ引き上げる試みです。",
+      "audience": "ラグジュアリー誌のエディター、メゾン寄りの展示を扱うキュレーター、仕立ての精度を重視するスタイリスト。",
+      "priceCue": "クチュールエディットとして、素材・仕立て・少量性を前提に個別見積で共有します。",
+      "studio": "東京で企画し、立体裁断と仕立てに強いパートナーと協働して制作します。",
+      "footerNote": "掲載ビジュアルは、ロリータラインの素材構成と仕立ての印象を確認するための仮素材です。",
+      "partnerItems": [
+        {
+          "title": "展示のご相談",
+          "text": "ショールーム、ギャラリー、ハイブランド寄り什器に合わせた展示ノートを共有します。",
+          "href": "mailto:hello@aun-studio.example?subject=AUN%20Maison%20Exhibition"
+        },
+        {
+          "title": "掲載・取材",
+          "text": "クチュール文脈で読めるよう、仕立て中心の短いノートを案内します。",
+          "href": "mailto:press@aun-studio.example?subject=AUN%20Maison%20Press"
+        },
+        {
+          "title": "取扱・貸出",
+          "text": "商談・貸出向けに素材構成と扱い条件を個別共有します。",
+          "href": "mailto:partners@aun-studio.example?subject=AUN%20Maison%20Inquiry"
+        }
+      ]
+    },
+    "home": {
+      "reasons": [
+        {
+          "title": "ロリータを仕立てで読む",
+          "text": "甘さを削らず、仕立ての言語へ変えることで強度を上げます。"
+        },
+        {
+          "title": "クチュールの体積を制御する",
+          "text": "体積は大きく、表面は静かに保ちます。"
+        },
+        {
+          "title": "メゾン文脈の距離感を保つ",
+          "text": "近寄るほど細部が見えるが、遠目では冷たい緊張感だけが残ります。"
+        }
+      ],
+      "representativeLook": {
+        "title": "代表ルック / クチュールの体積を潜ませたパニエコート",
+        "summary": "パニエ的な広がりを内側に隠し、外側はミニマルなコートに見せる代表ルックです。ロリータをハイブランドの静かな仕立てへ持ち上げます。",
+        "details": [
+          "表面に見える装飾は最小限に抑えます。",
+          "内蔵された体積でシルエットをつくる前提です。",
+          "展示では素材ラベルやサンプル帳と並べる見せ方を想定します。"
+        ]
+      }
+    },
+    "collections": [
+      {
+        "id": "resonant-quiet",
+        "label": "メゾン・アーカイブ",
+        "title": "メゾン・アーカイブ / クチュール編集",
+        "summary": "ロリータの構造をクチュール的な仕立てに再配置した中核シリーズ。",
+        "noteTitle": "補足ノート / メゾン・アーカイブ",
+        "note": "装飾の多さではなく、どこに体積を隠すかが中心です。ロリータのボリュームを表層から内部構造へ戻します。",
+        "looks": [
+          {
+            "id": "look-01",
+            "name": "ルック 01",
+            "title": "磁器色ブラウスに構築的なベルスカートを合わせる構成",
+            "text": "一見すると静かなセットだが、下半身にだけ構築的な広がりを持つ入口ルック。",
+            "image": "./assets/generated/variants/18-high-brand-lolita-square.png",
+            "alt": "High Brand Lolita の彫刻的なベルスカートルック"
+          },
+          {
+            "id": "look-02",
+            "name": "ルック 02",
+            "title": "パニエコートの内側に体積構造を潜ませる構成",
+            "text": "ロリータの体積をコート内部に潜ませた代表ルックです。",
+            "image": "./assets/generated/variants/18-high-brand-lolita-portrait.png",
+            "alt": "High Brand Lolita のパニエコートルック"
+          },
+          {
+            "id": "look-03",
+            "name": "ルック 03",
+            "title": "ラッカーボウドレスで肩線を正確に見せる構成",
+            "text": "ボウを装飾ではなく、肩線を支える構造として扱うルックです。",
+            "image": "./assets/generated/variants/18-high-brand-lolita-landscape.png",
+            "alt": "High Brand Lolita のラッカーボウドレスルック"
+          }
+        ],
+        "selectedPieces": [
+          {
+            "name": "パニエコート",
+            "descriptor": "内蔵された体積でロリータ性をつくる主力アウター。"
+          },
+          {
+            "name": "ベルスカート",
+            "descriptor": "静かな表面のまま広がりを保つ構築的スカート。"
+          },
+          {
+            "name": "ラッカーボウドレス",
+            "descriptor": "装飾性と精度を両立するドレスピース。"
+          }
+        ]
+      },
+      {
+        "id": "counterlight",
+        "label": "サロンレジャー",
+        "title": "サロンレジャー / 補助編集",
+        "summary": "白磁やパール系の色で、ロリータの気配をさらに抽象化する補助シリーズ。",
+        "noteTitle": "補足ノート / サロンレジャー",
+        "note": "色を増やすのではなく、艶の段階を細かく刻むことで可憐さを残す補助ラインです。",
+        "looks": [
+          {
+            "id": "look-04",
+            "name": "ルック 04",
+            "title": "パールボディスを縦長シルエットでまとめる構成",
+            "text": "誌面では最も静かに見えるが、近寄ると構造が見えるルックです。",
+            "image": "./assets/generated/variants/18-high-brand-lolita-hero.png",
+            "alt": "High Brand Lolita のパールボディスドレスルック"
+          },
+          {
+            "id": "look-05",
+            "name": "ルック 05",
+            "title": "アーカイブケープでクチュールのボネ論理を引く構成",
+            "text": "ボネの文法をケープと襟の構造へ移した補助ルックです。",
+            "image": "./assets/generated/variants/18-high-brand-lolita-square.png",
+            "alt": "High Brand Lolita のアーカイブケープルック"
+          }
+        ],
+        "selectedPieces": [
+          {
+            "name": "パールボディス",
+            "descriptor": "近距離でだけディテールが立ち上がる上位ピース。"
+          },
+          {
+            "name": "アーカイブケープ",
+            "descriptor": "ロリータの頭部装飾を服の構造へ移した補助アウター。"
+          }
+        ]
+      }
+    ],
+    "about": {
+      "intro": "AUN のメゾンロリータラインは、ロリータの気配をそのままラグジュアリーの構文へ移植するのではなく、仕立ての精度で再構成するラインです。",
+      "principles": [
+        {
+          "title": "体積を構造の内側へ隠す",
+          "text": "体積は見せるのではなく、構造の中へ仕込みます。"
+        },
+        {
+          "title": "装飾を正確なアクセントまで絞る",
+          "text": "装飾は多用せず、位置と素材で強度を出します。"
+        },
+        {
+          "title": "クチュールの言葉でロリータを運ぶ",
+          "text": "ロリータの語彙を、メゾン的な仕立ての言語へ翻訳します。"
+        }
+      ],
+      "story": {
+        "title": "ロリータを表層でなく構造として扱うクチュール寄りのライン。",
+        "copy": "ロリータの可憐さを否定せず、それを高級な仕立ての緊張感へ持ち上げるのがこのラインの核です。表面は静かに、内部構造だけが雄弁であることを目指します。",
+        "points": [
+          "展示ではアーカイブ箱や素材帳との併置を想定します。",
+          "誌面では接写よりも立ち姿の精度を優先します。",
+          "説明は装飾より仕立てを中心に組みます。"
+        ]
+      }
+    }
+  },
+  "summary": "ロリータの文法をクチュールサロンの緊張感へ持ち上げるメゾン的ライン。",
+  "mood": "象牙 / 漆黒 / 真珠",
+  "accent": "メゾンの緊張感",
+  "personality": "Couture, exacting, rarefied"
+}

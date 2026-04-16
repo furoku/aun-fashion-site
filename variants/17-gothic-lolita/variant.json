@@ -1,0 +1,240 @@
+{
+  "id": "17-gothic-lolita",
+  "slug": "17-gothic-lolita",
+  "name": "ゴシックロリータ",
+  "references": [
+    "global/saint-laurent",
+    "jp/vogue"
+  ],
+  "structures": {
+    "home": "altar",
+    "lookbook": "reliquary",
+    "about": "chapel"
+  },
+  "assets": {
+    "heroVisual": {
+      "src": "./assets/generated/variants/17-gothic-lolita-hero.png",
+      "alt": "Gothic Lolita のヒーロービジュアル",
+      "caption": "メインビジュアル / ゴシックロリータ"
+    },
+    "featureImage": {
+      "src": "./assets/generated/variants/17-gothic-lolita-portrait.png",
+      "alt": "Gothic Lolita の代表ルック補助ビジュアル",
+      "caption": "代表ルック補助 / ゴシックロリータ"
+    },
+    "ルック資料Spotlight": {
+      "src": "./assets/generated/variants/17-gothic-lolita-square.png",
+      "alt": "Gothic Lolita のルックブック補助ビジュアル",
+      "caption": "ルック補助 / ゴシックロリータ"
+    },
+    "aboutStoryImage": {
+      "src": "./assets/generated/variants/17-gothic-lolita-portrait.png",
+      "alt": "Gothic Lolita の制作背景ビジュアル",
+      "caption": "制作背景補助 / ゴシックロリータ"
+    },
+    "homeGallery": [
+      {
+        "src": "./assets/generated/variants/17-gothic-lolita-square.png",
+        "alt": "Gothic Lolita の正方形補助カット",
+        "caption": "補助カット 01 / ゴシックロリータ",
+        "tone": "square"
+      },
+      {
+        "src": "./assets/generated/variants/17-gothic-lolita-landscape.png",
+        "alt": "Gothic Lolita の横長補助カット",
+        "caption": "補助カット 02 / ゴシックロリータ",
+        "tone": "wide"
+      },
+      {
+        "src": "./assets/generated/variants/17-gothic-lolita-portrait.png",
+        "alt": "Gothic Lolita の縦長補助カット",
+        "caption": "補助カット 03 / ゴシックロリータ",
+        "tone": "tall"
+      }
+    ],
+    "aboutGallery": [
+      {
+        "src": "./assets/generated/variants/17-gothic-lolita-landscape.png",
+        "alt": "Gothic Lolita の制作風景補助ビジュアル 01",
+        "caption": "制作風景 01 / ゴシックロリータ"
+      },
+      {
+        "src": "./assets/generated/variants/17-gothic-lolita-square.png",
+        "alt": "Gothic Lolita の制作風景補助ビジュアル 02",
+        "caption": "制作風景 02 / ゴシックロリータ"
+      }
+    ]
+  },
+  "content": {
+    "brand": {
+      "label": "展示向けロリータライン / ゴシック",
+      "tagline": "礼拝堂のような暗さで、ロリータを儀式的な編集へ変えるライン。",
+      "summary": "AUN のゴシックロリータラインは、黒、ベルベット、レース、十字架的な縦軸を使いながら、ゴシックの強さをコスチュームではなく儀式的な静けさへ変換するラインです。",
+      "themeTitle": "黒の聖遺物 / 第1章",
+      "seasonHeading": "暗い布、硬いレース、夜の室内で立ち上がる縦の緊張。",
+      "seasonCopy": "このラインは、ロリータの甘さを切り落とすのではなく、夜の空気の中へ沈めて再編集します。重さ、額装、礼拝堂的な軸で視線を固定します。",
+      "audience": "ダークな誌面構成を扱うエディター、夜の展示や美術館文脈に寄せたいキュレーター、強い陰影を求めるスタイリスト。",
+      "priceCue": "装飾縫製と素材密度を前提にした上位ライン。少量生産での相談を想定します。",
+      "studio": "東京で企画し、装飾縫製と重素材の仕上げを関西圏のパートナーと連携して進めます。",
+      "footerNote": "掲載ビジュアルは、暗所と重素材の見え方を確認するための仮素材です。",
+      "partnerItems": [
+        {
+          "title": "展示のご相談",
+          "text": "黒背景や低照度什器に合わせた展示ノートを共有します。",
+          "href": "mailto:hello@aun-studio.example?subject=AUN%20Gothic%20Exhibition"
+        },
+        {
+          "title": "掲載・取材",
+          "text": "誌面向けに暗部の情報量を前提にした説明素材を案内します。",
+          "href": "mailto:press@aun-studio.example?subject=AUN%20Gothic%20Press"
+        },
+        {
+          "title": "貸出・スタイリング",
+          "text": "ベルベットやレースの扱いを含むスタイリング条件を共有します。",
+          "href": "mailto:partners@aun-studio.example?subject=AUN%20Gothic%20Styling"
+        }
+      ]
+    },
+    "home": {
+      "reasons": [
+        {
+          "title": "儀式性で読み替える",
+          "text": "強いモチーフを、儀式的な空気として再配置します。"
+        },
+        {
+          "title": "暗さに骨格を残す",
+          "text": "暗さを雰囲気だけにせず、縦方向の緊張で成立させます。"
+        },
+        {
+          "title": "重い素材でも編集が立つ",
+          "text": "ベルベットやレースの重さを、誌面や展示で扱える情報に整えます。"
+        }
+      ],
+      "representativeLook": {
+        "title": "代表ルック / ベルベットコートで聖堂の縦線をつくる構成",
+        "summary": "長いベルベットコートの下に、硬いレースのドレスを忍ばせた代表ルックです。暗さの中でだけ立ち上がる装飾を主役にします。",
+        "details": [
+          "逆光よりも側光でレースの硬さを見せる構成です。",
+          "黒を潰さず、複数の黒をレイヤーで使い分けます。",
+          "展示では額装やアーチ形の什器と相性が良い前提です。"
+        ]
+      }
+    },
+    "collections": [
+      {
+        "id": "resonant-quiet",
+        "label": "黒の聖遺物",
+        "title": "黒の聖遺物 / 礼拝堂編集",
+        "summary": "礼拝堂のような垂直性と重い素材で構成する中核シリーズ。",
+        "noteTitle": "補足ノート / 黒の聖遺物",
+        "note": "闇の中で輪郭を失わないことが前提です。黒は一色ではなく、光沢・起毛・透過の差で見せます。",
+        "looks": [
+          {
+            "id": "look-01",
+            "name": "ルック 01",
+            "title": "レースカラーのドレスに細身ジャケットを重ねる構成",
+            "text": "最も儀式性が高い入口ルック。首元の硬さで視線を固定します。",
+            "image": "./assets/generated/variants/17-gothic-lolita-square.png",
+            "alt": "Gothic Lolita のレースカラーとボディスジャケットのルック"
+          },
+          {
+            "id": "look-02",
+            "name": "ルック 02",
+            "title": "ベルベットコートで礼拝堂の縦線を引く構成",
+            "text": "暗さの質感を代表させる主軸ルックです。",
+            "image": "./assets/generated/variants/17-gothic-lolita-portrait.png",
+            "alt": "Gothic Lolita のベルベットコートルック"
+          },
+          {
+            "id": "look-03",
+            "name": "ルック 03",
+            "title": "コルセットスカートに聖堂袖を合わせる構成",
+            "text": "袖の量感を抑え、縦の軸を強く見せるルックです。",
+            "image": "./assets/generated/variants/17-gothic-lolita-landscape.png",
+            "alt": "Gothic Lolita のコルセットスカートと袖のルック"
+          }
+        ],
+        "selectedPieces": [
+          {
+            "name": "ベルベット祭壇コート",
+            "descriptor": "暗い起毛感を中心に据える主力コート。"
+          },
+          {
+            "name": "チャペルドレス",
+            "descriptor": "裾丈で儀式性をつくる長尺ドレス。"
+          },
+          {
+            "name": "硬質レースカラー",
+            "descriptor": "顔まわりを冷たく引き締める補助装飾。"
+          }
+        ]
+      },
+      {
+        "id": "counterlight",
+        "label": "ノクターンアーカイブ",
+        "title": "ノクターンアーカイブ / 補助編集",
+        "summary": "重い黒に、骨色や煤けた金を差し込む補助シリーズ。",
+        "noteTitle": "補足ノート / ノクターンアーカイブ",
+        "note": "完全な黒だけで閉じず、骨色と古びた金で陰影の層を増やす編集ラインです。",
+        "looks": [
+          {
+            "id": "look-04",
+            "name": "ルック 04",
+            "title": "ボーンコルセットドレスにキャンドルスリーブを重ねる構成",
+            "text": "暗さの中でだけ骨色が浮く、掲載向けのルックです。",
+            "image": "./assets/generated/variants/17-gothic-lolita-hero.png",
+            "alt": "Gothic Lolita のボーンカラーコルセットドレスのルック"
+          },
+          {
+            "id": "look-05",
+            "name": "ルック 05",
+            "title": "金糸ケープで黒いパニエの体積を包む構成",
+            "text": "金糸の細さだけで重心を変える補助ルックです。",
+            "image": "./assets/generated/variants/17-gothic-lolita-square.png",
+            "alt": "Gothic Lolita の金糸ケープと黒パニエのルック"
+          }
+        ],
+        "selectedPieces": [
+          {
+            "name": "ボーンコルセットドレス",
+            "descriptor": "暗部の中でだけ明るさを持つ補助主役。"
+          },
+          {
+            "name": "金糸ケープ",
+            "descriptor": "暗さを壊さずに金を差し込む撮影向けピース。"
+          }
+        ]
+      }
+    ],
+    "about": {
+      "intro": "AUN のゴシックロリータラインは、暗さを若さや反抗の記号ではなく、儀式性と重力として扱うラインです。",
+      "principles": [
+        {
+          "title": "暗さを構造として使う",
+          "text": "黒を塗りつぶしではなく、複数の密度の差として扱います。"
+        },
+        {
+          "title": "身体を儀式的に額装する",
+          "text": "身体を飾るのではなく、礼拝堂のように囲います。"
+        },
+        {
+          "title": "装飾を厳しく保つ",
+          "text": "レースや金糸は甘くせず、冷たい輪郭として見せます。"
+        }
+      ],
+      "story": {
+        "title": "聖堂、ギャラリー、夜の誌面へ向けて編集した暗いライン。",
+        "copy": "ゴシックを単なるモチーフの集積ではなく、暗所と重素材の編集として扱うことがこのラインの核です。夜の展示や重い誌面でも、輪郭を残すことを優先します。",
+        "points": [
+          "低照度展示を想定した素材選定を行います。",
+          "写真では黒の差分を見せることを優先します。",
+          "装飾は量ではなく、硬さと位置で制御します。"
+        ]
+      }
+    }
+  },
+  "summary": "聖堂、ベルベット、夜の額装でロリータを儀式化するダークライン。",
+  "mood": "黒 / 深紅 / 煤けた金",
+  "accent": "儀式的な額装",
+  "personality": "Ceremonial, nocturnal, decadent"
+}

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=Chivo+Mono:wght@400;500&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Afacad Flux", sans-serif;
+  --body-font: "Hanken Grotesk", sans-serif;
+  --label-font: "Chivo Mono", monospace;
+
+  --bg: oklch(0.98 0.014 86);
+  --bg-alt: oklch(0.95 0.02 80);
+  --surface: oklch(0.99 0.01 92 / 0.88);
+  --surface-strong: oklch(0.995 0.008 92 / 0.96);
+  --surface-muted: oklch(0.95 0.02 78 / 0.86);
+  --line: oklch(0.76 0.02 72 / 0.2);
+  --line-strong: oklch(0.76 0.06 50 / 0.26);
+  --ink: oklch(0.31 0.03 44);
+  --muted: oklch(0.52 0.02 52);
+  --accent: oklch(0.71 0.1 48);
+  --accent-2: oklch(0.82 0.06 150);
+  --accent-soft: oklch(0.97 0.024 48);
+  --inverse-bg: oklch(0.26 0.03 44);
+  --inverse-ink: oklch(0.96 0.01 86);
+  --shadow: 0 20px 46px oklch(0.46 0.02 44 / 0.11);
+
+}
+
+
+.hero-composition {
+  grid-template-columns: 1fr 0.9fr;
+  grid-template-areas:
+    "visual copy"
+    "visual stats";
+}
+
+.hero-copy {
+  margin-top: 2rem;
+}
+
+.hero-stats {
+  margin-left: 8%;
+}
+
+.gallery-track .editorial-card:first-child {
+  margin-top: 2.4rem;
+}
+
+.gallery-track .editorial-card:nth-child(2) {
+  transform: rotate(-1.2deg);
+}
+
+.gallery-track .editorial-card:last-child {
+  margin-top: 1rem;
+}
+
+.reason-block:nth-child(1) {
+  transform: translateY(1rem);
+}
+
+.reason-block:nth-child(3) {
+  transform: translateY(1.8rem);
+}
+
+.feature-composition {
+  grid-template-columns: 1.12fr 0.88fr;
+}
+
+.piece-stack {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}

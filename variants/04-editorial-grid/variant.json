@@ -1,0 +1,180 @@
+{
+  "id": "04-editorial-grid",
+  "slug": "04-editorial-grid",
+  "name": "編集グリッド",
+  "references": [
+    "jp/wired",
+    "global/figma"
+  ],
+  "structures": {
+    "home": "tabloid",
+    "lookbook": "spread",
+    "about": "index"
+  },
+  "assets": {
+    "heroVisual": {
+      "src": "./assets/generated/variants/04-editorial-grid-hero.png",
+      "alt": "Editorial Grid のために設計したヒーロー用コンセプトビジュアル",
+      "caption": "メインビジュアル / 編集グリッド"
+    },
+    "featureImage": {
+      "src": "./assets/generated/variants/top-home-portrait/04-editorial-grid.png",
+      "alt": "Editorial Grid のトップページ導入用に追加した縦長素材",
+      "caption": "代表ルック補助 / 編集グリッド"
+    },
+    "ルック資料Spotlight": {
+      "src": "./assets/generated/variants/04-editorial-grid-hero.png",
+      "alt": "Editorial Grid のルックブックを補強する横長寄りのキャンペーンビジュアル",
+      "caption": "ルック補助 / 編集グリッド"
+    },
+    "aboutStoryImage": {
+      "src": "./assets/generated/variants/portrait/04-editorial-grid.png",
+      "alt": "Editorial Grid の制作背景を補強する縦長のエディトリアル素材",
+      "caption": "制作背景補助 / 編集グリッド"
+    },
+    "homeGallery": [
+      {
+        "src": "./assets/generated/variants/square/04-editorial-grid.png",
+        "alt": "Editorial Grid のトップページ用に配置した正方形素材",
+        "caption": "補助カット 01 / 編集グリッド",
+        "tone": "square"
+      },
+      {
+        "src": "./assets/generated/variants/top-home-landscape/04-editorial-grid.png",
+        "alt": "Editorial Grid のトップページ中央に配置する横長素材",
+        "caption": "補助カット 02 / 編集グリッド",
+        "tone": "wide"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/04-editorial-grid.png",
+        "alt": "Editorial Grid のトップページ右側に配置する縦長素材",
+        "caption": "補助カット 03 / 編集グリッド",
+        "tone": "tall"
+      }
+    ],
+    "aboutGallery": [
+      {
+        "src": "./assets/generated/variants/04-editorial-grid-hero.png",
+        "alt": "Editorial Grid の空気感を横方向に補うビジュアル",
+        "caption": "制作風景 01 / 編集グリッド"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/04-editorial-grid.png",
+        "alt": "Editorial Grid の制作温度を補う縦長素材",
+        "caption": "制作風景 02 / 編集グリッド"
+      }
+    ]
+  },
+  "content": {
+    "brand": {
+      "label": "誌面設計型エディトリアル資料",
+      "tagline": "誌面の強度で読み切らせる、出版物のような営業編集。",
+      "summary": "AUN を雑誌の特集ページとして提示する案です。情報量は多めですが、読み順を硬く整えることで判断を速くします。",
+      "themeTitle": "校正刷り / 第1章",
+      "seasonHeading": "罫線と列幅まで含めて、情報の読み順を先に設計した構成。",
+      "seasonCopy": "この案は、感覚だけでなく誌面設計で説得するためのものです。売場・媒体・商談のどこで読まれても、同じ順で理解できる構成を目指します。",
+      "audience": "出版文脈の強い編集者、表現と情報の両方を求めるセレクト、比較しながら判断する買付担当。",
+      "priceCue": "編集価値も込みで納得させる価格感。主役だけでなく紙面全体で強度をつくる想定。",
+      "partnerItems": [
+        {
+          "title": "取扱のご相談",
+          "text": "売場資料としてそのまま使える、見出し付きのラインシートを共有します。",
+          "href": "mailto:partners@aun-studio.example?subject=AUN%20Stockist%20Inquiry"
+        },
+        {
+          "title": "掲載・取材",
+          "text": "特集ページやルック記事に転用しやすい 掲載テキストを整理して案内します。",
+          "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
+        },
+        {
+          "title": "協業のご相談",
+          "text": "誌面企画、特設ページ、編集協業に向けた会話を開きます。",
+          "href": "mailto:hello@aun-studio.example?subject=AUN%20Collaboration"
+        }
+      ]
+    },
+    "home": {
+      "reasons": [
+        {
+          "title": "レイアウト自体が説明になる",
+          "text": "説明文を増やさなくても、読む順番そのものが判断を支えます。"
+        },
+        {
+          "title": "比較検討に向いている",
+          "text": "複数ブランドを見比べる文脈でも、特徴が抜け落ちにくい構成です。"
+        },
+        {
+          "title": "誌面構造で編集性が立つ",
+          "text": "感覚的な雰囲気だけでなく、誌面の精度で信頼を足します。"
+        }
+      ],
+      "representativeLook": {
+        "title": "代表ルック / 見開きの起点になる主力コート",
+        "summary": "全体のトーンを一枚で決める導入ルックとして設計した代表ルックです。誌面の一段目に置いたときの強さを基準にしています。",
+        "details": [
+          "見出しの横に置いても負けない輪郭を持たせています。",
+          "説明の多い媒体でも整理して見える構成です。",
+          "比較文脈に入っても空気が散らないのが利点です。"
+        ]
+      }
+    },
+    "collections": [
+      {
+        "id": "resonant-quiet",
+        "title": "校正刷り / 第1章",
+        "summary": "誌面の一面を任せられる強度で組んだ基幹ラインです。",
+        "noteTitle": "補足ノート / 校正刷り",
+        "note": "情報量が多いページでも、先頭の一体で印象を固定できる構成にしています。写真とテキストの両方が入る媒体に強い案です。",
+        "selectedPieces": [
+          {
+            "name": "主力バイアスコート",
+            "descriptor": "特集の扉として使える密度の高い主力アウター。"
+          },
+          {
+            "name": "ヴェールシャツ",
+            "descriptor": "全体の音量を整えるための中核シャツ。"
+          },
+          {
+            "name": "テーパードラップスカート",
+            "descriptor": "比較カットでも見え方がぶれにくい可変ボトム。"
+          }
+        ],
+        "label": "校正刷り"
+      },
+      {
+        "id": "counterlight",
+        "title": "誌面の余白差分 / 補助編集",
+        "summary": "誌面の中盤で呼吸を変えるための、少し明るい補助ラインです。",
+        "noteTitle": "補足ノート / 誌面の余白差分",
+        "note": "黒主体の連続にわずかな抜けをつくるための色差で、誌面全体の温度を整えます。",
+        "selectedPieces": [
+          {
+            "name": "灰青コート",
+            "descriptor": "特集の第二章に置きやすい、温度差づくりのコート。"
+          },
+          {
+            "name": "ドライベスト",
+            "descriptor": "文章量が増えても整理して見える軽い補助ピース。"
+          }
+        ],
+        "label": "誌面の余白差分"
+      }
+    ],
+    "about": {
+      "intro": "ブランドの説明も、誌面編集の一部として扱います。何をどの順で読ませるかまで含めて AUN の見え方だと考えています。",
+      "story": {
+        "title": "情報量の多い誌面でも崩れないよう組んだライン。",
+        "copy": "取扱先にも媒体にも、短時間で整理して伝わることを優先しています。だからこそ、印象だけでなく、段組みのような明快さも同時に設計します。",
+        "points": [
+          "商談資料は見出しと本文の役割を明確に分けて共有します。",
+          "掲載用には抜粋しやすい短文単位でテキストを整えます。",
+          "仮ビジュアルでも誌面上の視認性を確かめる前提です。"
+        ]
+      }
+    }
+  },
+  "summary": "誌面設計とテクニカルな罫線で組む、知的で硬質なマガジン型サイト。",
+  "mood": "新聞紙 / 墨 / 冷たい白",
+  "accent": "誌面の精度",
+  "personality": "Exacting, cerebral, publication-first"
+}

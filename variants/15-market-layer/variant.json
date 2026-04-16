@@ -1,0 +1,180 @@
+{
+  "id": "15-market-layer",
+  "slug": "15-market-layer",
+  "name": "マーケットレイヤー",
+  "references": [
+    "jp/mercari",
+    "jp/rakuten"
+  ],
+  "structures": {
+    "home": "market",
+    "lookbook": "compare",
+    "about": "seller"
+  },
+  "assets": {
+    "heroVisual": {
+      "src": "./assets/generated/variants/15-market-layer-hero.png",
+      "alt": "Market Layer のために設計したヒーロー用コンセプトビジュアル",
+      "caption": "メインビジュアル / マーケットレイヤー"
+    },
+    "featureImage": {
+      "src": "./assets/generated/variants/top-home-portrait/15-market-layer.png",
+      "alt": "Market Layer のトップページ導入用に追加した縦長素材",
+      "caption": "代表ルック補助 / マーケットレイヤー"
+    },
+    "ルック資料Spotlight": {
+      "src": "./assets/generated/variants/15-market-layer-hero.png",
+      "alt": "Market Layer のルックブックを補強する横長寄りのキャンペーンビジュアル",
+      "caption": "ルック補助 / マーケットレイヤー"
+    },
+    "aboutStoryImage": {
+      "src": "./assets/generated/variants/portrait/15-market-layer.png",
+      "alt": "Market Layer の制作背景を補強する縦長のエディトリアル素材",
+      "caption": "制作背景補助 / マーケットレイヤー"
+    },
+    "homeGallery": [
+      {
+        "src": "./assets/generated/variants/square/15-market-layer.png",
+        "alt": "Market Layer のトップページ用に配置した正方形素材",
+        "caption": "補助カット 01 / マーケットレイヤー",
+        "tone": "square"
+      },
+      {
+        "src": "./assets/generated/variants/top-home-landscape/15-market-layer.png",
+        "alt": "Market Layer のトップページ中央に配置する横長素材",
+        "caption": "補助カット 02 / マーケットレイヤー",
+        "tone": "wide"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/15-market-layer.png",
+        "alt": "Market Layer のトップページ右側に配置する縦長素材",
+        "caption": "補助カット 03 / マーケットレイヤー",
+        "tone": "tall"
+      }
+    ],
+    "aboutGallery": [
+      {
+        "src": "./assets/generated/variants/15-market-layer-hero.png",
+        "alt": "Market Layer の空気感を横方向に補うビジュアル",
+        "caption": "制作風景 01 / マーケットレイヤー"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/15-market-layer.png",
+        "alt": "Market Layer の制作温度を補う縦長素材",
+        "caption": "制作風景 02 / マーケットレイヤー"
+      }
+    ]
+  },
+  "content": {
+    "brand": {
+      "label": "商流整理型営業資料",
+      "tagline": "情報の積層を上品に整理した、商流寄りの高密度編集案。",
+      "summary": "AUN をもっとも商談向きに見せる案です。情緒だけでなく、導入、比較、売れ筋の会話まで見据えた密度で組んでいます。",
+      "themeTitle": "重なる提案 / 第1章",
+      "seasonHeading": "商談の早さに耐える密度を持ちながら、上品さを崩さない構成。",
+      "seasonCopy": "この案では、空気感と商流を両立させます。何が主役で、何が補助で、どのように売場へ置けるかまで見える構成を重視しています。",
+      "audience": "比較と商談のスピードを重視するバイヤー、実務的な編集を好む売場、導入判断を急ぐ相手。",
+      "priceCue": "実需も見据えた高感度コンテンポラリー。主役と回転要素の会話が成立する価格帯。",
+      "partnerItems": [
+        {
+          "title": "取扱のご相談",
+          "text": "主力、補助、導入役が分かる構成でラインシートを共有します。",
+          "href": "mailto:partners@aun-studio.example?subject=AUN%20Stockist%20Inquiry"
+        },
+        {
+          "title": "掲載・取材",
+          "text": "媒体向けにも、商流と空気の両方が伝わる短文を案内します。",
+          "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
+        },
+        {
+          "title": "協業のご相談",
+          "text": "販促、特設、共同販売企画に向いた導線です。",
+          "href": "mailto:hello@aun-studio.example?subject=AUN%20Collaboration"
+        }
+      ]
+    },
+    "home": {
+      "reasons": [
+        {
+          "title": "商業性を平板にしない",
+          "text": "売れ筋の会話をしながら、ブランドの空気も残せます。"
+        },
+        {
+          "title": "短い商談でも判断しやすい",
+          "text": "比較と判断のスピードを落とさない構成です。"
+        },
+        {
+          "title": "情報密度が高くても読める",
+          "text": "情報量は多くても、主役と補助がすぐに分かります。"
+        }
+      ],
+      "representativeLook": {
+        "title": "代表ルック / 商談の起点になる明快なコート",
+        "summary": "代表ルックも空気だけでなく商談のしやすさを考えて整理しています。どこが主役で、何が補助かがすぐに見える構成です。",
+        "details": [
+          "売場での置き方まで想像しやすい設計です。",
+          "主役と補助の役割を短く説明できます。",
+          "商流の会話と誌面の会話を両立しやすい案です。"
+        ]
+      }
+    },
+    "collections": [
+      {
+        "id": "resonant-quiet",
+        "title": "重なる提案 / 第1章",
+        "summary": "空気感を保ちながら、主役と補助の役割が見えやすい基幹ラインです。",
+        "noteTitle": "補足ノート / 重なる提案",
+        "note": "感覚だけでなく、導入しやすさや売場での編集しやすさまで含めて判断できるように構成しています。",
+        "selectedPieces": [
+          {
+            "name": "主力バイアスコート",
+            "descriptor": "回遊の起点をつくる主力コート。"
+          },
+          {
+            "name": "ヴェールシャツ",
+            "descriptor": "セット提案と単品提案の両方を支える核シャツ。"
+          },
+          {
+            "name": "テーパードラップスカート",
+            "descriptor": "バリエーション提案に厚みを足す可変ボトム。"
+          }
+        ],
+        "label": "重なる提案"
+      },
+      {
+        "id": "counterlight",
+        "title": "実務の補助線 / 補助編集",
+        "summary": "提案幅を広げるための、明るい補助ラインです。",
+        "noteTitle": "補足ノート / 実務の補助線",
+        "note": "主役カプセルの隣で回遊を生みやすくするための中間色エディットです。",
+        "selectedPieces": [
+          {
+            "name": "灰青コート",
+            "descriptor": "導入価格帯の会話を開きやすい補助コート。"
+          },
+          {
+            "name": "ドライベスト",
+            "descriptor": "セット提案の幅を増やすための軽いレイヤー。"
+          }
+        ],
+        "label": "実務の補助線"
+      }
+    ],
+    "about": {
+      "intro": "AUN をもっとも商流に近い読み口で見せる案です。雰囲気だけでなく、導入判断の速さも同時に設計しています。",
+      "story": {
+        "title": "売り手のメモの密度を、品よく整えたライン。",
+        "copy": "少量制作の魅力を保ちながら、見せ方は実務的に整えます。主役、補助、導入役の役割が見えることで、商談の会話を早く始められます。",
+        "points": [
+          "ラインシートは役割ごとに編集して共有します。",
+          "掲載用にも商流と空気の両方が伝わる短文を用意します。",
+          "仮ビジュアルでも、売場での立ち方を先に確かめます。"
+        ]
+      }
+    }
+  },
+  "summary": "マーケットプレイスの積層感を、商談資料として上品に再編集した高密度サイト。",
+  "mood": "生成り / 茶 / 商談の白",
+  "accent": "商談の整理力",
+  "personality": "Busy, practical, commercial"
+}

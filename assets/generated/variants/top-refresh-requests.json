@@ -1,0 +1,62 @@
+{
+  "01-obsidian-runway": {
+    "portrait": "019d868d-4b6b-7ba0-9832-e9c79c5a4f9b",
+    "landscape": "019d868d-6af3-76b0-849e-7ea4078d7bc2"
+  },
+  "02-parchment-salon": {
+    "portrait": "019d868d-89e1-72e1-90b6-1822226712d0",
+    "landscape": "019d868d-a661-7921-8c4d-d9d16ac77023"
+  },
+  "03-gallery-minimal": {
+    "portrait": "019d868d-cc91-7a52-a013-5f7a03c40596",
+    "landscape": "019d868d-ecfa-7c23-ba6c-aedfd1cfbb6e"
+  },
+  "04-editorial-grid": {
+    "portrait": "019d868e-09fd-7070-ae4c-1ba9a834b308",
+    "landscape": "019d868e-2c38-75d0-bd83-ad625d756d12"
+  },
+  "05-midnight-system": {
+    "portrait": "019d868e-4744-78b2-b377-c80cab085516",
+    "landscape": "019d868e-6e9d-7930-b0ae-3748b9f2e220"
+  },
+  "06-atelier-cream": {
+    "portrait": "019d868f-02bf-7e43-89bd-1846d5cccce5",
+    "landscape": "019d868f-1992-7712-ac74-223a1841d0ff"
+  },
+  "07-monochrome-pill": {
+    "portrait": "019d868f-3be4-78f0-bd1c-77fb90a3d356",
+    "landscape": "019d868f-58a5-7800-8629-44b70cb7ce7f"
+  },
+  "08-acid-signal": {
+    "portrait": "019d868f-6efc-74a1-9457-e30814e5c323",
+    "landscape": "019d868f-8ab1-7482-93ab-64810a143345"
+  },
+  "09-engineered-blue": {
+    "portrait": "019d868f-ac52-7f53-824a-abf3fd2f7ca0",
+    "landscape": "019d868f-d2d3-7d80-8cf2-cc3d0b0de9cb"
+  },
+  "10-soft-hospitality": {
+    "portrait": "019d868f-ecf0-7c83-b9c2-d0df305990f2",
+    "landscape": "019d8690-0ffc-72a0-adec-874e14681bf3"
+  },
+  "11-washi-minimal": {
+    "portrait": "019d8690-9e32-7382-9644-1ce48bfc1532",
+    "landscape": "019d8690-bd78-7213-b5e9-d2f0ee568826"
+  },
+  "12-tokyo-culture": {
+    "portrait": "019d8690-e3e4-70c1-83c4-ed0afb0064b7",
+    "landscape": "019d8691-0bb5-7f31-9a2f-5eb3ca38470a"
+  },
+  "13-indigo-corporate": {
+    "portrait": "019d8691-271c-7520-875c-1fe2149214ab",
+    "landscape": "019d8691-5044-7140-95ea-c026c370b675"
+  },
+  "14-soft-service": {
+    "portrait": "019d8691-68ed-71f0-a29a-9255cb0a4dd4",
+    "landscape": "019d8691-8e70-73e1-8353-3ce5b8cb5d5a"
+  },
+  "15-market-layer": {
+    "portrait": "019d8691-abcc-7b22-a169-21d78f7d80d9",
+    "landscape": "019d8691-c8cd-7e51-9b78-870c78f65d17"
+  }
+}

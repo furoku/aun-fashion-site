@@ -1,0 +1,180 @@
+{
+  "id": "08-acid-signal",
+  "slug": "08-acid-signal",
+  "name": "アシッドシグナル",
+  "references": [
+    "jp/novasell",
+    "global/clickhouse"
+  ],
+  "structures": {
+    "home": "signal",
+    "lookbook": "stagger",
+    "about": "manifesto"
+  },
+  "assets": {
+    "heroVisual": {
+      "src": "./assets/generated/variants/08-acid-signal-hero.png",
+      "alt": "Acid Signal のために設計したヒーロー用コンセプトビジュアル",
+      "caption": "メインビジュアル / アシッドシグナル"
+    },
+    "featureImage": {
+      "src": "./assets/generated/variants/top-home-portrait/08-acid-signal.png",
+      "alt": "Acid Signal のトップページ導入用に追加した縦長素材",
+      "caption": "代表ルック補助 / アシッドシグナル"
+    },
+    "ルック資料Spotlight": {
+      "src": "./assets/generated/variants/08-acid-signal-hero.png",
+      "alt": "Acid Signal のルックブックを補強する横長寄りのキャンペーンビジュアル",
+      "caption": "ルック補助 / アシッドシグナル"
+    },
+    "aboutStoryImage": {
+      "src": "./assets/generated/variants/portrait/08-acid-signal.png",
+      "alt": "Acid Signal の制作背景を補強する縦長のエディトリアル素材",
+      "caption": "制作背景補助 / アシッドシグナル"
+    },
+    "homeGallery": [
+      {
+        "src": "./assets/generated/variants/square/08-acid-signal.png",
+        "alt": "Acid Signal のトップページ用に配置した正方形素材",
+        "caption": "補助カット 01 / アシッドシグナル",
+        "tone": "square"
+      },
+      {
+        "src": "./assets/generated/variants/top-home-landscape/08-acid-signal.png",
+        "alt": "Acid Signal のトップページ中央に配置する横長素材",
+        "caption": "補助カット 02 / アシッドシグナル",
+        "tone": "wide"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/08-acid-signal.png",
+        "alt": "Acid Signal のトップページ右側に配置する縦長素材",
+        "caption": "補助カット 03 / アシッドシグナル",
+        "tone": "tall"
+      }
+    ],
+    "aboutGallery": [
+      {
+        "src": "./assets/generated/variants/08-acid-signal-hero.png",
+        "alt": "Acid Signal の空気感を横方向に補うビジュアル",
+        "caption": "制作風景 01 / アシッドシグナル"
+      },
+      {
+        "src": "./assets/generated/variants/portrait/08-acid-signal.png",
+        "alt": "Acid Signal の制作温度を補う縦長素材",
+        "caption": "制作風景 02 / アシッドシグナル"
+      }
+    ]
+  },
+  "content": {
+    "brand": {
+      "label": "ポスター圧縮型資料",
+      "tagline": "貼り紙の勢いで視線を奪う、最も攻撃的な編集案。",
+      "summary": "AUN を静かなブランドとしてではなく、急に目に入ってくる合図として見せる案です。若い文脈や即時性のある場に向いています。",
+      "themeTitle": "シグナルバースト / 第1章",
+      "seasonHeading": "短い語、強い面、ひと目で空気が伝わる圧縮構成。",
+      "seasonCopy": "この案は熟読向きではありません。短い視線で掴ませ、あとからディテールを拾わせる順序で構成しています。勢いが最初の価値です。",
+      "audience": "ポスター的な訴求が効く売場、カルチャー寄りの媒体、瞬発力を重視するスタイリスト。",
+      "priceCue": "若い熱量でも成立する高感度帯。主役の見え方で納得をつくる価格感。",
+      "partnerItems": [
+        {
+          "title": "取扱のご相談",
+          "text": "短く強い説明文を添えた、スピード重視のラインシートを共有します。",
+          "href": "mailto:partners@aun-studio.example?subject=AUN%20Stockist%20Inquiry"
+        },
+        {
+          "title": "掲載・取材",
+          "text": "見出しで抜ける 掲載用の短文とキャプションを優先して案内します。",
+          "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
+        },
+        {
+          "title": "協業のご相談",
+          "text": "イベント、ポスター、音楽文脈の企画と相性のよい導線です。",
+          "href": "mailto:hello@aun-studio.example?subject=AUN%20Collaboration"
+        }
+      ]
+    },
+    "home": {
+      "reasons": [
+        {
+          "title": "一秒で印象が立つ",
+          "text": "最初の一瞥で気配を残せる構成です。"
+        },
+        {
+          "title": "騒がしい文脈でも埋もれない",
+          "text": "周囲の情報量が多い場でも埋もれにくいのが利点です。"
+        },
+        {
+          "title": "若さを保ちつつ散らからない",
+          "text": "勢いは強いですが、服としての輪郭は崩しません。"
+        }
+      ],
+      "representativeLook": {
+        "title": "代表ルック / 一撃で印象を残すポスターコート",
+        "summary": "代表ルックも一体の完成度より、視線の止まり方を優先しています。強い第一印象が必要な文脈に向く構成です。",
+        "details": [
+          "一瞬で輪郭を掴ませる見え方を重視します。",
+          "撮影やイベント告知への転用に向いています。",
+          "細部の説明は後追いで足せる前提です。"
+        ]
+      }
+    },
+    "collections": [
+      {
+        "id": "resonant-quiet",
+        "title": "シグナルバースト / 第1章",
+        "summary": "静けさを保持しつつ、視線の止まり方だけを鋭くしたカプセルです。",
+        "noteTitle": "補足ノート / シグナルバースト",
+        "note": "接客より先に視認性で掴むことを優先しています。若いカルチャー文脈でも埋もれないのが利点です。",
+        "selectedPieces": [
+          {
+            "name": "主力バイアスコート",
+            "descriptor": "一瞬で全体の温度を変える先頭コート。"
+          },
+          {
+            "name": "ヴェールシャツ",
+            "descriptor": "主役の圧を受け止める薄い補助シャツ。"
+          },
+          {
+            "name": "テーパードラップスカート",
+            "descriptor": "動きに切れを足すためのシャープなボトム。"
+          }
+        ],
+        "label": "シグナルバースト"
+      },
+      {
+        "id": "counterlight",
+        "title": "残光の差分 / 補助編集",
+        "summary": "勢いのあとに残る余熱として使う補助ラインです。",
+        "noteTitle": "補足ノート / 残光の差分",
+        "note": "派手さを足すためではなく、強い一撃のあとに呼吸を残すための中間色です。",
+        "selectedPieces": [
+          {
+            "name": "灰青コート",
+            "descriptor": "主力の信号感を受け流すための冷色コート。"
+          },
+          {
+            "name": "ドライベスト",
+            "descriptor": "動きを抑えずに全体のノイズを整える補助レイヤー。"
+          }
+        ],
+        "label": "残光の差分"
+      }
+    ],
+    "about": {
+      "intro": "AUN の中で最も声量の大きい読み口です。黙っていても届くようにするのではなく、届く距離まで一気に引き寄せます。",
+      "story": {
+        "title": "ポスター、フライヤー、深夜告知の速度で読み替えたライン。",
+        "copy": "少量制作の精度はそのままに、伝え方だけを速く鋭くします。長い説明よりも、短い一撃で関係を始めるための案です。",
+        "points": [
+          "ラインシートも一読で抜ける見出しを優先します。",
+          "掲載用には短い断片文とキャプションを整えます。",
+          "仮ビジュアルでも、光量と色の衝突を先に検証します。"
+        ]
+      }
+    }
+  },
+  "summary": "酸性の強い配色とポスター的な圧縮で押す、最も攻撃的なプロモーションサイト。",
+  "mood": "酸性黄 / 黒 / 信号赤",
+  "accent": "一撃のポスター圧",
+  "personality": "Urgent, graphic, loud"
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUN バリエーション一覧</title>
+    <meta
+      name="description"
+      content="AUN の営業資料サイトを構成固定のまま 15 方向へ展開したデザインバリエーション集。"
+    />
+    <link rel="icon" href="../../assets/generated/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/showcase.css" />
+  </head>
+  <body>
+    <main class="showcase-shell">
+      <section class="showcase-intro">
+        <p class="showcase-kicker">AUN / バリエーション比較</p>
+        <h1>同じ要素構成から、18 通りの編集解釈を見比べるための一覧。</h1>
+        <p class="showcase-summary">
+          ページ構成と要素は大枠を保ちながら、`awesome-design-md-global` と `impeccable-style`
+          を起点に、18 本の別案へ展開したショーケースです。
+        </p>
+        <div class="showcase-meta">
+          <div>
+            <span>ベース</span>
+            <strong>AUN の営業向けエディトリアルサイト</strong>
+          </div>
+          <div>
+            <span>対象ページ</span>
+            <strong>トップ / ルック / ブランド</strong>
+          </div>
+          <div>
+            <span>進め方</span>
+            <strong>design-md ハイブリッド + impeccable-style</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="showcase-stage">
+        <div class="stage-panel">
+          <div class="stage-copy">
+            <p class="showcase-kicker" id="stage-kicker">案 01</p>
+            <h2 id="stage-title">黒曜ランウェイ</h2>
+            <p class="stage-description" id="stage-summary"></p>
+            <div class="stage-tags">
+              <span id="stage-mood"></span>
+              <span id="stage-accent"></span>
+            </div>
+            <p class="stage-refs" id="stage-refs"></p>
+            <div class="stage-actions">
+              <a class="stage-link" id="open-home" href="../01-obsidian-runway/index.html">トップ</a>
+              <a class="stage-link" id="open-lookbook" href="../01-obsidian-runway/lookbook.html">ルック</a>
+              <a class="stage-link" id="open-about" href="../01-obsidian-runway/about.html">ブランド</a>
+            </div>
+          </div>
+          <div class="stage-frame">
+            <iframe
+              id="stage-preview"
+              title="AUN バリエーションプレビュー"
+              src="../01-obsidian-runway/index.html"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="variant-grid" id="variant-grid"></section>
+    </main>
+
+    <script type="module" src="./assets/showcase.js?v=20260414-copy-v3"></script>
+  </body>
+</html>

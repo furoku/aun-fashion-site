@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Familjen+Grotesk:wght@400;500;600;700&family=Saira+Semi+Condensed:wght@500;600;700&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: dark;
+  --display-font: "Chakra Petch", sans-serif;
+  --body-font: "Familjen Grotesk", sans-serif;
+  --label-font: "Saira Semi Condensed", sans-serif;
+
+  --bg: oklch(0.16 0.022 250);
+  --bg-alt: oklch(0.1 0.02 248);
+  --surface: oklch(0.21 0.018 245 / 0.88);
+  --surface-strong: oklch(0.24 0.022 245 / 0.96);
+  --surface-muted: oklch(0.28 0.02 242 / 0.82);
+  --line: oklch(0.72 0.03 230 / 0.16);
+  --line-strong: oklch(0.76 0.08 228 / 0.28);
+  --ink: oklch(0.94 0.01 240);
+  --muted: oklch(0.73 0.02 236);
+  --accent: oklch(0.72 0.13 230);
+  --accent-2: oklch(0.55 0.12 255);
+  --accent-soft: oklch(0.26 0.08 232);
+  --inverse-bg: oklch(0.95 0.004 230);
+  --inverse-ink: oklch(0.18 0.02 248);
+  --shadow: 0 24px 70px oklch(0.04 0.01 245 / 0.44);
+
+}
+
+
+body {
+  background:
+    radial-gradient(circle at 88% 12%, oklch(0.4 0.12 230 / 0.2), transparent 18%),
+    linear-gradient(180deg, oklch(0.18 0.02 250), oklch(0.08 0.012 248));
+}
+
+.hero-composition {
+  grid-template-columns: 0.86fr 0.9fr 0.68fr;
+  grid-template-areas: "copy visual stats";
+}
+
+.season-composition,
+.lookbook-top-composition {
+  grid-template-columns: 1.05fr 0.95fr 0.8fr;
+}
+
+.gallery-track {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.reasons-composition,
+.pieces-composition,
+.principle-composition,
+.routes-composition {
+  grid-template-columns: 0.52fr 1.48fr;
+}
+
+.look-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.look-tile {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+}
+
+.look-tile figure {
+  aspect-ratio: auto;
+}
+

@@ -1,0 +1,62 @@
+{
+  "01-obsidian-runway": {
+    "portrait": "existing-generated",
+    "landscape": "existing-generated"
+  },
+  "02-parchment-salon": {
+    "portrait": "existing-generated",
+    "landscape": "existing-generated"
+  },
+  "03-gallery-minimal": {
+    "portrait": "existing-generated",
+    "landscape": "existing-generated"
+  },
+  "04-editorial-grid": {
+    "portrait": "existing-generated",
+    "landscape": "existing-generated"
+  },
+  "05-midnight-system": {
+    "portrait": "existing-generated",
+    "landscape": "kamui"
+  },
+  "06-atelier-cream": {
+    "portrait": "kamui",
+    "landscape": "derived-from-square"
+  },
+  "07-monochrome-pill": {
+    "portrait": "kamui",
+    "landscape": "derived-from-square"
+  },
+  "08-acid-signal": {
+    "portrait": "ai-studio-nano-banana",
+    "landscape": "ai-studio-nano-banana"
+  },
+  "09-engineered-blue": {
+    "portrait": "ai-studio-nano-banana",
+    "landscape": "ai-studio-nano-banana"
+  },
+  "10-soft-hospitality": {
+    "portrait": "ai-studio-nano-banana",
+    "landscape": "ai-studio-nano-banana"
+  },
+  "11-washi-minimal": {
+    "portrait": "ai-studio-nano-banana",
+    "landscape": "ai-studio-nano-banana"
+  },
+  "12-tokyo-culture": {
+    "portrait": "ai-studio-nano-banana",
+    "landscape": "ai-studio-nano-banana"
+  },
+  "13-indigo-corporate": {
+    "portrait": "ai-studio-nano-banana",
+    "landscape": "ai-studio-nano-banana"
+  },
+  "14-soft-service": {
+    "portrait": "ai-studio-nano-banana",
+    "landscape": "ai-studio-nano-banana"
+  },
+  "15-market-layer": {
+    "portrait": "ai-studio-nano-banana",
+    "landscape": "ai-studio-nano-banana"
+  }
+}

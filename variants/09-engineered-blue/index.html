@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja" data-asset-base="../../">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUN | 設計図の青</title>
+    <link rel="icon" href="../../assets/generated/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body data-page="home" class="variant-home home-blueprint">
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brandmark" href="./index.html" aria-label="AUN トップ">
+          <span class="brandmark-word">AUN</span>
+          <span class="brandmark-meta" id="brand-location"></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          メニュー
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="主要ナビゲーション">
+          <a data-nav-link="home" href="./index.html">トップ</a>
+          <a data-nav-link="lookbook" href="./lookbook.html">ルック</a>
+          <a data-nav-link="about" href="./about.html">ブランド</a>
+          <a class="cta-link" id="header-contact-link" href="mailto:partners@aun-studio.example">問い合わせ</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="page-frame home-frame">
+      <section class="chapter chapter-home-top">
+        <div class="page-shell">
+          <div class="home-top-grid">
+          <div class="hero-copy card-surface" data-reveal>
+            <p class="section-label" id="hero-label"></p>
+            <h1 class="display-title">
+              <span id="hero-brand-name"></span>
+              <span id="hero-theme"></span>
+            </h1>
+            <p class="hero-summary" id="hero-summary"></p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="./lookbook.html">ルックを見る</a>
+              <a class="button button-secondary" href="#partner-note">取扱のご相談</a>
+            </div>
+          </div>
+          <figure class="hero-visual visual-surface" data-reveal>
+            <img id="hero-image" src="" alt="" />
+            <figcaption class="visual-caption" id="hero-visual-caption"></figcaption>
+          </figure>
+          <aside class="hero-stats card-surface" data-reveal>
+            <p class="eyebrow">基本情報</p>
+            <dl class="stat-line" id="hero-stat-line"></dl>
+          </aside>
+          <div class="season-meta card-surface" data-reveal>
+            <div class="meta-pairs">
+              <div>
+                <span>想定先</span>
+                <strong id="audience-copy"></strong>
+              </div>
+              <div>
+                <span>価格の印象</span>
+                <strong id="price-copy"></strong>
+              </div>
+              <div>
+                <span>制作拠点</span>
+                <strong id="studio-copy"></strong>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="chapter chapter-home-mid">
+        <div class="page-shell">
+          <div class="home-mid-grid">
+          <div class="block-shell" data-reveal>
+            <p class="section-label">今季の見立て</p>
+            <h2 class="chapter-title" id="season-heading"></h2>
+          </div>
+          <div class="season-copy card-surface" data-reveal>
+            <p class="eyebrow">今季メモ</p>
+            <p class="eyebrow-copy" id="season-copy"></p>
+          </div>
+          <div class="reasons-block">
+            <div class="chapter-heading block-shell" data-reveal>
+              <p class="section-label">導入の理由</p>
+              <h2 class="chapter-title">取扱先、スタイリスト、エディターに向けた短い判断材料です。</h2>
+            </div>
+            <div class="reason-list" id="reason-grid"></div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="chapter chapter-home-gallery">
+        <div class="page-shell">
+          <div class="home-gallery-grid">
+          <div class="feature-cluster">
+            <div class="feature-copy card-surface" data-reveal>
+              <p class="section-label">代表ルック</p>
+              <h2 class="feature-title" id="feature-title"></h2>
+              <p class="feature-summary" id="feature-summary"></p>
+              <ul class="detail-list" id="feature-details"></ul>
+              <div class="button-row">
+                <a class="button button-secondary" href="./lookbook.html">全ルックを見る</a>
+              </div>
+            </div>
+            <figure class="feature-visual visual-surface" data-reveal>
+              <img id="feature-image" src="" alt="" />
+              <figcaption class="visual-caption" id="feature-caption"></figcaption>
+            </figure>
+          </div>
+          <div class="gallery-block">
+            <div class="chapter-heading block-shell" data-reveal>
+              <p class="section-label">補助ビジュアル</p>
+              <h2 class="chapter-title">会話の前に、ラインの温度を補うための補助カットです。</h2>
+            </div>
+            <div class="gallery-track" id="home-editorial-strip"></div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="chapter chapter-home-tail" id="partner-note">
+        <div class="page-shell">
+          <div class="home-tail-grid">
+          <div class="pieces-block">
+            <div class="chapter-heading block-shell" data-reveal>
+              <p class="section-label">注目ピース</p>
+              <h2 class="chapter-title">空気を崩さずに、商材としての見え方も担保する構成です。</h2>
+            </div>
+            <div class="piece-stack" id="selected-piece-list"></div>
+          </div>
+          <div class="routes-block section-inverse">
+            <div class="chapter-heading block-shell" data-reveal>
+              <p class="section-label">取扱・掲載・協業</p>
+              <h2 class="chapter-title">資料、ラインシート、補足情報はご要望に応じてお送りします。</h2>
+            </div>
+            <div class="route-list" id="partner-rail"></div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div>
+          <strong id="footer-brand"></strong>
+          <p id="footer-summary"></p>
+        </div>
+        <div class="footer-meta">
+          <p id="footer-note"></p>
+          <small>© <span id="year"></span> AUN</small>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="../common/variant-app.js?v=20260414-copy-v3"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja" data-asset-base="../../">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUN | アトリエクリーム ルックブック</title>
+    <link rel="icon" href="../../assets/generated/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body data-page="lookbook" class="variant-lookbook look-atelier">
+    <a class="skip-link" href="#main">本文へ移動</a>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brandmark" href="./index.html" aria-label="AUN トップ">
+          <span class="brandmark-word">AUN</span>
+          <span class="brandmark-meta" id="brand-location"></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          メニュー
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="主要ナビゲーション">
+          <a data-nav-link="home" href="./index.html">トップ</a>
+          <a data-nav-link="lookbook" href="./lookbook.html">ルック</a>
+          <a data-nav-link="about" href="./about.html">ブランド</a>
+          <a class="cta-link" id="header-contact-link" href="mailto:partners@aun-studio.example">問い合わせ</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="page-frame lookbook-frame">
+      <section class="chapter chapter-lookbook-top">
+        <div class="page-shell">
+          <div class="look-top-grid">
+          <div class="block-shell" data-reveal>
+            <p class="section-label">ルックブック</p>
+            <h1 class="chapter-title">AUN の代表ルックとコレクションノート。</h1>
+          </div>
+          <div class="card-surface" data-reveal>
+            <p class="eyebrow">導入</p>
+            <p class="eyebrow-copy" id="lookbook-intro"></p>
+            <p class="muted-note" id="lookbook-disclaimer"></p>
+          </div>
+          <div class="collection-switcher-shell" data-reveal>
+            <p class="eyebrow">収録ライン</p>
+            <div class="collection-switcher" id="collection-switcher"></div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="chapter chapter-lookbook-mid">
+        <div class="page-shell">
+          <div class="look-mid-grid">
+          <div class="block-shell" data-reveal>
+            <p class="section-label">コレクションノート</p>
+            <h2 class="chapter-title" id="collection-title"></h2>
+          </div>
+          <div class="spotlight-block" id="lookbook-spotlight"></div>
+          <div class="looks-block">
+            <div class="look-grid" id="look-grid"></div>
+          </div>
+          <div class="card-surface" data-reveal>
+            <p class="eyebrow">要約</p>
+            <p class="eyebrow-copy" id="collection-summary"></p>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="chapter chapter-lookbook-tail">
+        <div class="page-shell">
+          <div class="look-tail-grid">
+          <div class="pieces-block">
+            <div class="piece-stack" id="lookbook-piece-list"></div>
+          </div>
+          <div class="note-copy card-surface" data-reveal>
+            <p class="section-label">補足ノート</p>
+            <h2 class="chapter-title" id="season-note-title"></h2>
+            <p class="feature-summary" id="season-note-copy"></p>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div>
+          <strong id="footer-brand"></strong>
+          <p id="footer-summary"></p>
+        </div>
+        <div class="footer-meta">
+          <p id="footer-note"></p>
+          <small>© <span id="year"></span> AUN</small>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="../common/variant-app.js?v=20260414-copy-v3"></script>
+  </body>
+</html>

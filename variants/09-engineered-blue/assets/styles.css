@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+@import url("../../common/rebuild-base.css");
+
+:root {
+  color-scheme: light;
+  --display-font: "Chakra Petch", sans-serif;
+  --body-font: "Public Sans", sans-serif;
+  --label-font: "Space Mono", monospace;
+
+  --bg: oklch(0.96 0.008 240);
+  --bg-alt: oklch(0.92 0.012 238);
+  --surface: oklch(0.99 0.004 230 / 0.86);
+  --surface-strong: oklch(0.995 0.003 230 / 0.96);
+  --surface-muted: oklch(0.93 0.012 238 / 0.82);
+  --line: oklch(0.52 0.02 242 / 0.18);
+  --line-strong: oklch(0.4 0.12 248 / 0.28);
+  --ink: oklch(0.22 0.016 245);
+  --muted: oklch(0.48 0.012 242);
+  --accent: oklch(0.52 0.16 250);
+  --accent-2: oklch(0.78 0.04 240);
+  --accent-soft: oklch(0.92 0.03 244);
+  --inverse-bg: oklch(0.17 0.018 245);
+  --inverse-ink: oklch(0.96 0.004 230);
+  --shadow: 0 20px 54px oklch(0.18 0.02 243 / 0.09);
+  --radius-md: 0.6rem;
+  --radius-lg: 0.8rem;
+  --radius-xl: 1rem;
+
+}
+
+
+.hero-composition {
+  grid-template-columns: 0.92fr 1.08fr 0.72fr;
+  grid-template-areas: "copy visual stats";
+}
+
+.season-composition {
+  grid-template-columns: 1fr 1fr 0.7fr;
+}
+
+.gallery-track,
+.look-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.gallery-track .editorial-card:first-child,
+.gallery-track .editorial-card:last-child {
+  min-height: 18rem;
+}
+
+.reasons-composition,
+.pieces-composition,
+.principle-composition,
+.routes-composition {
+  grid-template-columns: 0.48fr 1.52fr;
+}
+
+.piece-stack {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.look-tile:nth-child(even) {
+  transform: translateY(1rem);
+}
