@@ -235,9 +235,9 @@ function buildVariantSwitcher(manifest, variantMeta) {
         <span class="variant-switcher-current">${current.name}</span>
       </summary>
       <div class="variant-switcher-body">
-        <p class="variant-switcher-caption">現在のページのまま、別案へ切り替えられます。</p>
+        <p class="variant-switcher-caption">同じページ位置のまま、別案だけを見比べられます。</p>
         <div class="variant-switcher-list">${links}</div>
-        <a class="variant-switcher-showcase" href="../showcase/">ショーケースへ戻る</a>
+        <a class="variant-switcher-showcase" href="../showcase/">18案一覧</a>
       </div>
     </details>
   `;

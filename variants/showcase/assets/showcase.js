@@ -65,20 +65,28 @@ function buildGrid(items) {
               <img src="./assets/thumbs/${variant.id}.png?v=${thumbVersion}" alt="${variant.name} のサムネイル" loading="lazy" />
             </figure>
           </a>
-          <p class="variant-meta">案 ${String(index + 1).padStart(2, "0")}</p>
-          <h3><a class="variant-title-link" href="../${variant.id}/index.html">${variant.name}</a></h3>
-          <p>${variant.summary}</p>
-          <div class="variant-direct-links">
-            <a class="variant-direct-link" href="../${variant.id}/index.html">トップ</a>
-            <a class="variant-direct-link" href="../${variant.id}/lookbook.html">ルック</a>
-            <a class="variant-direct-link" href="../${variant.id}/about.html">ブランド</a>
+          <div class="variant-body">
+            <p class="variant-meta">案 ${String(index + 1).padStart(2, "0")}</p>
+            <h3><a class="variant-title-link" href="../${variant.id}/index.html">${variant.name}</a></h3>
+            <p class="variant-summary">${variant.summary}</p>
+            <dl class="variant-facts">
+              <div>
+                <dt>ムード</dt>
+                <dd>${variant.mood}</dd>
+              </div>
+              <div>
+                <dt>色の印象</dt>
+                <dd>${variant.accent}</dd>
+              </div>
+            </dl>
           </div>
-          <div class="variant-card-footer">
-            <div class="variant-pills">
-              <span class="variant-pill">${variant.mood}</span>
-              <span class="variant-pill">${variant.accent}</span>
+          <div class="variant-actions">
+            <div class="variant-direct-links">
+              <a class="variant-direct-link" href="../${variant.id}/index.html">トップ</a>
+              <a class="variant-direct-link" href="../${variant.id}/lookbook.html">ルック</a>
+              <a class="variant-direct-link" href="../${variant.id}/about.html">ブランド</a>
             </div>
-            <button type="button" data-variant="${variant.id}">プレビュー</button>
+            <button type="button" data-variant="${variant.id}">上で比較</button>
           </div>
         </article>
       `,

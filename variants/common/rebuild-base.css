@@ -140,25 +140,25 @@ ul {
 
 .variant-switcher {
   position: fixed;
-  top: 6.2rem;
-  right: 1rem;
+  top: 5.6rem;
+  right: 0.8rem;
   z-index: 30;
-  width: min(19rem, calc(100vw - 2rem));
+  width: min(15rem, calc(100vw - 1.6rem));
 }
 
 .variant-switcher-panel {
   overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 1.4rem;
-  background: color-mix(in oklch, var(--surface-strong) 92%, transparent);
-  box-shadow: var(--shadow-raise);
-  backdrop-filter: blur(18px) saturate(1.05);
+  border-radius: 1rem;
+  background: var(--surface-strong);
+  box-shadow: none;
+  backdrop-filter: none;
 }
 
 .variant-switcher-trigger {
   display: grid;
   gap: 0.2rem;
-  padding: 0.95rem 1rem 1rem;
+  padding: 0.8rem 0.9rem 0.85rem;
   cursor: pointer;
   list-style: none;
 }
@@ -177,24 +177,24 @@ ul {
 }
 
 .variant-switcher-current {
-  font-family: var(--display-font);
-  font-size: 1.05rem;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
+  font-family: var(--body-font);
+  font-size: 0.96rem;
+  line-height: 1.3;
+  letter-spacing: 0;
 }
 
 .variant-switcher-body {
   display: grid;
-  gap: 0.8rem;
-  padding: 0 1rem 1rem;
+  gap: 0.7rem;
+  padding: 0 0.9rem 0.9rem;
   border-top: 1px solid var(--line);
 }
 
 .variant-switcher-caption {
-  padding-top: 0.9rem;
+  padding-top: 0.8rem;
   color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.6;
+  font-size: 0.82rem;
+  line-height: 1.5;
 }
 
 .variant-switcher-list {
@@ -209,34 +209,32 @@ ul {
 .variant-switcher-showcase {
   display: grid;
   gap: 0.18rem;
-  padding: 0.78rem 0.85rem;
+  padding: 0.62rem 0.72rem;
   border: 1px solid var(--line);
-  border-radius: 1rem;
-  background: color-mix(in oklch, var(--surface) 84%, transparent);
+  border-radius: 0.8rem;
+  background: transparent;
   transition:
     transform var(--motion-fast) var(--ease-out-quart),
     border-color var(--motion-fast) ease,
-    background-color var(--motion-fast) ease,
-    box-shadow var(--motion-base) var(--ease-soft);
+    background-color var(--motion-fast) ease;
 }
 
 .variant-switcher-name {
-  font-family: var(--display-font);
-  font-size: 0.98rem;
-  line-height: 1.15;
+  font-family: var(--body-font);
+  font-size: 0.88rem;
+  line-height: 1.3;
 }
 
 .variant-switcher-link:hover,
 .variant-switcher-showcase:hover {
-  transform: translateY(-2px);
+  transform: translateY(-1px);
   border-color: var(--line-strong);
-  background: color-mix(in oklch, var(--surface-strong) 88%, transparent);
-  box-shadow: var(--shadow);
+  background: color-mix(in oklch, var(--surface) 52%, transparent);
 }
 
 .variant-switcher-link.is-current {
   border-color: var(--line-strong);
-  background: color-mix(in oklch, var(--accent-soft) 56%, var(--surface-strong));
+  background: color-mix(in oklch, var(--accent-soft) 30%, var(--surface-strong));
 }
 
 .variant-switcher-showcase {
@@ -250,8 +248,8 @@ ul {
 .site-header {
   position: sticky;
   top: 0;
-  backdrop-filter: blur(18px) saturate(1.05);
-  background: color-mix(in oklch, var(--bg) 82%, transparent);
+  backdrop-filter: none;
+  background: color-mix(in oklch, var(--bg) 94%, white 6%);
   border-bottom: 1px solid var(--line);
 }
 
