@@ -1,7 +1,7 @@
 {
   "id": "09-engineered-blue",
   "slug": "09-engineered-blue",
-  "name": "設計図の青",
+  "name": "Engineered Blue",
   "references": [
     "global/bmw",
     "jp/toyota"
@@ -15,63 +15,31 @@
     "heroVisual": {
       "src": "./assets/generated/variants/09-engineered-blue-hero.png",
       "alt": "Engineered Blue のために設計したヒーロー用コンセプトビジュアル",
-      "caption": "メインビジュアル / 設計図の青"
+      "caption": "メインビジュアル / Engineered Blue"
     },
     "featureImage": {
-      "src": "./assets/generated/variants/top-home-portrait/09-engineered-blue.png",
-      "alt": "Engineered Blue のトップページ導入用に追加した縦長素材",
-      "caption": "代表ルック補助 / 設計図の青"
+      "src": "./assets/generated/variants/09-engineered-blue-hero.png",
+      "alt": "Engineered Blue の代表ルックを補強する専用コンセプトビジュアル",
+      "caption": "代表ルック補助 / Engineered Blue"
     },
-    "ルック資料Spotlight": {
-      "src": "./assets/generated/variants/portrait/09-engineered-blue.png",
-      "alt": "Engineered Blue のルックブックを補強する縦長のエディトリアル素材",
-      "caption": "ルック補助 / 設計図の青"
+    "lookbookSpotlight": {
+      "src": "./assets/generated/variants/09-engineered-blue-hero.png",
+      "alt": "Engineered Blue の lookbook を象徴するスポットライトビジュアル",
+      "caption": "ルック補助 / Engineered Blue"
     },
     "aboutStoryImage": {
-      "src": "./assets/generated/variants/portrait/09-engineered-blue.png",
-      "alt": "Engineered Blue の制作背景を補強する縦長のエディトリアル素材",
-      "caption": "制作背景補助 / 設計図の青"
-    },
-    "homeGallery": [
-      {
-        "src": "./assets/generated/variants/square/09-engineered-blue.png",
-        "alt": "Engineered Blue のトップページ用に配置した正方形素材",
-        "caption": "補助カット 01 / 設計図の青",
-        "tone": "square"
-      },
-      {
-        "src": "./assets/generated/variants/top-home-landscape/09-engineered-blue.png",
-        "alt": "Engineered Blue のトップページ中央に配置する横長素材",
-        "caption": "補助カット 02 / 設計図の青",
-        "tone": "wide"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/09-engineered-blue.png",
-        "alt": "Engineered Blue のトップページ右側に配置する縦長素材",
-        "caption": "補助カット 03 / 設計図の青",
-        "tone": "tall"
-      }
-    ],
-    "aboutGallery": [
-      {
-        "src": "./assets/generated/variants/09-engineered-blue-hero.png",
-        "alt": "Engineered Blue の空気感を横方向に補うビジュアル",
-        "caption": "制作風景 01 / 設計図の青"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/09-engineered-blue.png",
-        "alt": "Engineered Blue の制作温度を補う縦長素材",
-        "caption": "制作風景 02 / 設計図の青"
-      }
-    ]
+      "src": "./assets/generated/variants/09-engineered-blue-hero.png",
+      "alt": "Engineered Blue の制作背景を補強するコンセプトビジュアル",
+      "caption": "制作背景補助 / Engineered Blue"
+    }
   },
   "content": {
     "brand": {
-      "label": "設計図型営業資料",
+      "label": "Blueprint dossier",
       "tagline": "設計図のような精度で組み上げた、工業的な静けさのライン。",
       "summary": "AUN を仕様書的に見せる案です。感覚的な空気は残しつつ、測れるもの、比べられるものとしての信頼を加えます。",
-      "themeTitle": "測定された揺れ / 第1章",
-      "seasonHeading": "寸法感と設計意図が先に立つ、静かな技術資料の構成。",
+      "themeTitle": "Measured Drift / Capsule 01",
+      "seasonHeading": "Measured spacing, technical calm, and garments with visible logic.",
       "seasonCopy": "この案では、雰囲気の良さだけでなく構造の理解しやすさも価値にします。仕様と余韻を両立させるための整理です。",
       "audience": "構造差に反応するバイヤー、工業寄りの美意識を持つ編集者、精度で納得したいスタイリスト。",
       "priceCue": "技巧と静かな高級感が先に立つ価格感。精度の高さで判断を支えます。",
@@ -83,7 +51,7 @@
         },
         {
           "title": "掲載・取材",
-          "text": "構造差を短く説明した 掲載用テキストを整理して案内します。",
+          "text": "構造差を短く説明した press 用テキストを整理して案内します。",
           "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
         },
         {
@@ -96,20 +64,20 @@
     "home": {
       "reasons": [
         {
-          "title": "精度の高さが見て取れる",
+          "title": "Precision is visible",
           "text": "空気だけでなく、作りの精度そのものが見えます。"
         },
         {
-          "title": "比較の場で説明しやすい",
+          "title": "Useful for comparison",
           "text": "他ブランドと並べても差分が説明しやすい構成です。"
         },
         {
-          "title": "工業感はあっても冷えすぎない",
+          "title": "Industrial, not cold",
           "text": "技術感はありますが、服としての余韻は失いません。"
         }
       ],
       "representativeLook": {
-        "title": "代表ルック / 測定された揺れを持つロングコート",
+        "title": "Look 02 / Long coat with measured drift",
         "summary": "重さと流れの設計をもっとも分かりやすく見せる代表ルックです。感覚的な好みより構造の納得を取りたい相手に向きます。",
         "details": [
           "重心差が説明しやすく、会話の組み立てが速いです。",
@@ -121,60 +89,58 @@
     "collections": [
       {
         "id": "resonant-quiet",
-        "title": "測定された揺れ / 第1章",
+        "title": "Measured Drift / Capsule 01",
         "summary": "静けさを保ちながら、構造差をもっとも理解しやすくした基幹ラインです。",
-        "noteTitle": "補足ノート / 測定された揺れ",
+        "noteTitle": "Collection note / Measured Drift",
         "note": "見た瞬間の感覚だけでなく、説明の再現性を重視したラインです。比較対象がある場で強く機能します。",
         "selectedPieces": [
           {
-            "name": "主力バイアスコート",
+            "name": "Bias Coat",
             "descriptor": "構造差をもっとも説明しやすい主力コート。"
           },
           {
-            "name": "ヴェールシャツ",
+            "name": "Veil Shirt",
             "descriptor": "全体の精度を整える静かな中核シャツ。"
           },
           {
-            "name": "テーパードラップスカート",
+            "name": "Taper Wrap Skirt",
             "descriptor": "可変性を持ちつつ理解しやすいボトム。"
           }
-        ],
-        "label": "測定された揺れ"
+        ]
       },
       {
         "id": "counterlight",
-        "title": "仕様補助線 / 補助編集",
+        "title": "Counterlight / spec extension",
         "summary": "図面の白場のような抜けを足す、冷色寄りの補助ラインです。",
-        "noteTitle": "補足ノート / 仕様補助線",
+        "noteTitle": "Collection note / Spec Extension",
         "note": "黒主体の編成に対して、視認性と理解のしやすさだけを少し加えるための編集です。",
         "selectedPieces": [
           {
-            "name": "灰青コート",
+            "name": "Grey-Blue Coat",
             "descriptor": "仕様差を穏やかに見せるための冷色コート。"
           },
           {
-            "name": "ドライベスト",
+            "name": "Dry Vest",
             "descriptor": "比較文脈で機能する補助レイヤー。"
           }
-        ],
-        "label": "仕様補助線"
+        ]
       }
     ],
     "about": {
       "intro": "AUN をもっとも設計図に近い読み口で見せる案です。感覚の強さを削らずに、理解のしやすさを足します。",
       "story": {
-        "title": "設計図の静けさで記録することを前提にしたライン。",
+        "title": "A studio line documented with the calm of a blueprint.",
         "copy": "少量制作でも、説明の順序は明確にします。どこが違いで、なぜ価値になるかを短く伝えられることを重視しています。",
         "points": [
           "ラインシートは比較しやすい順番で整えます。",
-          "掲載用にも、構造差が拾いやすい短文を用意します。",
+          "press 用にも、構造差が拾いやすい短文を用意します。",
           "仮ビジュアルでも縫い目と重心の見え方を確認します。"
         ]
       }
     }
   },
   "summary": "青い設計図のような精度感と直線的な面構成で組む、工業カタログ型サイト。",
-  "mood": "設計図の青 / 白 / 金属灰",
-  "accent": "設計図の落ち着き",
+  "mood": "Silver / Blueprint / Ink",
+  "accent": "Industrial precision",
   "personality": "Measured, industrial, exact"
 }

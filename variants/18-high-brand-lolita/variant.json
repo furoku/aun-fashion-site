@@ -19,12 +19,12 @@
     },
     "featureImage": {
       "src": "./assets/generated/variants/18-high-brand-lolita-portrait.png",
-      "alt": "High Brand Lolita の代表ルック補助ビジュアル",
+      "alt": "High Brand Lolita の代表ルックの参考ビジュアル",
       "caption": "代表ルック補助 / メゾンロリータ"
     },
     "ルック資料Spotlight": {
       "src": "./assets/generated/variants/18-high-brand-lolita-square.png",
-      "alt": "High Brand Lolita のルックブック補助ビジュアル",
+      "alt": "High Brand Lolita のルックブック用の参考ビジュアル",
       "caption": "ルック補助 / メゾンロリータ"
     },
     "aboutStoryImage": {
@@ -35,32 +35,32 @@
     "homeGallery": [
       {
         "src": "./assets/generated/variants/18-high-brand-lolita-square.png",
-        "alt": "High Brand Lolita の正方形補助カット",
-        "caption": "補助カット 01 / メゾンロリータ",
+        "alt": "High Brand Lolita の正方形の参考ビジュアル",
+        "caption": "参考ビジュアル 01 / メゾンロリータ",
         "tone": "square"
       },
       {
         "src": "./assets/generated/variants/18-high-brand-lolita-landscape.png",
-        "alt": "High Brand Lolita の横長補助カット",
-        "caption": "補助カット 02 / メゾンロリータ",
+        "alt": "High Brand Lolita の横長の参考ビジュアル",
+        "caption": "参考ビジュアル 02 / メゾンロリータ",
         "tone": "wide"
       },
       {
         "src": "./assets/generated/variants/18-high-brand-lolita-portrait.png",
-        "alt": "High Brand Lolita の縦長補助カット",
-        "caption": "補助カット 03 / メゾンロリータ",
+        "alt": "High Brand Lolita の縦長の参考ビジュアル",
+        "caption": "参考ビジュアル 03 / メゾンロリータ",
         "tone": "tall"
       }
     ],
     "aboutGallery": [
       {
         "src": "./assets/generated/variants/18-high-brand-lolita-landscape.png",
-        "alt": "High Brand Lolita の制作風景補助ビジュアル 01",
+        "alt": "High Brand Lolita の制作風景の参考ビジュアル 01",
         "caption": "制作風景 01 / メゾンロリータ"
       },
       {
         "src": "./assets/generated/variants/18-high-brand-lolita-square.png",
-        "alt": "High Brand Lolita の制作風景補助ビジュアル 02",
+        "alt": "High Brand Lolita の制作風景の参考ビジュアル 02",
         "caption": "制作風景 02 / メゾンロリータ"
       }
     ]
@@ -90,7 +90,7 @@
         },
         {
           "title": "取扱・貸出",
-          "text": "商談・貸出向けに素材構成と扱い条件を個別共有します。",
+          "text": "取扱や貸出をご検討いただく場合は、素材構成と扱い条件を個別共有します。",
           "href": "mailto:partners@aun-studio.example?subject=AUN%20Maison%20Inquiry"
         }
       ]
@@ -126,7 +126,7 @@
         "label": "メゾン・アーカイブ",
         "title": "メゾン・アーカイブ / クチュール編集",
         "summary": "ロリータの構造をクチュール的な仕立てに再配置した中核シリーズ。",
-        "noteTitle": "補足ノート / メゾン・アーカイブ",
+        "noteTitle": "ノート / メゾン・アーカイブ",
         "note": "装飾の多さではなく、どこに体積を隠すかが中心です。ロリータのボリュームを表層から内部構造へ戻します。",
         "looks": [
           {
@@ -172,9 +172,9 @@
       {
         "id": "counterlight",
         "label": "サロンレジャー",
-        "title": "サロンレジャー / 補助編集",
+        "title": "サロンレジャー / 展開ノート",
         "summary": "白磁やパール系の色で、ロリータの気配をさらに抽象化する補助シリーズ。",
-        "noteTitle": "補足ノート / サロンレジャー",
+        "noteTitle": "ノート / サロンレジャー",
         "note": "色を増やすのではなく、艶の段階を細かく刻むことで可憐さを残す補助ラインです。",
         "looks": [
           {

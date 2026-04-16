@@ -1,7 +1,7 @@
 {
   "id": "01-obsidian-runway",
   "slug": "01-obsidian-runway",
-  "name": "黒曜ランウェイ",
+  "name": "Obsidian Runway",
   "references": [
     "jp/droga5",
     "global/ferrari"
@@ -15,63 +15,31 @@
     "heroVisual": {
       "src": "./assets/generated/variants/01-obsidian-runway-hero.png",
       "alt": "Obsidian Runway のために設計したヒーロー用コンセプトビジュアル",
-      "caption": "メインビジュアル / 黒曜ランウェイ"
+      "caption": "メインビジュアル / Obsidian Runway"
     },
     "featureImage": {
-      "src": "./assets/generated/variants/top-home-portrait/01-obsidian-runway.png",
-      "alt": "Obsidian Runway のトップページ導入用に追加した縦長素材",
-      "caption": "代表ルック補助 / 黒曜ランウェイ"
+      "src": "./assets/generated/variants/01-obsidian-runway-hero.png",
+      "alt": "Obsidian Runway の代表ルックを補強する専用コンセプトビジュアル",
+      "caption": "代表ルック補助 / Obsidian Runway"
     },
-    "ルック資料Spotlight": {
-      "src": "./assets/generated/variants/portrait/01-obsidian-runway.png",
-      "alt": "Obsidian Runway のルックブックを補強する縦長のエディトリアル素材",
-      "caption": "ルック補助 / 黒曜ランウェイ"
+    "lookbookSpotlight": {
+      "src": "./assets/generated/variants/01-obsidian-runway-hero.png",
+      "alt": "Obsidian Runway の lookbook を象徴するスポットライトビジュアル",
+      "caption": "ルック補助 / Obsidian Runway"
     },
     "aboutStoryImage": {
-      "src": "./assets/generated/variants/portrait/01-obsidian-runway.png",
-      "alt": "Obsidian Runway の制作背景を補強する縦長のエディトリアル素材",
-      "caption": "制作背景補助 / 黒曜ランウェイ"
-    },
-    "homeGallery": [
-      {
-        "src": "./assets/generated/variants/square/01-obsidian-runway.png",
-        "alt": "Obsidian Runway のトップページ用に配置した正方形素材",
-        "caption": "補助カット 01 / 黒曜ランウェイ",
-        "tone": "square"
-      },
-      {
-        "src": "./assets/generated/variants/top-home-landscape/01-obsidian-runway.png",
-        "alt": "Obsidian Runway のトップページ中央に配置する横長素材",
-        "caption": "補助カット 02 / 黒曜ランウェイ",
-        "tone": "wide"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/01-obsidian-runway.png",
-        "alt": "Obsidian Runway のトップページ右側に配置する縦長素材",
-        "caption": "補助カット 03 / 黒曜ランウェイ",
-        "tone": "tall"
-      }
-    ],
-    "aboutGallery": [
-      {
-        "src": "./assets/generated/variants/01-obsidian-runway-hero.png",
-        "alt": "Obsidian Runway の空気感を横方向に補うビジュアル",
-        "caption": "制作風景 01 / 黒曜ランウェイ"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/01-obsidian-runway.png",
-        "alt": "Obsidian Runway の制作温度を補う縦長素材",
-        "caption": "制作風景 02 / 黒曜ランウェイ"
-      }
-    ]
+      "src": "./assets/generated/variants/01-obsidian-runway-hero.png",
+      "alt": "Obsidian Runway の制作背景を補強するコンセプトビジュアル",
+      "caption": "制作背景補助 / Obsidian Runway"
+    }
   },
   "content": {
     "brand": {
-      "label": "商談向けランウェイ資料",
+      "label": "Runway buyer dossier",
       "tagline": "夜の輪郭だけを残す、硬質な編集ライン。",
       "summary": "AUN をもっとも強い光量で見せる案です。卸先が一目で空気を掴めるよう、判断材料を削り過ぎず、印象は断定的にまとめています。",
-      "themeTitle": "残響する黒 / 第1章",
-      "seasonHeading": "ノイズを削ぎ、シルエットと重心だけで判断させる構成。",
+      "themeTitle": "After Hours / Capsule 01",
+      "seasonHeading": "Cut the noise, keep the silhouette, let the coat do the talking.",
       "seasonCopy": "この案では、曖昧さより決定力を優先します。素材差は小さく見せ、代わりに重心、陰影、歩行時の切れ味でラインの価値を伝える前提です。",
       "audience": "高感度な黒基調の売場、撮影用貸出を重視するスタイリスト、強い一体感を求める編集者。",
       "priceCue": "静かなラグジュアリー寄り。主役アウターから先に会話が始まる価格感。",
@@ -96,20 +64,20 @@
     "home": {
       "reasons": [
         {
-          "title": "先頭に置ける強度",
+          "title": "Built for a decisive rack",
           "text": "強い主役が必要な売場で、迷わず先頭に置ける密度があります。"
         },
         {
-          "title": "型数を絞っても圧が残る",
-          "text": "型数を増やさず、印象の圧を保ったまま商談を進められます。"
+          "title": "Low SKU, high pressure",
+          "text": "型数を増やさず、印象の圧を保ったまま取扱の検討を進めやすくします。"
         },
         {
-          "title": "誌面でも接客でもぶれない",
+          "title": "Editorial, without softness",
           "text": "撮影映えを狙いながら、接客時の説明もぶれない構成です。"
         }
       ],
       "representativeLook": {
-        "title": "代表ルック / 黒の残響を引くロングコート",
+        "title": "Look 02 / Black coat with a narrow afterimage",
         "summary": "ロングコートを単なる外套ではなく、売場全体のトーンを決める装置として扱う代表ルックです。主役を一本に絞りたい相手に向いています。",
         "details": [
           "アウター一点で空気を変える設計です。",
@@ -121,52 +89,50 @@
     "collections": [
       {
         "id": "resonant-quiet",
-        "title": "残響する黒 / 第1章",
+        "title": "After Hours / Capsule 01",
         "summary": "低い照度の中でだけ輪郭が強く立つ、黒主体の主力カプセルです。",
-        "noteTitle": "補足ノート / 残響する黒",
+        "noteTitle": "Collection note / After Hours",
         "note": "写真では抑えて見えますが、実物では裾の揺れと重心差が印象を決めます。短い会話で空気を掴んでもらう営業向けの構成です。",
         "selectedPieces": [
           {
-            "name": "主力バイアスコート",
+            "name": "Bias Coat",
             "descriptor": "ラックの先頭に置いて温度を決める一本。"
           },
           {
-            "name": "ヴェールシャツ",
+            "name": "Veil Shirt",
             "descriptor": "黒の中に薄い差をつくる補助ピース。"
           },
           {
-            "name": "テーパードラップスカート",
+            "name": "Taper Wrap Skirt",
             "descriptor": "身体から少し離れて見えることで緊張感を残す可変ボトム。"
           }
-        ],
-        "label": "残響する黒"
+        ]
       },
       {
         "id": "counterlight",
-        "title": "対光ライン / 補助編集",
+        "title": "Counterlight / strict extension",
         "summary": "黒の圧は保ったまま、鈍い光だけを差し込む補助ラインです。",
-        "noteTitle": "補足ノート / 対光ライン",
+        "noteTitle": "Collection note / Counterlight",
         "note": "店頭の黒一辺倒を避けたいときに使う中間色エディットです。温度は上げず、読みやすさだけを少し足します。",
         "selectedPieces": [
           {
-            "name": "灰青コート",
+            "name": "Grey-Blue Coat",
             "descriptor": "主力カプセルに抜けをつくる冷たい色差のコート。"
           },
           {
-            "name": "ドライベスト",
+            "name": "Dry Vest",
             "descriptor": "全体の硬さを崩さずレイヤーを増やせる中継ピース。"
           }
-        ],
-        "label": "対光ライン"
+        ]
       }
     ],
     "about": {
       "intro": "大きな声ではなく、最後に残る像を整えるためのブランドです。印象は重く、運用は明快に保つことを重視します。",
       "story": {
-        "title": "説明より先に空気が入室するためのライン。",
-        "copy": "制作は少量で、印象の強度を落とさないことを優先します。商談では全型を並べるより、主役を先に見せて相手の目線を固定する前提です。",
+        "title": "A line intended to enter the room before the explanation does.",
+        "copy": "制作は少量で、印象の強度を落とさないことを優先します。全型を並べるより、主役を先に見せて目線が定まりやすい構成を前提にしています。",
         "points": [
-          "営業資料も ルック資料 も、主役の一体を起点に再編集します。",
+          "営業資料も lookbook も、主役の一体を起点に再編集します。",
           "掲載用テキストは長く書かず、短い断定文で構成します。",
           "仮ビジュアルの段階でも、光量と重心だけは最終像に近づけます。"
         ]
@@ -174,7 +140,7 @@
     }
   },
   "summary": "漆黒の圧と細い赤を効かせた、ランウェイ・ポスターのような営業サイト。",
-  "mood": "黒 / 骨色 / 細い赤",
-  "accent": "映画的な緊張",
+  "mood": "Black / Bone / Blood red",
+  "accent": "Cinematic pressure",
   "personality": "Commanding, nocturnal, severe"
 }

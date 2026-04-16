@@ -1,7 +1,7 @@
 {
   "id": "11-washi-minimal",
   "slug": "11-washi-minimal",
-  "name": "和紙のミニマル",
+  "name": "Washi Minimal",
   "references": [
     "jp/muji",
     "jp/note"
@@ -15,63 +15,31 @@
     "heroVisual": {
       "src": "./assets/generated/variants/11-washi-minimal-hero.png",
       "alt": "Washi Minimal のために設計したヒーロー用コンセプトビジュアル",
-      "caption": "メインビジュアル / 和紙のミニマル"
+      "caption": "メインビジュアル / Washi Minimal"
     },
     "featureImage": {
-      "src": "./assets/generated/variants/top-home-portrait/11-washi-minimal.png",
-      "alt": "Washi Minimal のトップページ導入用に追加した縦長素材",
-      "caption": "代表ルック補助 / 和紙のミニマル"
+      "src": "./assets/generated/variants/11-washi-minimal-hero.png",
+      "alt": "Washi Minimal の代表ルックを補強する専用コンセプトビジュアル",
+      "caption": "代表ルック補助 / Washi Minimal"
     },
-    "ルック資料Spotlight": {
-      "src": "./assets/generated/variants/square/11-washi-minimal.png",
-      "alt": "Washi Minimal のルックブックを補強する正方形のエディトリアル素材",
-      "caption": "ルック補助 / 和紙のミニマル"
+    "lookbookSpotlight": {
+      "src": "./assets/generated/variants/11-washi-minimal-hero.png",
+      "alt": "Washi Minimal の lookbook を象徴するスポットライトビジュアル",
+      "caption": "ルック補助 / Washi Minimal"
     },
     "aboutStoryImage": {
-      "src": "./assets/generated/variants/portrait/11-washi-minimal.png",
-      "alt": "Washi Minimal の制作背景を補強する縦長のエディトリアル素材",
-      "caption": "制作背景補助 / 和紙のミニマル"
-    },
-    "homeGallery": [
-      {
-        "src": "./assets/generated/variants/square/11-washi-minimal.png",
-        "alt": "Washi Minimal のトップページ用に配置した正方形素材",
-        "caption": "補助カット 01 / 和紙のミニマル",
-        "tone": "square"
-      },
-      {
-        "src": "./assets/generated/variants/top-home-landscape/11-washi-minimal.png",
-        "alt": "Washi Minimal のトップページ中央に配置する横長素材",
-        "caption": "補助カット 02 / 和紙のミニマル",
-        "tone": "wide"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/11-washi-minimal.png",
-        "alt": "Washi Minimal のトップページ右側に配置する縦長素材",
-        "caption": "補助カット 03 / 和紙のミニマル",
-        "tone": "tall"
-      }
-    ],
-    "aboutGallery": [
-      {
-        "src": "./assets/generated/variants/11-washi-minimal-hero.png",
-        "alt": "Washi Minimal の空気感を横方向に補うビジュアル",
-        "caption": "制作風景 01 / 和紙のミニマル"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/11-washi-minimal.png",
-        "alt": "Washi Minimal の制作温度を補う縦長素材",
-        "caption": "制作風景 02 / 和紙のミニマル"
-      }
-    ]
+      "src": "./assets/generated/variants/11-washi-minimal-hero.png",
+      "alt": "Washi Minimal の制作背景を補強するコンセプトビジュアル",
+      "caption": "制作背景補助 / Washi Minimal"
+    }
   },
   "content": {
     "brand": {
-      "label": "和文エディトリアル資料",
+      "label": "Japanese editorial note",
       "tagline": "和紙の余白のように静かで、輪郭だけが長く残る案。",
-      "summary": "AUN を日本語の組版感覚で見せる案です。抑えた 温度のまま、縦書きに近い呼吸と余白で印象を残します。",
-      "themeTitle": "紙肌の輪郭 / 第1章",
-      "seasonHeading": "色差より紙肌と間合いで静けさを伝える構成。",
+      "summary": "AUN を日本語の組版感覚で見せる案です。抑えた tone のまま、縦書きに近い呼吸と余白で印象を残します。",
+      "themeTitle": "Paper Grain / Capsule 01",
+      "seasonHeading": "Less contrast, more grain, and a quieter kind of certainty.",
       "seasonCopy": "この案では、華やかさより紙と布のきめを重視します。売場での存在感も、強い色ではなく静かな密度でつくる前提です。",
       "audience": "和の感覚を現代的に扱いたいセレクト、静かな誌面を好む媒体、日本的な余白を拾いたいキュレーター。",
       "priceCue": "派手さではなく質感で納得させる価格帯。静かな工芸性に近い印象です。",
@@ -83,7 +51,7 @@
         },
         {
           "title": "掲載・取材",
-          "text": "日本語の組版に馴染む短い 掲載文を整理して案内します。",
+          "text": "日本語の組版に馴染む短い press 文を整理して案内します。",
           "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
         },
         {
@@ -96,20 +64,20 @@
     "home": {
       "reasons": [
         {
-          "title": "静かに日本性が残る",
+          "title": "Quietly Japanese",
           "text": "和の語彙を直接使わずに、日本的な呼吸だけを残します。"
         },
         {
-          "title": "色より質感が先に立つ",
+          "title": "Texture before color",
           "text": "色数を増やさず、紙と布のきめで価値をつくります。"
         },
         {
-          "title": "余韻のある静けさが続く",
+          "title": "Stillness that travels",
           "text": "売場でも誌面でも、静かな密度がそのまま届きます。"
         }
       ],
       "representativeLook": {
-        "title": "代表ルック / 紙肌の静けさをまとうロングコート",
+        "title": "Look 02 / Long coat with paper-grain stillness",
         "summary": "代表ルックも主張より静止時の気配で見せます。近づいたときにだけ良さが立つ構成です。",
         "details": [
           "紙のような余白をまとった見え方を重視します。",
@@ -121,60 +89,58 @@
     "collections": [
       {
         "id": "resonant-quiet",
-        "title": "紙肌の輪郭 / 第1章",
+        "title": "Paper Grain / Capsule 01",
         "summary": "和紙のきめのような静けさで見せる主力カプセルです。",
-        "noteTitle": "補足ノート / 紙肌の輪郭",
+        "noteTitle": "Collection note / Paper Grain",
         "note": "大きく語らず、触れたときに理解が深まる構成を目指しています。静かな場所ほど価値が立ち上がります。",
         "selectedPieces": [
           {
-            "name": "主力バイアスコート",
+            "name": "Bias Coat",
             "descriptor": "余白の広い売場で映える静かな主力コート。"
           },
           {
-            "name": "ヴェールシャツ",
+            "name": "Veil Shirt",
             "descriptor": "きめの細かい印象を支える中核シャツ。"
           },
           {
-            "name": "テーパードラップスカート",
+            "name": "Taper Wrap Skirt",
             "descriptor": "身体と布の間合いを保つ可変ボトム。"
           }
-        ],
-        "label": "紙肌の輪郭"
+        ]
       },
       {
         "id": "counterlight",
-        "title": "淡い紙目 / 補助編集",
+        "title": "Counterlight / pale grain",
         "summary": "わずかな白場をつくるための、淡い補助ラインです。",
-        "noteTitle": "補足ノート / 淡い紙目",
+        "noteTitle": "Collection note / Pale Grain",
         "note": "温度を上げず、紙の白さのような抜けだけを足すエディットです。",
         "selectedPieces": [
           {
-            "name": "灰青コート",
+            "name": "Grey-Blue Coat",
             "descriptor": "墨の濃さを和らげるための淡い導入コート。"
           },
           {
-            "name": "ドライベスト",
+            "name": "Dry Vest",
             "descriptor": "静かな密度を崩さずに層を増やす補助ピース。"
           }
-        ],
-        "label": "淡い紙目"
+        ]
       }
     ],
     "about": {
       "intro": "AUN をもっとも日本語の余白で読ませる案です。説明を削っても残る呼吸を大切にしています。",
       "story": {
-        "title": "紙肌、藍、間合いの静けさで運ぶためのライン。",
+        "title": "A studio line arranged with the patience of paper, grain, and pause.",
         "copy": "少量制作の精度を前提に、見せ方だけを静かな和の呼吸へ寄せます。直接的な記号よりも、間合いそのものを価値として扱います。",
         "points": [
           "営業資料も余白を保ち、読み急がせない構成にします。",
-          "掲載用には短い日本語の断片文を整えます。",
+          "press 用には短い日本語の断片文を整えます。",
           "仮ビジュアルでも紙肌のような質感を優先します。"
         ]
       }
     }
   },
   "summary": "和紙の地と藍の静けさを生かし、縦方向の視線で読む日本的な営業サイト。",
-  "mood": "和紙 / 藍 / 生成り",
-  "accent": "紙肌の余韻",
+  "mood": "Washi / Indigo / Soft ink",
+  "accent": "Quiet Japanese minimalism",
   "personality": "Restrained, attentive, contemplative"
 }

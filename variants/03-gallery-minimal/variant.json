@@ -1,7 +1,7 @@
 {
   "id": "03-gallery-minimal",
   "slug": "03-gallery-minimal",
-  "name": "白壁ギャラリー",
+  "name": "Gallery Minimal",
   "references": [
     "global/apple",
     "jp/muji"
@@ -15,63 +15,31 @@
     "heroVisual": {
       "src": "./assets/generated/variants/03-gallery-minimal-hero.png",
       "alt": "Gallery Minimal のために設計したヒーロー用コンセプトビジュアル",
-      "caption": "メインビジュアル / 白壁ギャラリー"
+      "caption": "メインビジュアル / Gallery Minimal"
     },
     "featureImage": {
-      "src": "./assets/generated/variants/top-home-portrait/03-gallery-minimal.png",
-      "alt": "Gallery Minimal のトップページ導入用に追加した縦長素材",
-      "caption": "代表ルック補助 / 白壁ギャラリー"
+      "src": "./assets/generated/variants/03-gallery-minimal-hero.png",
+      "alt": "Gallery Minimal の代表ルックを補強する専用コンセプトビジュアル",
+      "caption": "代表ルック補助 / Gallery Minimal"
     },
-    "ルック資料Spotlight": {
-      "src": "./assets/generated/variants/square/03-gallery-minimal.png",
-      "alt": "Gallery Minimal のルックブックを補強する正方形のエディトリアル素材",
-      "caption": "ルック補助 / 白壁ギャラリー"
+    "lookbookSpotlight": {
+      "src": "./assets/generated/variants/03-gallery-minimal-hero.png",
+      "alt": "Gallery Minimal の lookbook を象徴するスポットライトビジュアル",
+      "caption": "ルック補助 / Gallery Minimal"
     },
     "aboutStoryImage": {
-      "src": "./assets/generated/variants/portrait/03-gallery-minimal.png",
-      "alt": "Gallery Minimal の制作背景を補強する縦長のエディトリアル素材",
-      "caption": "制作背景補助 / 白壁ギャラリー"
-    },
-    "homeGallery": [
-      {
-        "src": "./assets/generated/variants/square/03-gallery-minimal.png",
-        "alt": "Gallery Minimal のトップページ用に配置した正方形素材",
-        "caption": "補助カット 01 / 白壁ギャラリー",
-        "tone": "square"
-      },
-      {
-        "src": "./assets/generated/variants/top-home-landscape/03-gallery-minimal.png",
-        "alt": "Gallery Minimal のトップページ中央に配置する横長素材",
-        "caption": "補助カット 02 / 白壁ギャラリー",
-        "tone": "wide"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/03-gallery-minimal.png",
-        "alt": "Gallery Minimal のトップページ右側に配置する縦長素材",
-        "caption": "補助カット 03 / 白壁ギャラリー",
-        "tone": "tall"
-      }
-    ],
-    "aboutGallery": [
-      {
-        "src": "./assets/generated/variants/03-gallery-minimal-hero.png",
-        "alt": "Gallery Minimal の空気感を横方向に補うビジュアル",
-        "caption": "制作風景 01 / 白壁ギャラリー"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/03-gallery-minimal.png",
-        "alt": "Gallery Minimal の制作温度を補う縦長素材",
-        "caption": "制作風景 02 / 白壁ギャラリー"
-      }
-    ]
+      "src": "./assets/generated/variants/03-gallery-minimal-hero.png",
+      "alt": "Gallery Minimal の制作背景を補強するコンセプトビジュアル",
+      "caption": "制作背景補助 / Gallery Minimal"
+    }
   },
   "content": {
     "brand": {
-      "label": "ギャラリー展示用資料",
+      "label": "Gallery wall dossier",
       "tagline": "情報量を削り、ひとつずつ立たせるギャラリー型の提案。",
       "summary": "AUN を作品壁のように見せる案です。売るための情報は残しつつ、余白そのものをブランド価値として扱います。",
-      "themeTitle": "白壁の余韻 / 第1章",
-      "seasonHeading": "余白と距離で見せ、ひとつずつ展示物として読ませる構成。",
+      "themeTitle": "White Room / Capsule 01",
+      "seasonHeading": "Silence, spacing, and one piece at a time.",
       "seasonCopy": "この案は、情報を足すより削る判断を前提にしています。相手が自分の速度で見られるよう、各要素を壁面のように離して配置します。",
       "audience": "ミニマルな空間を好むセレクト、展示空間で服を見せたいキュレーター、静物寄りの編集者。",
       "priceCue": "量感より精度で納得させる価格帯。多くを語らず、質で通す想定です。",
@@ -83,7 +51,7 @@
         },
         {
           "title": "掲載・取材",
-          "text": "誌面で余白を残せるよう、情報を整理した 掲載用の短文を案内します。",
+          "text": "誌面で余白を残せるよう、情報を整理した press 用の短文を案内します。",
           "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
         },
         {
@@ -96,21 +64,21 @@
     "home": {
       "reasons": [
         {
-          "title": "余白が説得力になる",
+          "title": "Space does the persuasion",
           "text": "装飾ではなく余白そのもので、服の輪郭を立たせます。"
         },
         {
-          "title": "一点ずつ壁を与えられる",
+          "title": "Each piece gets a wall",
           "text": "要素同士を近づけず、一体ごとに視線を止められます。"
         },
         {
-          "title": "言葉を減らしても伝わる",
+          "title": "Less language, more certainty",
           "text": "説明文を減らしても判断できるよう、構成そのものを整えています。"
         }
       ],
       "representativeLook": {
-        "title": "代表ルック / 物体として見せる静かなコート",
-        "summary": "ロングコートをコーディネートの一部ではなく、ひとつの展示物として見せるための代表ルックです。",
+        "title": "Look 02 / Coat as object, not as noise",
+        "summary": "ロングコートをコーディネートの一部ではなく、ひとつの object として見せるための代表ルックです。",
         "details": [
           "余白を前提にした売場や誌面で強く機能します。",
           "動きより静止時の輪郭を重視しています。",
@@ -121,49 +89,47 @@
     "collections": [
       {
         "id": "resonant-quiet",
-        "title": "白壁の余韻 / 第1章",
+        "title": "White Room / Capsule 01",
         "summary": "静物として成立する輪郭を優先した、最小編集のカプセルです。",
-        "noteTitle": "補足ノート / 白壁の余韻",
+        "noteTitle": "Collection note / White Room",
         "note": "接客で多くを語らなくても、物としての完成度で判断できる構成を目指しています。誌面でも空白がそのまま価値になります。",
         "selectedPieces": [
           {
-            "name": "主力バイアスコート",
+            "name": "Bias Coat",
             "descriptor": "一体で成立する静かな重心の主役アウター。"
           },
           {
-            "name": "ヴェールシャツ",
+            "name": "Veil Shirt",
             "descriptor": "空気を濁さずにレイヤーをつくる薄い核。"
           },
           {
-            "name": "テーパードラップスカート",
+            "name": "Taper Wrap Skirt",
             "descriptor": "性別や役割を限定しない、余白のあるボトム。"
           }
-        ],
-        "label": "白壁の余韻"
+        ]
       },
       {
         "id": "counterlight",
-        "title": "淡色の補助線 / 補助編集",
+        "title": "Counterlight / pale extension",
         "summary": "白場を壊さず、わずかな色差だけを足す拡張ラインです。",
-        "noteTitle": "補足ノート / 淡色の補助線",
+        "noteTitle": "Collection note / Pale Extension",
         "note": "色を増やすためではなく、展示空間の呼吸を整えるための補助カプセルです。",
         "selectedPieces": [
           {
-            "name": "灰青コート",
+            "name": "Grey-Blue Coat",
             "descriptor": "石のような静けさを持つ、導入向けの色差コート。"
           },
           {
-            "name": "ドライベスト",
+            "name": "Dry Vest",
             "descriptor": "主役を邪魔せず、見え方だけを変える軽い層。"
           }
-        ],
-        "label": "淡色の補助線"
+        ]
       }
     ],
     "about": {
       "intro": "AUN を最も寡黙に見せる案です。語る量を減らしても残る輪郭だけを頼りに構成しています。",
       "story": {
-        "title": "展示壁の論理で整えた、小さなギャラリーライン。",
+        "title": "A studio line edited with the logic of an exhibition wall.",
         "copy": "制作背景も必要最小限に留め、代わりに布の落ち方と間合いで価値を伝えます。売場でも誌面でも、物の周囲に空気があることを優先しています。",
         "points": [
           "営業資料は情報を足すより、削る順番を重視します。",
@@ -174,7 +140,7 @@
     }
   },
   "summary": "白壁の展示空間のように、余白と額装の静けさで見せるギャラリー型サイト。",
-  "mood": "白壁 / 影 / 淡い灰",
-  "accent": "展示壁の余白",
+  "mood": "White / Stone / Graphite",
+  "accent": "Sparse prestige",
   "personality": "Quiet, rarefied, architectural"
 }

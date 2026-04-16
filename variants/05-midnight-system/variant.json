@@ -1,7 +1,7 @@
 {
   "id": "05-midnight-system",
   "slug": "05-midnight-system",
-  "name": "真夜中のシステム",
+  "name": "Midnight System",
   "references": [
     "global/linear.app",
     "global/framer"
@@ -15,64 +15,32 @@
     "heroVisual": {
       "src": "./assets/generated/variants/05-midnight-system-hero.png",
       "alt": "Midnight System のために設計したヒーロー用コンセプトビジュアル",
-      "caption": "メインビジュアル / 真夜中のシステム"
+      "caption": "メインビジュアル / Midnight System"
     },
     "featureImage": {
-      "src": "./assets/generated/variants/top-home-portrait/05-midnight-system.png",
-      "alt": "Midnight System のトップページ導入用に追加した縦長素材",
-      "caption": "代表ルック補助 / 真夜中のシステム"
+      "src": "./assets/generated/variants/05-midnight-system-hero.png",
+      "alt": "Midnight System の代表ルックを補強する専用コンセプトビジュアル",
+      "caption": "代表ルック補助 / Midnight System"
     },
-    "ルック資料Spotlight": {
-      "src": "./assets/generated/variants/portrait/05-midnight-system.png",
-      "alt": "Midnight System のルックブックを補強する縦長のエディトリアル素材",
-      "caption": "ルック補助 / 真夜中のシステム"
+    "lookbookSpotlight": {
+      "src": "./assets/generated/variants/05-midnight-system-hero.png",
+      "alt": "Midnight System の lookbook を象徴するスポットライトビジュアル",
+      "caption": "ルック補助 / Midnight System"
     },
     "aboutStoryImage": {
-      "src": "./assets/generated/variants/portrait/05-midnight-system.png",
-      "alt": "Midnight System の制作背景を補強する縦長のエディトリアル素材",
-      "caption": "制作背景補助 / 真夜中のシステム"
-    },
-    "homeGallery": [
-      {
-        "src": "./assets/generated/variants/square/05-midnight-system.png",
-        "alt": "Midnight System のトップページ用に配置した正方形素材",
-        "caption": "補助カット 01 / 真夜中のシステム",
-        "tone": "square"
-      },
-      {
-        "src": "./assets/generated/variants/top-home-landscape/05-midnight-system.png",
-        "alt": "Midnight System のトップページ中央に配置する横長素材",
-        "caption": "補助カット 02 / 真夜中のシステム",
-        "tone": "wide"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/05-midnight-system.png",
-        "alt": "Midnight System のトップページ右側に配置する縦長素材",
-        "caption": "補助カット 03 / 真夜中のシステム",
-        "tone": "tall"
-      }
-    ],
-    "aboutGallery": [
-      {
-        "src": "./assets/generated/variants/05-midnight-system-hero.png",
-        "alt": "Midnight System の空気感を横方向に補うビジュアル",
-        "caption": "制作風景 01 / 真夜中のシステム"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/05-midnight-system.png",
-        "alt": "Midnight System の制作温度を補う縦長素材",
-        "caption": "制作風景 02 / 真夜中のシステム"
-      }
-    ]
+      "src": "./assets/generated/variants/05-midnight-system-hero.png",
+      "alt": "Midnight System の制作背景を補強するコンセプトビジュアル",
+      "caption": "制作背景補助 / Midnight System"
+    }
   },
   "content": {
     "brand": {
-      "label": "冷光システム資料",
+      "label": "System deck dossier",
       "tagline": "冷たい精度で組み上げた、夜間運用のためのモード編集。",
       "summary": "AUN を感性より運用精度で見せる案です。感覚的な言葉を減らし、構造、順序、制御感で信頼をつくります。",
-      "themeTitle": "冷光制御 / 第1章",
-      "seasonHeading": "冷たい光、正確な構造、感情より手順が先に伝わる構成。",
-      "seasonCopy": "この案では、曖昧な余韻よりも制御された印象を重視します。店頭でも商談でも、どこに何があるかが一目で分かることを優先しています。",
+      "themeTitle": "Control Room / Capsule 01",
+      "seasonHeading": "Precise interfaces, cold light, and garments that behave like systems.",
+      "seasonCopy": "この案では、曖昧な余韻よりも制御された印象を重視します。店頭でもご相談の場でも、どこに何があるかが一目で分かることを優先しています。",
       "audience": "テック寄りの感性を持つバイヤー、構造差に反応するスタイリスト、整然とした資料を好む編集者。",
       "priceCue": "技術感と静かな高級感が同居する価格帯。素材と構造差で納得させる想定。",
       "partnerItems": [
@@ -83,7 +51,7 @@
         },
         {
           "title": "掲載・取材",
-          "text": "構造差や素材差が伝わる 掲載用の短文をシステム的に案内します。",
+          "text": "構造差や素材差が伝わる press 用の短文をシステム的に案内します。",
           "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
         },
         {
@@ -96,21 +64,21 @@
     "home": {
       "reasons": [
         {
-          "title": "圧の強い場でも読みやすい",
+          "title": "Readable under pressure",
           "text": "情報量が多くても、どこを見るべきかがすぐに分かります。"
         },
         {
-          "title": "感傷より構造が先に立つ",
+          "title": "Structure over sentiment",
           "text": "気分より構造差で価値を伝えたい相手に向いています。"
         },
         {
-          "title": "冷たいが無機質ではない",
+          "title": "Cold, but not sterile",
           "text": "冷たい印象を保ちながら、服としての体温は失いません。"
         }
       ],
       "representativeLook": {
-        "title": "代表ルック / 重心を制御する冷光のロングコート",
-        "summary": "重心のズレを制御しながら見せる、もっとも制御感の強い代表ルックです。接客でも写真でも、説明の精度が保ちやすい構成です。",
+        "title": "Look 02 / Long coat with calibrated volume",
+        "summary": "重心のズレを制御しながら見せる、もっとも system 的な代表ルックです。接客でも写真でも、説明の精度が保ちやすい構成です。",
         "details": [
           "見え方の差を構造として説明しやすい設計です。",
           "ライトや背景が変わっても輪郭が崩れにくいのが利点です。",
@@ -121,60 +89,58 @@
     "collections": [
       {
         "id": "resonant-quiet",
-        "title": "冷光制御 / 第1章",
+        "title": "Control Room / Capsule 01",
         "summary": "静けさを保ちながら、構造差を明確に見せる基幹カプセルです。",
-        "noteTitle": "補足ノート / 冷光制御",
+        "noteTitle": "Collection note / Control Room",
         "note": "見た目の派手さではなく、パネルのように整理された理解のしやすさで価値を出すラインです。",
         "selectedPieces": [
           {
-            "name": "主力バイアスコート",
+            "name": "Bias Coat",
             "descriptor": "全体の制御感を決める精度の高い主力コート。"
           },
           {
-            "name": "ヴェールシャツ",
+            "name": "Veil Shirt",
             "descriptor": "主役の輪郭を支える薄い中核シャツ。"
           },
           {
-            "name": "テーパードラップスカート",
+            "name": "Taper Wrap Skirt",
             "descriptor": "可変性を持ちながら説明しやすいボトム。"
           }
-        ],
-        "label": "冷光制御"
+        ]
       },
       {
         "id": "counterlight",
-        "title": "冷色の差し込み / 補助編集",
+        "title": "Counterlight / cool extension",
         "summary": "冷たい色差でレイヤーを足す、制御系の補助ラインです。",
-        "noteTitle": "補足ノート / 冷色の差し込み",
+        "noteTitle": "Collection note / Cool Extension",
         "note": "空気を温めるのではなく、視認性だけを少し上げるための編集です。",
         "selectedPieces": [
           {
-            "name": "灰青コート",
+            "name": "Grey-Blue Coat",
             "descriptor": "黒主体の制御感を壊さない冷色コート。"
           },
           {
-            "name": "ドライベスト",
+            "name": "Dry Vest",
             "descriptor": "組み合わせの自由度だけを足す中間レイヤー。"
           }
-        ],
-        "label": "冷色の差し込み"
+        ]
       }
     ],
     "about": {
-      "intro": "AUN の中でもっとも制御感の強い読み口です。感性に頼らず、理解の速さそのものを価値として扱います。",
+      "intro": "AUN の中でもっとも system 的な読み口です。感性に頼らず、理解の速さそのものを価値として扱います。",
       "story": {
-        "title": "ムードボードではなく技術メモとして読ませるライン。",
+        "title": "A studio line written like a technical memo, not a moodboard.",
         "copy": "制作は少量でも、資料の見え方は明快に保ちます。形状、運用、説明の順序まで設計して、接客の再現性を上げるための案です。",
         "points": [
           "ラインシートは比較しやすい並びで編集します。",
-          "掲載用の説明も、構造差を中心に短く整理します。",
+          "press 用の説明も、構造差を中心に短く整理します。",
           "仮ビジュアルでも、光と素材の冷たさは先に検証します。"
         ]
       }
     }
   },
   "summary": "冷えた暗色と氷のようなブルーで組む、コマンドデッキ型の営業サイト。",
-  "mood": "深夜の青 / 冷光 / 黒",
-  "accent": "冷光の制御",
+  "mood": "Midnight / Steel / Ice blue",
+  "accent": "Technical luxury",
   "personality": "Focused, technical, controlled"
 }

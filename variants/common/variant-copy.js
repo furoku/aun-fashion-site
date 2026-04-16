@@ -49,7 +49,7 @@ export const VARIANT_COPY = {
     home: {
       reasons: [
         { title: "Built for a decisive rack", text: "強い主役が必要な売場で、迷わず先頭に置ける密度があります。" },
-        { title: "Low SKU, high pressure", text: "型数を増やさず、印象の圧を保ったまま商談を進められます。" },
+        { title: "Low SKU, high pressure", text: "型数を増やさず、印象の圧を保ったまま取扱の検討を進めやすくします。" },
         { title: "Editorial, without softness", text: "撮影映えを狙いながら、接客時の説明もぶれない構成です。" },
       ],
       representativeLook: {
@@ -92,7 +92,7 @@ export const VARIANT_COPY = {
       intro: "大きな声ではなく、最後に残る像を整えるためのブランドです。印象は重く、運用は明快に保つことを重視します。",
       story: {
         title: "A line intended to enter the room before the explanation does.",
-        copy: "制作は少量で、印象の強度を落とさないことを優先します。商談では全型を並べるより、主役を先に見せて相手の目線を固定する前提です。",
+        copy: "制作は少量で、印象の強度を落とさないことを優先します。全型を並べるより、主役を先に見せて目線が定まりやすい構成を前提にしています。",
         points: [
           "営業資料も lookbook も、主役の一体を起点に再編集します。",
           "掲載用テキストは長く書かず、短い断定文で構成します。",
@@ -165,7 +165,7 @@ export const VARIANT_COPY = {
       intro: "勢いで押すブランドではなく、読み進めるほど輪郭が定まるブランドでありたいと考えています。",
       story: {
         title: "A studio line composed like an annotated essay.",
-        copy: "東京と京都をまたぐ少量制作を前提に、制作背景も商品価値の一部として扱います。商談では数字だけでなく、どのように読ませるかも同時に設計します。",
+        copy: "東京と京都をまたぐ少量制作を前提に、制作背景も商品価値の一部として扱います。数字だけでなく、どのように読ませるかも同時に設計します。",
         points: [
           "営業向けには、短文の注釈を添えたラインシートを想定しています。",
           "掲載用には、引用しやすい短い文章を別で用意します。",
@@ -251,7 +251,7 @@ export const VARIANT_COPY = {
       summary: "AUN を雑誌の特集ページとして提示する案です。情報量は多めですが、読み順を硬く整えることで判断を速くします。",
       themeTitle: "Proof Sheet / Capsule 01",
       seasonHeading: "Every module earns its place, every line lands on the grid.",
-      seasonCopy: "この案は、感覚だけでなく誌面設計で説得するためのものです。売場・媒体・商談のどこで読まれても、同じ順で理解できる構成を目指します。",
+      seasonCopy: "この案は、感覚だけでなく誌面設計で説得するためのものです。売場・媒体・ご相談の場のどこで読まれても、同じ順で理解できる構成を目指します。",
       audience: "出版文脈の強い編集者、表現と情報の両方を求めるセレクト、比較しながら判断する買付担当。",
       priceCue: "編集価値も込みで納得させる価格感。主役だけでなく紙面全体で強度をつくる想定。",
       partnerItems: partnerItems(
@@ -307,7 +307,7 @@ export const VARIANT_COPY = {
         title: "A studio line built to survive dense pages and busy comparisons.",
         copy: "取扱先にも媒体にも、短時間で整理して伝わることを優先しています。だからこそ、印象だけでなく、段組みのような明快さも同時に設計します。",
         points: [
-          "商談資料は見出しと本文の役割を明確に分けて共有します。",
+          "ご案内資料は見出しと本文の役割を明確に分けて共有します。",
           "press 用には抜粋しやすい短文単位でテキストを整えます。",
           "仮ビジュアルでも誌面上の視認性を確かめる前提です。",
         ],
@@ -321,7 +321,7 @@ export const VARIANT_COPY = {
       summary: "AUN を感性より運用精度で見せる案です。感覚的な言葉を減らし、構造、順序、制御感で信頼をつくります。",
       themeTitle: "Control Room / Capsule 01",
       seasonHeading: "Precise interfaces, cold light, and garments that behave like systems.",
-      seasonCopy: "この案では、曖昧な余韻よりも制御された印象を重視します。店頭でも商談でも、どこに何があるかが一目で分かることを優先しています。",
+      seasonCopy: "この案では、曖昧な余韻よりも制御された印象を重視します。店頭でもご相談の場でも、どこに何があるかが一目で分かることを優先しています。",
       audience: "テック寄りの感性を持つバイヤー、構造差に反応するスタイリスト、整然とした資料を好む編集者。",
       priceCue: "技術感と静かな高級感が同居する価格帯。素材と構造差で納得させる想定。",
       partnerItems: partnerItems(
@@ -504,7 +504,7 @@ export const VARIANT_COPY = {
         title: "Counterlight / pale comfort",
         summary: "さらに入口を広げるための、軽い中間色ラインです。",
         noteTitle: "Collection note / Pale Comfort",
-        note: "店頭の導入障壁を下げたいときに使う補助エディットで、 mood を崩さずに親しみだけを足します。",
+        note: "見はじめのハードルを下げたいときに使う補助エディットで、空気感を崩さずに親しみだけを足します。",
         selectedPieces: counterlightPieces(
           "黒主体の構成をやわらげるための淡い導入コート。",
           "着地を軽く見せるための補助レイヤー。",
@@ -672,7 +672,7 @@ export const VARIANT_COPY = {
       themeTitle: "Open Table / Capsule 01",
       seasonHeading: "Warm light, easy pacing, and a line that invites conversation.",
       seasonCopy: "この案では、強い緊張感よりも会話の始まりやすさを優先します。売場でも資料でも、相手が一歩入りやすいことを価値としています。",
-      audience: "接客導線をやわらかくしたいセレクト、生活圏に近い媒体、親しみやすい mood を求めるスタイリスト。",
+      audience: "接客導線をやわらかくしたいセレクト、生活圏に近い媒体、親しみやすい空気感を求めるスタイリスト。",
       priceCue: "入りやすさのある上質帯。ラグジュアリーすぎず、親しみを保つ価格感です。",
       partnerItems: partnerItems(
         "温度のやわらかい言葉で整えたラインシートを共有します。",
@@ -883,7 +883,7 @@ export const VARIANT_COPY = {
       seasonHeading: "Formal calm, executive clarity, and fabric that holds its posture.",
       seasonCopy: "この案では、ブランドの空気を崩さずに信頼感を増やします。感性だけでなく、導入のしやすさや説明の整い方まで含めて設計しています。",
       audience: "百貨店系の視点を持つ買付、丁寧な説明を求める取扱先、 formal な tone を好む媒体。",
-      priceCue: "信頼感のある上質帯。過度に尖らず、安定して導入判断できる価格感です。",
+      priceCue: "信頼感のある上質帯。過度に尖らず、安心してご検討いただきやすい価格感です。",
       partnerItems: partnerItems(
         "説明責任を果たしやすい、整然としたラインシートを共有します。",
         "press 向けには formal な tone のブランドノートを案内します。",
@@ -894,7 +894,7 @@ export const VARIANT_COPY = {
       reasons: [
         { title: "Trustworthy by design", text: "見え方だけでなく、説明の整い方がそのまま信頼になります。" },
         { title: "Formal, not stiff", text: "堅さはありますが、服としての余韻は失いません。" },
-        { title: "Easy to approve", text: "導入判断に必要な要素が、過不足なく整っています。" },
+        { title: "Easy to approve", text: "ご検討に必要な要素が、過不足なく整っています。" },
       ],
       representativeLook: {
         title: "Look 02 / Coat with executive balance",
@@ -1017,32 +1017,32 @@ export const VARIANT_COPY = {
   "15-market-layer": {
     brand: {
       label: "Marketplace board dossier",
-      tagline: "情報の積層を上品に整理した、商流寄りの高密度編集案。",
-      summary: "AUN をもっとも commercial に見せる案です。情緒だけでなく、導入、比較、売れ筋の会話まで見据えた密度で組んでいます。",
+      tagline: "情報量が多くても、見たい要点が追いやすい高密度案。",
+      summary: "情報量を保ちながら、主役と脇役の関係がひと目でつかめるように組んだ案です。",
       themeTitle: "Layered Offer / Capsule 01",
       seasonHeading: "Practical grouping, visible hierarchy, and style that still sells with dignity.",
-      seasonCopy: "この案では、空気感と商流を両立させます。何が主役で、何が補助で、どのように売場へ置けるかまで見える構成を重視しています。",
-      audience: "比較と商談のスピードを重視するバイヤー、 practical な編集を好む売場、導入判断を急ぐ相手。",
+      seasonCopy: "この案では、空気感を保ちながら、どこを見るべきかが自然に分かる構成を重視しています。主役と支えるピースの役割が見えやすく、売場のイメージまでつなげやすい案です。",
+      audience: "比較のしやすさを重視するバイヤー、編集意図が伝わりやすい売場、短時間で要点をつかみたい相手。",
       priceCue: "実需も見据えた高感度コンテンポラリー。主役と回転要素の会話が成立する価格帯。",
       partnerItems: partnerItems(
-        "主力、補助、導入役が分かる構成でラインシートを共有します。",
-        "媒体向けにも、商流と mood の両方が伝わる短文を案内します。",
+        "主役と支えるピースの関係が伝わる構成でラインシートを共有します。",
+        "媒体向けにも、空気感と要点の両方が伝わる短文を案内します。",
         "販促、特設、共同販売企画に向いた導線です。",
       ),
     },
     home: {
       reasons: [
-        { title: "Commercial without flattening", text: "売れ筋の会話をしながら、ブランドの空気も残せます。" },
+        { title: "Commercial without flattening", text: "動きの見えやすさを伝えながら、ブランドの空気も残せます。" },
         { title: "Useful for fast buying", text: "比較と判断のスピードを落とさない構成です。" },
         { title: "Dense, but readable", text: "情報量は多くても、主役と補助がすぐに分かります。" },
       ],
       representativeLook: {
         title: "Look 02 / Lead coat with market clarity",
-        summary: "代表ルックも mood だけでなく商談のしやすさを考えて整理しています。どこが主役で、何が補助かがすぐに見える構成です。",
+        summary: "代表ルックもムードだけでなく、どこを見るべきかがすぐに分かるように整理しています。主役と支えるピースの関係が見えやすい構成です。",
         details: [
           "売場での置き方まで想像しやすい設計です。",
           "主役と補助の役割を短く説明できます。",
-          "商流の会話と誌面の会話を両立しやすい案です。",
+          "売場の会話と誌面の会話を両立しやすい案です。",
         ],
       },
     },
@@ -1052,7 +1052,7 @@ export const VARIANT_COPY = {
         title: "Layered Offer / Capsule 01",
         summary: "空気感を保ちながら、主役と補助の役割が見えやすい基幹ラインです。",
         noteTitle: "Collection note / Layered Offer",
-        note: "感覚だけでなく、導入しやすさや売場での編集しやすさまで含めて判断できるように構成しています。",
+        note: "感覚だけでなく、見はじめの分かりやすさや売場での編集のしやすさまで含めて判断できるように構成しています。",
         selectedPieces: pieces(
           "回遊の起点をつくる主力コート。",
           "セット提案と単品提案の両方を支える核シャツ。",
@@ -1066,19 +1066,19 @@ export const VARIANT_COPY = {
         noteTitle: "Collection note / Practical Extension",
         note: "主役カプセルの隣で回遊を生みやすくするための中間色エディットです。",
         selectedPieces: counterlightPieces(
-          "導入価格帯の会話を開きやすい補助コート。",
+          "最初の提案を開きやすい軽やかなコート。",
           "セット提案の幅を増やすための軽いレイヤー。",
         ),
       },
     ],
     about: {
-      intro: "AUN をもっとも商流に近い読み口で見せる案です。雰囲気だけでなく、導入判断の速さも同時に設計しています。",
+      intro: "AUN を、情報量を保ちながら分かりやすく見せる案です。雰囲気だけでなく、要点のつかみやすさも同時に設計しています。",
       story: {
-        title: "A studio line arranged like a seller memo with actual hierarchy.",
-        copy: "少量制作の魅力を保ちながら、見せ方は practical に整えます。主役、補助、導入役の役割が見えることで、商談の会話を早く始められます。",
+        title: "役割の階層がひと目で見える、整理の効いたスタジオライン。",
+        copy: "少量制作の魅力を保ちながら、見せ方は実務的に整えます。主役と支えるピースの役割が見えることで、会話の入口をつくりやすくします。",
         points: [
           "ラインシートは役割ごとに編集して共有します。",
-          "press 用にも商流と mood の両方が伝わる短文を用意します。",
+          "press 用にも空気感と要点の両方が伝わる短文を用意します。",
           "仮ビジュアルでも、売場での立ち方を先に確かめます。",
         ],
       },

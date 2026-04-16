@@ -1,7 +1,7 @@
 {
   "id": "14-soft-service",
   "slug": "14-soft-service",
-  "name": "やさしいサービス",
+  "name": "Soft Service",
   "references": [
     "jp/cybozu",
     "jp/smarthr"
@@ -15,65 +15,33 @@
     "heroVisual": {
       "src": "./assets/generated/variants/14-soft-service-hero.png",
       "alt": "Soft Service のために設計したヒーロー用コンセプトビジュアル",
-      "caption": "メインビジュアル / やさしいサービス"
+      "caption": "メインビジュアル / Soft Service"
     },
     "featureImage": {
-      "src": "./assets/generated/variants/top-home-portrait/14-soft-service.png",
-      "alt": "Soft Service のトップページ導入用に追加した縦長素材",
-      "caption": "代表ルック補助 / やさしいサービス"
+      "src": "./assets/generated/variants/14-soft-service-hero.png",
+      "alt": "Soft Service の代表ルックを補強する専用コンセプトビジュアル",
+      "caption": "代表ルック補助 / Soft Service"
     },
-    "ルック資料Spotlight": {
-      "src": "./assets/generated/variants/square/14-soft-service.png",
-      "alt": "Soft Service のルックブックを補強する正方形のエディトリアル素材",
-      "caption": "ルック補助 / やさしいサービス"
+    "lookbookSpotlight": {
+      "src": "./assets/generated/variants/14-soft-service-hero.png",
+      "alt": "Soft Service の lookbook を象徴するスポットライトビジュアル",
+      "caption": "ルック補助 / Soft Service"
     },
     "aboutStoryImage": {
-      "src": "./assets/generated/variants/portrait/14-soft-service.png",
-      "alt": "Soft Service の制作背景を補強する縦長のエディトリアル素材",
-      "caption": "制作背景補助 / やさしいサービス"
-    },
-    "homeGallery": [
-      {
-        "src": "./assets/generated/variants/square/14-soft-service.png",
-        "alt": "Soft Service のトップページ用に配置した正方形素材",
-        "caption": "補助カット 01 / やさしいサービス",
-        "tone": "square"
-      },
-      {
-        "src": "./assets/generated/variants/top-home-landscape/14-soft-service.png",
-        "alt": "Soft Service のトップページ中央に配置する横長素材",
-        "caption": "補助カット 02 / やさしいサービス",
-        "tone": "wide"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/14-soft-service.png",
-        "alt": "Soft Service のトップページ右側に配置する縦長素材",
-        "caption": "補助カット 03 / やさしいサービス",
-        "tone": "tall"
-      }
-    ],
-    "aboutGallery": [
-      {
-        "src": "./assets/generated/variants/14-soft-service-hero.png",
-        "alt": "Soft Service の空気感を横方向に補うビジュアル",
-        "caption": "制作風景 01 / やさしいサービス"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/14-soft-service.png",
-        "alt": "Soft Service の制作温度を補う縦長素材",
-        "caption": "制作風景 02 / やさしいサービス"
-      }
-    ]
+      "src": "./assets/generated/variants/14-soft-service-hero.png",
+      "alt": "Soft Service の制作背景を補強するコンセプトビジュアル",
+      "caption": "制作背景補助 / Soft Service"
+    }
   },
   "content": {
     "brand": {
-      "label": "案内型ブランド資料",
+      "label": "Service guide dossier",
       "tagline": "やさしい案内のように読める、親切設計のモード編集。",
       "summary": "AUN をもっともガイド的に見せる案です。難しさを減らし、何を見るべきか、どう話せばよいかが自然に分かる構成にしています。",
-      "themeTitle": "やさしい導線 / 第1章",
-      "seasonHeading": "理解のしやすさを優先し、閉じない印象で読ませる構成。",
+      "themeTitle": "Gentle Route / Capsule 01",
+      "seasonHeading": "Clear steps, soft wording, and a line that never feels closed off.",
       "seasonCopy": "この案では、理解のしやすさそのものを価値にします。感度は保ちながら、初見の迷いを減らすための案内設計です。",
-      "audience": "新しい客層を広げたいセレクト、わかりやすさを重視する売場、親切な温度を求める媒体。",
+      "audience": "新しい客層を広げたいセレクト、わかりやすさを重視する売場、親切な tone を求める媒体。",
       "priceCue": "入りやすさのある上質帯。説明しやすく、紹介しやすい価格感です。",
       "partnerItems": [
         {
@@ -83,7 +51,7 @@
         },
         {
           "title": "掲載・取材",
-          "text": "掲載向けには難しさを抑えた短文を整理して案内します。",
+          "text": "press 向けには難しさを抑えた短文を整理して案内します。",
           "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
         },
         {
@@ -96,20 +64,20 @@
     "home": {
       "reasons": [
         {
-          "title": "理解しやすく迷いが少ない",
+          "title": "Easy to understand",
           "text": "何を見るべきかが自然に伝わる、迷いの少ない構成です。"
         },
         {
-          "title": "チーム内で共有しやすい",
+          "title": "Helpful for teams",
           "text": "接客経験の差があっても、説明の揃えやすい案です。"
         },
         {
-          "title": "開いた印象を保てる",
+          "title": "Open, not diluted",
           "text": "分かりやすさを足しても、ブランドの輪郭は残します。"
         }
       ],
       "representativeLook": {
-        "title": "代表ルック / 案内のしやすさを持つ主力コート",
+        "title": "Look 02 / Coat with a guided balance",
         "summary": "代表ルックも、どこを見ればよいかが分かりやすいよう整理しています。紹介しやすさを優先した構成です。",
         "details": [
           "接客導線を揃えやすいのが利点です。",
@@ -121,60 +89,58 @@
     "collections": [
       {
         "id": "resonant-quiet",
-        "title": "やさしい導線 / 第1章",
+        "title": "Gentle Route / Capsule 01",
         "summary": "静けさを保ちつつ、理解のしやすさを高めた基幹カプセルです。",
-        "noteTitle": "補足ノート / やさしい導線",
+        "noteTitle": "Collection note / Gentle Route",
         "note": "感度の高さを保ちながら、初見の迷いを減らすことを狙ったラインです。紹介や説明がしやすいのが価値になります。",
         "selectedPieces": [
           {
-            "name": "主力バイアスコート",
+            "name": "Bias Coat",
             "descriptor": "入口として機能しやすい、分かりやすい主力コート。"
           },
           {
-            "name": "ヴェールシャツ",
+            "name": "Veil Shirt",
             "descriptor": "主役の説明を支える整然とした核シャツ。"
           },
           {
-            "name": "テーパードラップスカート",
+            "name": "Taper Wrap Skirt",
             "descriptor": "着地を軽くして見せる案内役のボトム。"
           }
-        ],
-        "label": "やさしい導線"
+        ]
       },
       {
         "id": "counterlight",
-        "title": "案内の補助線 / 補助編集",
+        "title": "Counterlight / helpful extension",
         "summary": "理解のしやすさをさらに高めるための明るい補助ラインです。",
-        "noteTitle": "補足ノート / 案内の補助線",
+        "noteTitle": "Collection note / Helpful Extension",
         "note": "黒主体の構成に少しだけ入口を足し、接客のしやすさを高める補助エディットです。",
         "selectedPieces": [
           {
-            "name": "灰青コート",
+            "name": "Grey-Blue Coat",
             "descriptor": "最初の一体として薦めやすい導入コート。"
           },
           {
-            "name": "ドライベスト",
+            "name": "Dry Vest",
             "descriptor": "主役の横で会話を軽くする補助レイヤー。"
           }
-        ],
-        "label": "案内の補助線"
+        ]
       }
     ],
     "about": {
       "intro": "AUN をもっとも親切な読み口で見せる案です。何を伝えるべきかが自然に分かることを重視しています。",
       "story": {
-        "title": "手引きのように理解しやすく整理したライン。",
+        "title": "A studio line arranged like a calm handbook, not a closed statement.",
         "copy": "少量制作の精度は保ったまま、見せ方だけをやさしい案内へ変えます。理解のしやすさが、そのまま導入のしやすさにつながると考えています。",
         "points": [
           "ラインシートも初見で追いやすい順に編集します。",
-          "掲載用には平易な短文を整えます。",
+          "press 用には平易な短文を整えます。",
           "仮ビジュアルでも安心感のある温度を先に確認します。"
         ]
       }
     }
   },
   "summary": "やさしい業務サービスの読み心地を保ちつつ、静かなファッション営業資料へ寄せたサイト。",
-  "mood": "霧白 / 淡青 / 穏灰",
-  "accent": "理解のしやすさ",
+  "mood": "Leaf / Ivory / Friendly",
+  "accent": "Trust and softness",
   "personality": "Gentle, clear, approachable"
 }

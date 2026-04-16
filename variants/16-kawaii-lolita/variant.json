@@ -19,12 +19,12 @@
     },
     "featureImage": {
       "src": "./assets/generated/variants/16-kawaii-lolita-portrait.png",
-      "alt": "Kawaii Lolita の代表ルック補助ビジュアル",
+      "alt": "Kawaii Lolita の代表ルックの参考ビジュアル",
       "caption": "代表ルック補助 / かわいいロリータ"
     },
     "ルック資料Spotlight": {
       "src": "./assets/generated/variants/16-kawaii-lolita-square.png",
-      "alt": "Kawaii Lolita のルックブック補助ビジュアル",
+      "alt": "Kawaii Lolita のルックブック用の参考ビジュアル",
       "caption": "ルック補助 / かわいいロリータ"
     },
     "aboutStoryImage": {
@@ -35,32 +35,32 @@
     "homeGallery": [
       {
         "src": "./assets/generated/variants/16-kawaii-lolita-square.png",
-        "alt": "Kawaii Lolita の正方形補助カット",
-        "caption": "補助カット 01 / かわいいロリータ",
+        "alt": "Kawaii Lolita の正方形の参考ビジュアル",
+        "caption": "参考ビジュアル 01 / かわいいロリータ",
         "tone": "square"
       },
       {
         "src": "./assets/generated/variants/16-kawaii-lolita-landscape.png",
-        "alt": "Kawaii Lolita の横長補助カット",
-        "caption": "補助カット 02 / かわいいロリータ",
+        "alt": "Kawaii Lolita の横長の参考ビジュアル",
+        "caption": "参考ビジュアル 02 / かわいいロリータ",
         "tone": "wide"
       },
       {
         "src": "./assets/generated/variants/16-kawaii-lolita-portrait.png",
-        "alt": "Kawaii Lolita の縦長補助カット",
-        "caption": "補助カット 03 / かわいいロリータ",
+        "alt": "Kawaii Lolita の縦長の参考ビジュアル",
+        "caption": "参考ビジュアル 03 / かわいいロリータ",
         "tone": "tall"
       }
     ],
     "aboutGallery": [
       {
         "src": "./assets/generated/variants/16-kawaii-lolita-landscape.png",
-        "alt": "Kawaii Lolita の制作風景補助ビジュアル 01",
+        "alt": "Kawaii Lolita の制作風景の参考ビジュアル 01",
         "caption": "制作風景 01 / かわいいロリータ"
       },
       {
         "src": "./assets/generated/variants/16-kawaii-lolita-square.png",
-        "alt": "Kawaii Lolita の制作風景補助ビジュアル 02",
+        "alt": "Kawaii Lolita の制作風景の参考ビジュアル 02",
         "caption": "制作風景 02 / かわいいロリータ"
       }
     ]
@@ -126,7 +126,7 @@
         "label": "シュガーヴェール",
         "title": "シュガーヴェール / 展示編集",
         "summary": "軽い色と透過素材で、ガラスケースのような甘さを構成する中核カプセル。",
-        "noteTitle": "補足ノート / シュガーヴェール",
+        "noteTitle": "ノート / シュガーヴェール",
         "note": "砂糖菓子のような色でも、展示では冷たい光の中で成立させるのが前提です。フリルは主張ではなく、光を受ける縁として働かせます。",
         "looks": [
           {
@@ -172,9 +172,9 @@
       {
         "id": "counterlight",
         "label": "ミルクアーカイブ",
-        "title": "ミルクアーカイブ / 補助編集",
+        "title": "ミルクアーカイブ / 展開ノート",
         "summary": "白に近い色域で甘さをさらに静物化した補助ライン。",
-        "noteTitle": "補足ノート / ミルクアーカイブ",
+        "noteTitle": "ノート / ミルクアーカイブ",
         "note": "誌面で色を増やさずに甘さを残したいときの補助シリーズです。展示空間では、素材の影だけで十分に成立します。",
         "looks": [
           {

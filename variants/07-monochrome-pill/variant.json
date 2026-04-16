@@ -1,7 +1,7 @@
 {
   "id": "07-monochrome-pill",
   "slug": "07-monochrome-pill",
-  "name": "モノクロカプセル",
+  "name": "Monochrome Pill",
   "references": [
     "global/cal",
     "jp/smarthr"
@@ -15,65 +15,33 @@
     "heroVisual": {
       "src": "./assets/generated/variants/07-monochrome-pill-hero.png",
       "alt": "Monochrome Pill のために設計したヒーロー用コンセプトビジュアル",
-      "caption": "メインビジュアル / モノクロカプセル"
+      "caption": "メインビジュアル / Monochrome Pill"
     },
     "featureImage": {
-      "src": "./assets/generated/variants/top-home-portrait/07-monochrome-pill.png",
-      "alt": "Monochrome Pill のトップページ導入用に追加した縦長素材",
-      "caption": "代表ルック補助 / モノクロカプセル"
+      "src": "./assets/generated/variants/07-monochrome-pill-hero.png",
+      "alt": "Monochrome Pill の代表ルックを補強する専用コンセプトビジュアル",
+      "caption": "代表ルック補助 / Monochrome Pill"
     },
-    "ルック資料Spotlight": {
-      "src": "./assets/generated/variants/square/07-monochrome-pill.png",
-      "alt": "Monochrome Pill のルックブックを補強する正方形のエディトリアル素材",
-      "caption": "ルック補助 / モノクロカプセル"
+    "lookbookSpotlight": {
+      "src": "./assets/generated/variants/07-monochrome-pill-hero.png",
+      "alt": "Monochrome Pill の lookbook を象徴するスポットライトビジュアル",
+      "caption": "ルック補助 / Monochrome Pill"
     },
     "aboutStoryImage": {
-      "src": "./assets/generated/variants/portrait/07-monochrome-pill.png",
-      "alt": "Monochrome Pill の制作背景を補強する縦長のエディトリアル素材",
-      "caption": "制作背景補助 / モノクロカプセル"
-    },
-    "homeGallery": [
-      {
-        "src": "./assets/generated/variants/square/07-monochrome-pill.png",
-        "alt": "Monochrome Pill のトップページ用に配置した正方形素材",
-        "caption": "補助カット 01 / モノクロカプセル",
-        "tone": "square"
-      },
-      {
-        "src": "./assets/generated/variants/top-home-landscape/07-monochrome-pill.png",
-        "alt": "Monochrome Pill のトップページ中央に配置する横長素材",
-        "caption": "補助カット 02 / モノクロカプセル",
-        "tone": "wide"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/07-monochrome-pill.png",
-        "alt": "Monochrome Pill のトップページ右側に配置する縦長素材",
-        "caption": "補助カット 03 / モノクロカプセル",
-        "tone": "tall"
-      }
-    ],
-    "aboutGallery": [
-      {
-        "src": "./assets/generated/variants/07-monochrome-pill-hero.png",
-        "alt": "Monochrome Pill の空気感を横方向に補うビジュアル",
-        "caption": "制作風景 01 / モノクロカプセル"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/07-monochrome-pill.png",
-        "alt": "Monochrome Pill の制作温度を補う縦長素材",
-        "caption": "制作風景 02 / モノクロカプセル"
-      }
-    ]
+      "src": "./assets/generated/variants/07-monochrome-pill-hero.png",
+      "alt": "Monochrome Pill の制作背景を補強するコンセプトビジュアル",
+      "caption": "制作背景補助 / Monochrome Pill"
+    }
   },
   "content": {
     "brand": {
-      "label": "静音モジュール資料",
+      "label": "Soft module dossier",
       "tagline": "丸みのある静けさで、緊張をほどきながら見せるライン。",
-      "summary": "AUN をもっとも柔らかく見せる案です。モードの緊張感は残しつつ、入口を広くして、怖く見せないことを優先しています。",
-      "themeTitle": "雲色の輪郭 / 第1章",
-      "seasonHeading": "輪郭はやわらかく、判断材料は薄めずに残す構成。",
+      "summary": "AUN をもっとも柔らかく見せる案です。mode の緊張感は残しつつ、入口を広くして、怖く見せないことを優先しています。",
+      "themeTitle": "Cloud Tone / Capsule 01",
+      "seasonHeading": "A quiet line softened at the edges, not diluted at the core.",
       "seasonCopy": "この案では、強さを丸ごと消すのではなく、触れやすい輪郭へ整え直します。初見の距離を縮めるための優しい変換です。",
-      "audience": "緊張感の強すぎる モード を避けたいセレクト、やわらかな接客導線を作りたい売場、柔らかい静けさを好む媒体。",
+      "audience": "緊張感の強すぎる mode を避けたいセレクト、やわらかな接客導線を作りたい売場、柔らかい静けさを好む媒体。",
       "priceCue": "静かな上質感を保ちながら入口を広く取る価格帯。怖くないラグジュアリー寄り。",
       "partnerItems": [
         {
@@ -83,7 +51,7 @@
         },
         {
           "title": "掲載・取材",
-          "text": "硬すぎない温度の掲載テキストを短く整理して案内します。",
+          "text": "硬すぎない tone の press テキストを短く整理して案内します。",
           "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
         },
         {
@@ -96,20 +64,20 @@
     "home": {
       "reasons": [
         {
-          "title": "入りはやわらかく芯は強い",
+          "title": "Soft entrance, strong core",
           "text": "最初の印象はやわらかく、会話の中で静かな強さが残ります。"
         },
         {
-          "title": "穏やかな売場になじむ",
+          "title": "Good for gentle retail",
           "text": "接客導線を固くしすぎずに世界観を渡せます。"
         },
         {
-          "title": "威圧せず静かに残る",
+          "title": "Calm over intimidation",
           "text": "近寄りにくさを減らしつつ、輪郭は失わない構成です。"
         }
       ],
       "representativeLook": {
-        "title": "代表ルック / 低ノイズで整えるやわらかなコート",
+        "title": "Look 02 / Softened coat with low-noise balance",
         "summary": "代表ルックも威圧感より整い方で見せます。売場の入口に置いても緊張を上げすぎないのが利点です。",
         "details": [
           "輪郭の強さを角ではなく面で伝えます。",
@@ -121,60 +89,58 @@
     "collections": [
       {
         "id": "resonant-quiet",
-        "title": "雲色の輪郭 / 第1章",
+        "title": "Cloud Tone / Capsule 01",
         "summary": "静けさをやわらかな面で包み直した基幹カプセルです。",
-        "noteTitle": "補足ノート / 雲色の輪郭",
+        "noteTitle": "Collection note / Cloud Tone",
         "note": "怖さを減らしても輪郭は残る、というバランスを目指したラインです。導入のしやすさが価値になります。",
         "selectedPieces": [
           {
-            "name": "主力バイアスコート",
+            "name": "Bias Coat",
             "descriptor": "売場の入口でも強すぎない主力コート。"
           },
           {
-            "name": "ヴェールシャツ",
+            "name": "Veil Shirt",
             "descriptor": "全体を静かにまとめる柔らかな核シャツ。"
           },
           {
-            "name": "テーパードラップスカート",
+            "name": "Taper Wrap Skirt",
             "descriptor": "動きに余白をつくる、穏やかな可変ボトム。"
           }
-        ],
-        "label": "雲色の輪郭"
+        ]
       },
       {
         "id": "counterlight",
-        "title": "淡色の快適域 / 補助編集",
+        "title": "Counterlight / pale comfort",
         "summary": "さらに入口を広げるための、軽い中間色ラインです。",
-        "noteTitle": "補足ノート / 淡色の快適域",
-        "note": "店頭の導入障壁を下げたいときに使う補助エディットで、空気を崩さずに親しみだけを足します。",
+        "noteTitle": "Collection note / Pale Comfort",
+        "note": "見はじめのハードルを下げたいときに使う補助エディットで、空気感を崩さずに親しみだけを足します。",
         "selectedPieces": [
           {
-            "name": "灰青コート",
+            "name": "Grey-Blue Coat",
             "descriptor": "黒主体の構成をやわらげるための淡い導入コート。"
           },
           {
-            "name": "ドライベスト",
+            "name": "Dry Vest",
             "descriptor": "着地を軽く見せるための補助レイヤー。"
           }
-        ],
-        "label": "淡色の快適域"
+        ]
       }
     ],
     "about": {
       "intro": "AUN をもっとも穏やかに翻訳した案です。距離の近い接客や、緊張の少ない売場に向けて整えています。",
       "story": {
-        "title": "やわらかさを足しても芯を失わないよう整えたライン。",
+        "title": "A studio line adjusted for ease, without losing its backbone.",
         "copy": "少量制作の精度はそのままに、見せ方だけをやさしく調整します。強さの出し方を変えることで、手に取られやすさを上げる狙いです。",
         "points": [
           "営業資料は硬い断定より、安心感のある書き方を優先します。",
-          "掲載向けにも、生活圏に近い距離で読める短文を用意します。",
+          "press 向けにも、生活圏に近い距離で読める短文を用意します。",
           "仮ビジュアルでも、丸い光と柔らかな面を優先します。"
         ]
       }
     }
   },
   "summary": "丸みと濃淡だけで成立させる、静かなプロダクト感のある単色サイト。",
-  "mood": "雲色 / 乳白 / 薄い影",
-  "accent": "静かな丸み",
+  "mood": "Fog / White / Charcoal",
+  "accent": "Rounded restraint",
   "personality": "Soft-spoken, precise, calm"
 }

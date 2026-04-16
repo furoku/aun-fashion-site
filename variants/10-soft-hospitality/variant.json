@@ -1,7 +1,7 @@
 {
   "id": "10-soft-hospitality",
   "slug": "10-soft-hospitality",
-  "name": "柔らかなホスピタリティ",
+  "name": "Soft Hospitality",
   "references": [
     "global/airbnb",
     "jp/cybozu"
@@ -15,65 +15,33 @@
     "heroVisual": {
       "src": "./assets/generated/variants/10-soft-hospitality-hero.png",
       "alt": "Soft Hospitality のために設計したヒーロー用コンセプトビジュアル",
-      "caption": "メインビジュアル / 柔らかなホスピタリティ"
+      "caption": "メインビジュアル / Soft Hospitality"
     },
     "featureImage": {
-      "src": "./assets/generated/variants/top-home-portrait/10-soft-hospitality.png",
-      "alt": "Soft Hospitality のトップページ導入用に追加した縦長素材",
-      "caption": "代表ルック補助 / 柔らかなホスピタリティ"
+      "src": "./assets/generated/variants/10-soft-hospitality-hero.png",
+      "alt": "Soft Hospitality の代表ルックを補強する専用コンセプトビジュアル",
+      "caption": "代表ルック補助 / Soft Hospitality"
     },
-    "ルック資料Spotlight": {
-      "src": "./assets/generated/variants/square/10-soft-hospitality.png",
-      "alt": "Soft Hospitality のルックブックを補強する正方形のエディトリアル素材",
-      "caption": "ルック補助 / 柔らかなホスピタリティ"
+    "lookbookSpotlight": {
+      "src": "./assets/generated/variants/10-soft-hospitality-hero.png",
+      "alt": "Soft Hospitality の lookbook を象徴するスポットライトビジュアル",
+      "caption": "ルック補助 / Soft Hospitality"
     },
     "aboutStoryImage": {
-      "src": "./assets/generated/variants/portrait/10-soft-hospitality.png",
-      "alt": "Soft Hospitality の制作背景を補強する縦長のエディトリアル素材",
-      "caption": "制作背景補助 / 柔らかなホスピタリティ"
-    },
-    "homeGallery": [
-      {
-        "src": "./assets/generated/variants/square/10-soft-hospitality.png",
-        "alt": "Soft Hospitality のトップページ用に配置した正方形素材",
-        "caption": "補助カット 01 / 柔らかなホスピタリティ",
-        "tone": "square"
-      },
-      {
-        "src": "./assets/generated/variants/top-home-landscape/10-soft-hospitality.png",
-        "alt": "Soft Hospitality のトップページ中央に配置する横長素材",
-        "caption": "補助カット 02 / 柔らかなホスピタリティ",
-        "tone": "wide"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/10-soft-hospitality.png",
-        "alt": "Soft Hospitality のトップページ右側に配置する縦長素材",
-        "caption": "補助カット 03 / 柔らかなホスピタリティ",
-        "tone": "tall"
-      }
-    ],
-    "aboutGallery": [
-      {
-        "src": "./assets/generated/variants/10-soft-hospitality-hero.png",
-        "alt": "Soft Hospitality の空気感を横方向に補うビジュアル",
-        "caption": "制作風景 01 / 柔らかなホスピタリティ"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/10-soft-hospitality.png",
-        "alt": "Soft Hospitality の制作温度を補う縦長素材",
-        "caption": "制作風景 02 / 柔らかなホスピタリティ"
-      }
-    ]
+      "src": "./assets/generated/variants/10-soft-hospitality-hero.png",
+      "alt": "Soft Hospitality の制作背景を補強するコンセプトビジュアル",
+      "caption": "制作背景補助 / Soft Hospitality"
+    }
   },
   "content": {
     "brand": {
-      "label": "冊子型ホスピタリティ資料",
+      "label": "Hospitality brochure",
       "tagline": "やわらかな歓迎ムードで迎え入れる、親しみのある静けさ。",
-      "summary": "AUN をもっとも迎え入れる印象で見せる案です。構えずに読めることを優先し、接客の入口をやさしく整えています。",
-      "themeTitle": "ひらかれたテーブル / 第1章",
-      "seasonHeading": "温度のある写真とやわらかい導線で、会話を開く構成。",
+      "summary": "AUN をもっとも welcoming に見せる案です。構えずに読めることを優先し、接客の入口をやさしく整えています。",
+      "themeTitle": "Open Table / Capsule 01",
+      "seasonHeading": "Warm light, easy pacing, and a line that invites conversation.",
       "seasonCopy": "この案では、強い緊張感よりも会話の始まりやすさを優先します。売場でも資料でも、相手が一歩入りやすいことを価値としています。",
-      "audience": "接客導線をやわらかくしたいセレクト、生活圏に近い媒体、親しみやすい空気を求めるスタイリスト。",
+      "audience": "接客導線をやわらかくしたいセレクト、生活圏に近い媒体、親しみやすい空気感を求めるスタイリスト。",
       "priceCue": "入りやすさのある上質帯。ラグジュアリーすぎず、親しみを保つ価格感です。",
       "partnerItems": [
         {
@@ -83,12 +51,12 @@
         },
         {
           "title": "掲載・取材",
-          "text": "媒体にそのまま載せやすい、やさしい温度の掲載文を案内します。",
+          "text": "媒体にそのまま載せやすい、やさしい tone の press 文を案内します。",
           "href": "mailto:press@aun-studio.example?subject=AUN%20Press%20Request"
         },
         {
           "title": "協業のご相談",
-          "text": "空間演出やもてなしの文脈に寄せた協業に向いています。",
+          "text": "空間演出や hospitality 文脈の協業に向いています。",
           "href": "mailto:hello@aun-studio.example?subject=AUN%20Collaboration"
         }
       ]
@@ -96,20 +64,20 @@
     "home": {
       "reasons": [
         {
-          "title": "最初の会話が始めやすい",
+          "title": "Easy first contact",
           "text": "最初の一歩を軽くし、会話に入りやすくします。"
         },
         {
-          "title": "売場の緊張をやわらげる",
+          "title": "Softens the rack",
           "text": "緊張感の強い売場にも、やわらかな入口をつくれます。"
         },
         {
-          "title": "抽象より人の温度が先に立つ",
+          "title": "Human before abstract",
           "text": "概念より先に、人が着る像として受け取られやすい案です。"
         }
       ],
       "representativeLook": {
-        "title": "代表ルック / 会話を開く穏やかなロングコート",
+        "title": "Look 02 / Long coat with welcoming balance",
         "summary": "代表ルックも威圧感より親しみのある整い方で見せます。接客や紹介の一言目が穏やかになる構成です。",
         "details": [
           "生活圏に近い媒体でも扱いやすい印象です。",
@@ -121,60 +89,58 @@
     "collections": [
       {
         "id": "resonant-quiet",
-        "title": "ひらかれたテーブル / 第1章",
+        "title": "Open Table / Capsule 01",
         "summary": "静けさを保ちつつ、人の気配を感じやすくした基幹ラインです。",
-        "noteTitle": "補足ノート / ひらかれたテーブル",
+        "noteTitle": "Collection note / Open Table",
         "note": "強く押し切るより、長く会話を続けられる空気を重視したラインです。接客の柔らかさがそのまま価値になります。",
         "selectedPieces": [
           {
-            "name": "主力バイアスコート",
+            "name": "Bias Coat",
             "descriptor": "入口に置きやすい、やさしい主力コート。"
           },
           {
-            "name": "ヴェールシャツ",
+            "name": "Veil Shirt",
             "descriptor": "全体を親しみやすく整える核シャツ。"
           },
           {
-            "name": "テーパードラップスカート",
+            "name": "Taper Wrap Skirt",
             "descriptor": "動きに軽さを足す、扱いやすいボトム。"
           }
-        ],
-        "label": "ひらかれたテーブル"
+        ]
       },
       {
         "id": "counterlight",
-        "title": "温度の補助線 / 補助編集",
+        "title": "Counterlight / warm extension",
         "summary": "さらに親しみを足すための、明るい補助ラインです。",
-        "noteTitle": "補足ノート / 温度の補助線",
+        "noteTitle": "Collection note / Warm Extension",
         "note": "売場の温度を少しだけ上げたいときに使う中間色で、会話の始まりを助けます。",
         "selectedPieces": [
           {
-            "name": "灰青コート",
+            "name": "Grey-Blue Coat",
             "descriptor": "導入の一体として置きやすい暖色寄りのコート。"
           },
           {
-            "name": "ドライベスト",
+            "name": "Dry Vest",
             "descriptor": "硬さをほぐしてレイヤーを増やせる補助ピース。"
           }
-        ],
-        "label": "温度の補助線"
+        ]
       }
     ],
     "about": {
       "intro": "AUN を最も人に近い距離で見せる案です。服の前に、相手との会話が始まりやすいことを優先しています。",
       "story": {
-        "title": "閉じたサロンではなく、招き入れる冊子として組んだライン。",
+        "title": "A studio line arranged like a calm invitation, not a closed room.",
         "copy": "少量制作の精度は保ちながら、見え方だけを柔らかくします。初見の構えを下げて、静かな好感を残すための案です。",
         "points": [
           "営業資料は安心感のある書き方で整えます。",
-          "掲載用にもやわらかい温度の短文を用意します。",
+          "press 用にもやわらかい tone の短文を用意します。",
           "仮ビジュアルでも、人が近づきやすい温度を優先します。"
         ]
       }
     }
   },
   "summary": "写真の温度と柔らかい余白を主役にした、ホスピタリティ冊子のようなサイト。",
-  "mood": "温白 / 木肌 / 蒸気色",
-  "accent": "招き入れる温度",
+  "mood": "Cream / Rose / Cocoa",
+  "accent": "Warm trust",
   "personality": "Welcoming, polished, human"
 }

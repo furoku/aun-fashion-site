@@ -19,12 +19,12 @@
     },
     "featureImage": {
       "src": "./assets/generated/variants/17-gothic-lolita-portrait.png",
-      "alt": "Gothic Lolita の代表ルック補助ビジュアル",
+      "alt": "Gothic Lolita の代表ルックの参考ビジュアル",
       "caption": "代表ルック補助 / ゴシックロリータ"
     },
     "ルック資料Spotlight": {
       "src": "./assets/generated/variants/17-gothic-lolita-square.png",
-      "alt": "Gothic Lolita のルックブック補助ビジュアル",
+      "alt": "Gothic Lolita のルックブック用の参考ビジュアル",
       "caption": "ルック補助 / ゴシックロリータ"
     },
     "aboutStoryImage": {
@@ -35,32 +35,32 @@
     "homeGallery": [
       {
         "src": "./assets/generated/variants/17-gothic-lolita-square.png",
-        "alt": "Gothic Lolita の正方形補助カット",
-        "caption": "補助カット 01 / ゴシックロリータ",
+        "alt": "Gothic Lolita の正方形の参考ビジュアル",
+        "caption": "参考ビジュアル 01 / ゴシックロリータ",
         "tone": "square"
       },
       {
         "src": "./assets/generated/variants/17-gothic-lolita-landscape.png",
-        "alt": "Gothic Lolita の横長補助カット",
-        "caption": "補助カット 02 / ゴシックロリータ",
+        "alt": "Gothic Lolita の横長の参考ビジュアル",
+        "caption": "参考ビジュアル 02 / ゴシックロリータ",
         "tone": "wide"
       },
       {
         "src": "./assets/generated/variants/17-gothic-lolita-portrait.png",
-        "alt": "Gothic Lolita の縦長補助カット",
-        "caption": "補助カット 03 / ゴシックロリータ",
+        "alt": "Gothic Lolita の縦長の参考ビジュアル",
+        "caption": "参考ビジュアル 03 / ゴシックロリータ",
         "tone": "tall"
       }
     ],
     "aboutGallery": [
       {
         "src": "./assets/generated/variants/17-gothic-lolita-landscape.png",
-        "alt": "Gothic Lolita の制作風景補助ビジュアル 01",
+        "alt": "Gothic Lolita の制作風景の参考ビジュアル 01",
         "caption": "制作風景 01 / ゴシックロリータ"
       },
       {
         "src": "./assets/generated/variants/17-gothic-lolita-square.png",
-        "alt": "Gothic Lolita の制作風景補助ビジュアル 02",
+        "alt": "Gothic Lolita の制作風景の参考ビジュアル 02",
         "caption": "制作風景 02 / ゴシックロリータ"
       }
     ]
@@ -126,7 +126,7 @@
         "label": "黒の聖遺物",
         "title": "黒の聖遺物 / 礼拝堂編集",
         "summary": "礼拝堂のような垂直性と重い素材で構成する中核シリーズ。",
-        "noteTitle": "補足ノート / 黒の聖遺物",
+        "noteTitle": "ノート / 黒の聖遺物",
         "note": "闇の中で輪郭を失わないことが前提です。黒は一色ではなく、光沢・起毛・透過の差で見せます。",
         "looks": [
           {
@@ -172,9 +172,9 @@
       {
         "id": "counterlight",
         "label": "ノクターンアーカイブ",
-        "title": "ノクターンアーカイブ / 補助編集",
+        "title": "ノクターンアーカイブ / 展開ノート",
         "summary": "重い黒に、骨色や煤けた金を差し込む補助シリーズ。",
-        "noteTitle": "補足ノート / ノクターンアーカイブ",
+        "noteTitle": "ノート / ノクターンアーカイブ",
         "note": "完全な黒だけで閉じず、骨色と古びた金で陰影の層を増やす編集ラインです。",
         "looks": [
           {

@@ -1,7 +1,7 @@
 {
   "id": "02-parchment-salon",
   "slug": "02-parchment-salon",
-  "name": "余白のサロン",
+  "name": "Parchment Salon",
   "references": [
     "global/claude",
     "jp/note"
@@ -15,63 +15,31 @@
     "heroVisual": {
       "src": "./assets/generated/variants/02-parchment-salon-hero.png",
       "alt": "Parchment Salon のために設計したヒーロー用コンセプトビジュアル",
-      "caption": "メインビジュアル / 余白のサロン"
+      "caption": "メインビジュアル / Parchment Salon"
     },
     "featureImage": {
-      "src": "./assets/generated/variants/top-home-portrait/02-parchment-salon.png",
-      "alt": "Parchment Salon のトップページ導入用に追加した縦長素材",
-      "caption": "代表ルック補助 / 余白のサロン"
+      "src": "./assets/generated/variants/02-parchment-salon-hero.png",
+      "alt": "Parchment Salon の代表ルックを補強する専用コンセプトビジュアル",
+      "caption": "代表ルック補助 / Parchment Salon"
     },
-    "ルック資料Spotlight": {
-      "src": "./assets/generated/variants/square/02-parchment-salon.png",
-      "alt": "Parchment Salon のルックブックを補強する正方形のエディトリアル素材",
-      "caption": "ルック補助 / 余白のサロン"
+    "lookbookSpotlight": {
+      "src": "./assets/generated/variants/02-parchment-salon-hero.png",
+      "alt": "Parchment Salon の lookbook を象徴するスポットライトビジュアル",
+      "caption": "ルック補助 / Parchment Salon"
     },
     "aboutStoryImage": {
-      "src": "./assets/generated/variants/portrait/02-parchment-salon.png",
-      "alt": "Parchment Salon の制作背景を補強する縦長のエディトリアル素材",
-      "caption": "制作背景補助 / 余白のサロン"
-    },
-    "homeGallery": [
-      {
-        "src": "./assets/generated/variants/square/02-parchment-salon.png",
-        "alt": "Parchment Salon のトップページ用に配置した正方形素材",
-        "caption": "補助カット 01 / 余白のサロン",
-        "tone": "square"
-      },
-      {
-        "src": "./assets/generated/variants/top-home-landscape/02-parchment-salon.png",
-        "alt": "Parchment Salon のトップページ中央に配置する横長素材",
-        "caption": "補助カット 02 / 余白のサロン",
-        "tone": "wide"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/02-parchment-salon.png",
-        "alt": "Parchment Salon のトップページ右側に配置する縦長素材",
-        "caption": "補助カット 03 / 余白のサロン",
-        "tone": "tall"
-      }
-    ],
-    "aboutGallery": [
-      {
-        "src": "./assets/generated/variants/02-parchment-salon-hero.png",
-        "alt": "Parchment Salon の空気感を横方向に補うビジュアル",
-        "caption": "制作風景 01 / 余白のサロン"
-      },
-      {
-        "src": "./assets/generated/variants/portrait/02-parchment-salon.png",
-        "alt": "Parchment Salon の制作温度を補う縦長素材",
-        "caption": "制作風景 02 / 余白のサロン"
-      }
-    ]
+      "src": "./assets/generated/variants/02-parchment-salon-hero.png",
+      "alt": "Parchment Salon の制作背景を補強するコンセプトビジュアル",
+      "caption": "制作背景補助 / Parchment Salon"
+    }
   },
   "content": {
     "brand": {
-      "label": "読書室型エディトリアル資料",
+      "label": "Salon reading dossier",
       "tagline": "紙の温度で輪郭を伝える、静かな読後感のあるライン。",
       "summary": "AUN を資料集ではなく読み物として差し出す案です。会話が長くなる相手や、ブランドノートごと受け取る相手に向いています。",
-      "themeTitle": "余白の注記 / 第1章",
-      "seasonHeading": "強い断定ではなく、段落のように静かに理解が進む構成。",
+      "themeTitle": "Margin Notes / Capsule 01",
+      "seasonHeading": "A line that unfolds in paragraphs rather than statements.",
       "seasonCopy": "この案は即断より熟読に向いています。布の落ち方や制作背景を、主張ではなく段落の積み重ねとして伝えるための構成です。",
       "audience": "文脈を重視するセレクト、展示企画者、ブランドストーリーごと拾いたいエディター。",
       "priceCue": "静かな上質感が先に立つ価格帯。単品の強さより編集全体で価値を見せる想定。",
@@ -96,20 +64,20 @@
     "home": {
       "reasons": [
         {
-          "title": "読み心地が先に立つ",
+          "title": "Readability before impact",
           "text": "強い一撃より、読み返したくなる整い方で判断を支えます。"
         },
         {
-          "title": "文脈ごと持ち運べる",
+          "title": "Context travels with product",
           "text": "ルックだけでなく、制作背景まで一緒に渡しやすい構成です。"
         },
         {
-          "title": "温度はあるが甘くない",
+          "title": "Warmth without sweetness",
           "text": "やわらかいが甘くない温度で、会話を長く保てます。"
         }
       ],
       "representativeLook": {
-        "title": "代表ルック / 余白を残す低音のロングコート",
+        "title": "Look 02 / Long coat, low voice, warm margin",
         "summary": "ロングコートを圧ではなく余白の広さで見せる代表ルックです。強く押し切るより、納得して選びたい相手に向いています。",
         "details": [
           "動いたときにだけ出る柔らかい差を重視します。",
@@ -121,50 +89,48 @@
     "collections": [
       {
         "id": "resonant-quiet",
-        "title": "余白の注記 / 第1章",
+        "title": "Margin Notes / Capsule 01",
         "summary": "余白、反射、沈黙の順で読ませる基幹カプセルです。",
-        "noteTitle": "補足ノート / 余白の注記",
+        "noteTitle": "Collection note / Margin Notes",
         "note": "売場での即効性より、接客での説明と誌面での再読性を優先したラインです。空気の静けさそのものが価値になります。",
         "selectedPieces": [
           {
-            "name": "主力バイアスコート",
+            "name": "Bias Coat",
             "descriptor": "導入什器でも文脈をつくりやすい静かな主役。"
           },
           {
-            "name": "ヴェールシャツ",
+            "name": "Veil Shirt",
             "descriptor": "コートの強さを受け止める透明度の高い中核。"
           },
           {
-            "name": "テーパードラップスカート",
+            "name": "Taper Wrap Skirt",
             "descriptor": "重さを増やさず編集の幅だけを足せる可変ボトム。"
           }
-        ],
-        "label": "余白の注記"
+        ]
       },
       {
         "id": "counterlight",
-        "title": "読書室の補助線 / 補助編集",
+        "title": "Counterlight / reading extension",
         "summary": "紙の白場のような抜けを足す、やや明るい補助ラインです。",
-        "noteTitle": "補足ノート / 読書室の補助線",
+        "noteTitle": "Collection note / Reading Extension",
         "note": "見せ場を増やすためではなく、呼吸をつくるための中間色です。重い売場の中で静かな緩急をつくれます。",
         "selectedPieces": [
           {
-            "name": "灰青コート",
+            "name": "Grey-Blue Coat",
             "descriptor": "黒主体の編成に余白を足すための色差コート。"
           },
           {
-            "name": "ドライベスト",
+            "name": "Dry Vest",
             "descriptor": "文章量の多い編集でもうるさくならない軽いレイヤー。"
           }
-        ],
-        "label": "読書室の補助線"
+        ]
       }
     ],
     "about": {
       "intro": "勢いで押すブランドではなく、読み進めるほど輪郭が定まるブランドでありたいと考えています。",
       "story": {
-        "title": "注釈と余白で読ませる、読書室のようなライン。",
-        "copy": "東京と京都をまたぐ少量制作を前提に、制作背景も商品価値の一部として扱います。商談では数字だけでなく、どのように読ませるかも同時に設計します。",
+        "title": "A studio line composed like an annotated essay.",
+        "copy": "東京と京都をまたぐ少量制作を前提に、制作背景も商品価値の一部として扱います。数字だけでなく、どのように読ませるかも同時に設計します。",
         "points": [
           "営業向けには、短文の注釈を添えたラインシートを想定しています。",
           "掲載用には、引用しやすい短い文章を別で用意します。",
@@ -174,7 +140,7 @@
     }
   },
   "summary": "読書室の資料束のように、余白と紙の温度で静かに読み進める営業サイト。",
-  "mood": "紙色 / 木肌 / 茶の影",
-  "accent": "注釈のような静けさ",
+  "mood": "Parchment / Terracotta / Ink",
+  "accent": "Literary quiet",
   "personality": "Thoughtful, literary, cultivated"
 }

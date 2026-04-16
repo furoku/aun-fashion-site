@@ -1150,10 +1150,10 @@ body::after {
     id: "15-market-layer",
     name: "Market Layer",
     references: ["jp/mercari", "jp/rakuten"],
-    summary: "マーケットプレイスの積層感を、商談資料として上品に再編集した高密度サイト。",
+    summary: "マーケットプレイスの積層感を、要点が伝わりやすい形に整えた高密度サイト。",
     mood: "Market / Warm white / Red",
     accent: "Layered practicality",
-    personality: "Busy, practical, commercial",
+    personality: "情報量多め / 実務的 / 判断しやすい",
     colorScheme: "light",
     fontImport:
       'https://fonts.googleapis.com/css2?family=Murecho:wght@400;500;700;800&family=Zen+Old+Mincho:wght@400;700&family=M+PLUS+1+Code:wght@400;500&display=swap',
@@ -1364,8 +1364,8 @@ function seasonMeta() {
 function galleryBlock() {
   return `          <div class="gallery-block">
             <div class="chapter-heading block-shell" data-reveal>
-              <p class="section-label">補助ビジュアル</p>
-              <h2 class="chapter-title">会話の前に、ラインの温度を補うための補助カットです。</h2>
+              <p class="section-label">参考ビジュアル</p>
+              <h2 class="chapter-title">会話の前に、ラインの空気をつかむための参考ビジュアルです。</h2>
             </div>
             <div class="gallery-track" id="home-editorial-strip"></div>
           </div>`;
@@ -1374,8 +1374,8 @@ function galleryBlock() {
 function reasonsBlock() {
   return `          <div class="reasons-block">
             <div class="chapter-heading block-shell" data-reveal>
-              <p class="section-label">導入の理由</p>
-              <h2 class="chapter-title">取扱先、スタイリスト、エディターに向けた短い判断材料です。</h2>
+              <p class="section-label">選ばれる理由</p>
+              <h2 class="chapter-title">このラインを扱う理由が、ひと目で伝わるように整理しています。</h2>
             </div>
             <div class="reason-list" id="reason-grid"></div>
           </div>`;
@@ -1403,7 +1403,7 @@ function piecesBlock() {
   return `          <div class="pieces-block">
             <div class="chapter-heading block-shell" data-reveal>
               <p class="section-label">注目ピース</p>
-              <h2 class="chapter-title">空気を崩さずに、商材としての見え方も担保する構成です。</h2>
+              <h2 class="chapter-title">空気を崩さずに、店頭での見え方まで想像しやすい構成です。</h2>
             </div>
             <div class="piece-stack" id="selected-piece-list"></div>
           </div>`;
@@ -1434,7 +1434,7 @@ function lookLeadBlock() {
 
 function lookIntroBlock() {
   return `          <div class="card-surface" data-reveal>
-            <p class="eyebrow">導入</p>
+            <p class="eyebrow">はじめに</p>
             <p class="eyebrow-copy" id="lookbook-intro"></p>
             <p class="muted-note" id="lookbook-disclaimer"></p>
           </div>`;
@@ -1473,7 +1473,7 @@ function lookbookSpotlightBlock() {
 
 function seasonNoteBlock() {
   return `          <div class="note-copy card-surface" data-reveal>
-            <p class="section-label">補足ノート</p>
+            <p class="section-label">ノート</p>
             <h2 class="chapter-title" id="season-note-title"></h2>
             <p class="feature-summary" id="season-note-copy"></p>
           </div>`;
@@ -1488,7 +1488,7 @@ function lookbookPiecesBlock() {
 function aboutLeadBlock() {
   return `          <div class="block-shell" data-reveal>
             <p class="section-label">ブランドについて</p>
-            <h1 class="chapter-title">静かな輪郭と、読みやすい商談導線のための整理。</h1>
+            <h1 class="chapter-title">静かな輪郭を、伝わる言葉に整える。</h1>
           </div>`;
 }
 
@@ -1535,7 +1535,7 @@ function studioBlock() {
   return `          <div class="studio-block">
             <div class="chapter-heading block-shell" data-reveal>
               <p class="section-label">制作風景</p>
-              <h2 class="chapter-title">制作の手順やラックの見え方を補うための補助カットです。</h2>
+              <h2 class="chapter-title">制作の手順やラックでの見え方を伝える参考ビジュアルです。</h2>
             </div>
             <div class="studio-grid" id="about-studio-gallery"></div>
           </div>`;
@@ -1619,7 +1619,7 @@ function homeMain(variant) {
       return [
         section("chapter-home-top", `          <div class="home-top-grid">\n            <div class="home-rail-stack">\n${seasonLead()}\n${heroStats()}\n${reasonsBlock()}\n            </div>\n            <div class="home-main-stack">\n${heroCopy()}\n${heroVisual()}\n${seasonCopy()}\n${seasonMeta()}\n            </div>\n          </div>`),
         section("chapter-home-gallery", `          <div class="home-gallery-grid">\n${featureBlock()}\n${galleryBlock()}\n          </div>`),
-        section("chapter-home-tail", `          <div class="home-tail-grid">\n${piecesBlock()}\n${routesBlock("partner-rail", "Partner routes", "静かな商談資料と連絡先をまとめています。", true)}\n          </div>`, ' id="partner-note"'),
+        section("chapter-home-tail", `          <div class="home-tail-grid">\n${piecesBlock()}\n${routesBlock("partner-rail", "Partner routes", "ご相談に必要な資料と連絡先をまとめています。", true)}\n          </div>`, ' id="partner-note"'),
       ].join("\n");
     case "culture":
       return [
