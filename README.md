@@ -1,15 +1,41 @@
-# AUN Fashion Site
+# AUN Fashion Concept Site
 
-Static showcase site for the AUN fashion concept and its design variations.
+AUNのファッションコンセプトと複数のデザイン方向を、静的Webサイトとして比較・閲覧するためのショーケースです。
 
-## Local Preview
+**Live site:** https://furoku.github.io/aun-fashion-site/
+
+## このサイトで見られるもの
+
+- ブランドコンセプトを伝えるランディングページ
+- About / Lookbookページ
+- ビジュアルやレイアウトのデザインバリエーション
+- PC・モバイルの両方を想定した静的な閲覧体験
+
+## ステータス
+
+このリポジトリは**デザイン検証用のコンセプトサイト**です。商品購入、会員登録、決済、在庫管理などのEC機能は含みません。
+
+## 主な構成
+
+| パス | 内容 |
+| --- | --- |
+| `index.html` | メインページ |
+| `about.html` | コンセプト紹介 |
+| `lookbook.html` | ルックブック |
+| `variants/` | デザインバリエーション |
+| `assets/` | 画像・表示素材 |
+| `DESIGN.md` | デザイン検討時のリファレンス |
+
+## ローカルで見る
+
+ビルドは不要です。リポジトリのルートで静的サーバーを起動します。
 
 ```bash
 python3 -m http.server 8124
 ```
 
-Open `http://127.0.0.1:8124/`.
+ブラウザで `http://127.0.0.1:8124/` を開いてください。
 
-## GitHub Pages
+## 公開方法
 
-This repository deploys to GitHub Pages from the `main` branch through GitHub Actions.
+`main` ブランチの内容をGitHub Actions経由でGitHub Pagesへ公開しています。
